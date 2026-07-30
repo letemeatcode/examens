@@ -40,22 +40,22 @@
                         <i class="fa-solid fa-route text-xs text-indigo-400"></i> Filtre per Vies d'Accés:
                     </span>
                     <div class="flex flex-wrap gap-2 justify-center">
-                        <!-- Botó Via PAU -->
+                        <!-- Botó Accés PAU -->
                         <button id="btn-filtre-pau" onclick="toggleRuta('pau')" 
                                 class="inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer shadow-sm border focus:outline-none">
-                            <i class="fa-solid fa-graduation-cap mr-1.5 text-sm"></i> Via PAU / Selectivitat
+                            <i class="fa-solid fa-graduation-cap mr-1.5 text-sm"></i> Accés PAU / Selectivitat
                         </button>
                         
-                        <!-- Botó Via M25 -->
+                        <!-- Botó Accés M25 -->
                         <button id="btn-filtre-m25" onclick="toggleRuta('m25')" 
                                 class="inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer shadow-sm border focus:outline-none">
-                            <i class="fa-solid fa-user-graduate mr-1.5 text-sm"></i> Via Majors de 25
+                            <i class="fa-solid fa-user-graduate mr-1.5 text-sm"></i> Accés Majors de 25
                         </button>
                         
-                        <!-- Botó Via Grau Superior -->
+                        <!-- Botó Accés Grau Superior -->
                         <button id="btn-filtre-gs" onclick="toggleRuta('gs')" 
                                 class="inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer shadow-sm border focus:outline-none">
-                            <i class="fa-solid fa-briefcase mr-1.5 text-sm"></i> Via Grau Superior
+                            <i class="fa-solid fa-briefcase mr-1.5 text-sm"></i> Accés Grau Superior
                         </button>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                         <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
-                        <input type="text" id="search" placeholder="Cerca assignatura (ex: Dibuix Tècnic, Economia, Llatí...)" 
+                        <input type="text" id="search" placeholder="Cerca assignatura (ex: Anglès, Francès, Dibuix Tècnic...)" 
                                class="block w-full pl-10 pr-4 py-2.5 border border-slate-200 rounded-xl text-xs sm:text-sm bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all"
                                onkeyup="filtrarMateries()">
                     </div>
@@ -275,16 +275,56 @@
                 assignaturaNom: "Anglès",
                 fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: "Fase Comuna" },
                 blocs: ["Fase Comuna"],
-                descripcio: "Idioma estranger obligatori en fase comuna i opció específica.",
+                descripcio: "Idioma estranger obligatori en fase comuna per a PAU, M25 i Grau Superior.",
                 anys: [{ any: 2026, pau: { examen: "pdf/angles/pau/2026-examen.pdf", solucio: "pdf/angles/pau/2026-solucio.pdf" }, m25: { examen: "pdf/angles/m25/2026-examen.pdf", solucio: "pdf/angles/m25/2026-solucio.pdf" }, gs: { examen: "pdf/angles/gs/2026-examen.pdf", solucio: null } }]
+            },
+            {
+                id: "alemany",
+                assignaturaNom: "Alemany",
+                fases: { pau: "Fase Específica", m25: "Fase Comuna", gs: "Opció C (Socials)" },
+                blocs: ["Fase Comuna", "Ciències Socials i Jurídiques", "Arts i Humanitats"],
+                descripcio: "Llengua estrangera: Opció específica en PAU, Fase Comuna en M25 i Opció C en GS.",
+                anys: [{ any: 2026, pau: { examen: "pdf/alemany/pau/2026-examen.pdf", solucio: "pdf/alemany/pau/2026-solucio.pdf" }, m25: { examen: "pdf/alemany/m25/2026-examen.pdf", solucio: "pdf/alemany/m25/2026-solucio.pdf" }, gs: { examen: "pdf/alemany/gs/2026-examen.pdf", solucio: "pdf/alemany/gs/2026-solucio.pdf" } }]
+            },
+            {
+                id: "frances",
+                assignaturaNom: "Francès",
+                fases: { pau: "Fase Específica", m25: "Fase Comuna", gs: "Opció C (Socials)" },
+                blocs: ["Fase Comuna", "Ciències Socials i Jurídiques", "Arts i Humanitats"],
+                descripcio: "Llengua estrangera: Opció específica en PAU, Fase Comuna en M25 i Opció C en GS.",
+                anys: [{ any: 2026, pau: { examen: "pdf/frances/pau/2026-examen.pdf", solucio: "pdf/frances/pau/2026-solucio.pdf" }, m25: { examen: "pdf/frances/m25/2026-examen.pdf", solucio: "pdf/frances/m25/2026-solucio.pdf" }, gs: { examen: "pdf/frances/gs/2026-examen.pdf", solucio: "pdf/frances/gs/2026-solucio.pdf" } }]
+            },
+            {
+                id: "italia",
+                assignaturaNom: "Italià",
+                fases: { pau: "Fase Específica", m25: "Fase Comuna", gs: null },
+                blocs: ["Fase Comuna", "Arts i Humanitats"],
+                descripcio: "Llengua estrangera: Opció específica en PAU i Fase Comuna en M25.",
+                anys: [{ any: 2026, pau: { examen: "pdf/italia/pau/2026-examen.pdf", solucio: "pdf/italia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/italia/m25/2026-examen.pdf", solucio: "pdf/italia/m25/2026-solucio.pdf" }, gs: null }]
+            },
+            {
+                id: "arab",
+                assignaturaNom: "Àrab",
+                fases: { pau: "Fase Específica", m25: null, gs: null },
+                blocs: ["Arts i Humanitats"],
+                descripcio: "Llengua estrangera optativa de Fase Específica a la PAU.",
+                anys: [{ any: 2026, pau: { examen: "pdf/arab/pau/2026-examen.pdf", solucio: "pdf/arab/pau/2026-solucio.pdf" }, m25: null, gs: null }]
+            },
+            {
+                id: "portugues",
+                assignaturaNom: "Portuguès",
+                fases: { pau: null, m25: "Fase Comuna", gs: null },
+                blocs: ["Fase Comuna"],
+                descripcio: "Llengua estrangera optativa de Fase Comuna a les proves M25.",
+                anys: [{ any: 2026, pau: null, m25: { examen: "pdf/portugues/m25/2026-examen.pdf", solucio: "pdf/portugues/m25/2026-solucio.pdf" }, gs: null }]
             },
             {
                 id: "historia",
                 assignaturaNom: "Història",
-                fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: "Fase Comuna" },
+                fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: null },
                 blocs: ["Fase Comuna", "Ciències Socials i Jurídiques"],
                 descripcio: "Anàlisi de processos històrics, opció en la fase comuna de la PAU.",
-                anys: [{ any: 2026, pau: { examen: "pdf/historia/pau/2026-examen.pdf", solucio: "pdf/historia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/historia/m25/2026-examen.pdf", solucio: "pdf/historia/m25/2026-solucio.pdf" }, gs: { examen: "pdf/historia/gs/2026-examen.pdf", solucio: "pdf/historia/gs/2026-solucio.pdf" } }]
+                anys: [{ any: 2026, pau: { examen: "pdf/historia/pau/2026-examen.pdf", solucio: "pdf/historia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/historia/m25/2026-examen.pdf", solucio: "pdf/historia/m25/2026-solucio.pdf" }, gs: null }]
             },
             {
                 id: "historia-filosofia",
@@ -295,43 +335,19 @@
                 anys: [{ any: 2026, pau: { examen: "pdf/filosofia/pau/2026-examen.pdf", solucio: "pdf/filosofia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/filosofia/m25/2026-examen.pdf", solucio: "pdf/filosofia/m25/2026-solucio.pdf" }, gs: null }]
             },
             {
-                id: "alemany",
-                assignaturaNom: "Alemany",
-                fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: null },
-                blocs: ["Fase Comuna"],
-                descripcio: "Llengua estrangera optativa.",
-                anys: [{ any: 2026, pau: { examen: "pdf/alemany/pau/2026-examen.pdf", solucio: "pdf/alemany/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
-                id: "frances",
-                assignaturaNom: "Francès",
-                fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: null },
-                blocs: ["Fase Comuna"],
-                descripcio: "Llengua estrangera optativa.",
-                anys: [{ any: 2026, pau: { examen: "pdf/frances/pau/2026-examen.pdf", solucio: "pdf/frances/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
-                id: "italia",
-                assignaturaNom: "Italià",
-                fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: null },
-                blocs: ["Fase Comuna"],
-                descripcio: "Llengua estrangera optativa.",
-                anys: [{ any: 2026, pau: { examen: "pdf/italia/pau/2026-examen.pdf", solucio: "pdf/italia/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
                 id: "comentari-text",
                 assignaturaNom: "Comentari de Text",
-                fases: { pau: null, m25: "Fase Comuna", gs: "Fase Comuna" },
+                fases: { pau: null, m25: "Fase Comuna", gs: null },
                 blocs: ["Fase Comuna"],
-                descripcio: "Anàlisi i redacció argumentativa per a proves d'accés M25 i Grau Superior.",
-                anys: [{ any: 2026, pau: null, m25: { examen: "pdf/comentari/m25/2026-examen.pdf", solucio: "pdf/comentari/m25/2026-solucio.pdf" }, gs: { examen: "pdf/comentari/gs/2026-examen.pdf", solucio: "pdf/comentari/gs/2026-solucio.pdf" } }]
+                descripcio: "Anàlisi i redacció argumentativa per a proves d'accés M25.",
+                anys: [{ any: 2026, pau: null, m25: { examen: "pdf/comentari/m25/2026-examen.pdf", solucio: "pdf/comentari/m25/2026-solucio.pdf" }, gs: null }]
             },
 
             // CIÈNCIES, ENGINYERIA I SALUT
             {
                 id: "ciencies-generals",
                 assignaturaNom: "Ciències Generals",
-                fases: { pau: "General", m25: "Científica-Tecnològica", gs: "Fase Comuna" },
+                fases: { pau: "General", m25: "Científica-Tecnològica", gs: null },
                 blocs: ["Ciències", "Ciències de la Salut"],
                 descripcio: "Matèria de la modalitat General del Batxillerat.",
                 anys: [{ any: 2026, pau: { examen: "pdf/ciencies-generals/pau/2026-examen.pdf", solucio: "pdf/ciencies-generals/pau/2026-solucio.pdf" }, m25: null, gs: null }]
@@ -347,7 +363,7 @@
             {
                 id: "fisica",
                 assignaturaNom: "Física",
-                fases: { pau: "Científica-Tecnològica", m25: "Científica-Tecnològica", gs: "Científica-Tecnològica" },
+                fases: { pau: "Científica-Tecnològica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
                 blocs: ["Ciències", "Enginyeria i Arquitectura"],
                 descripcio: "Mecànica, electromagnetisme, ones, òptica i física moderna.",
                 anys: [{ any: 2026, pau: { examen: "pdf/fisica/pau/2026-examen.pdf", solucio: "pdf/fisica/pau/2026-solucio.pdf" }, m25: { examen: "pdf/fisica/m25/2026-examen.pdf", solucio: "pdf/fisica/m25/2026-solucio.pdf" }, gs: { examen: "pdf/fisica/gs/2026-examen.pdf", solucio: "pdf/fisica/gs/2026-solucio.pdf" } }]
@@ -355,7 +371,7 @@
             {
                 id: "quimica",
                 assignaturaNom: "Química",
-                fases: { pau: "Ciències de la Salut", m25: "Ciències de la Salut", gs: "Ciències de la Salut" },
+                fases: { pau: "Ciències de la Salut", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
                 blocs: ["Ciències de la Salut", "Ciències"],
                 descripcio: "Estructura atòmica, enllaç, termodinàmica, equilibri i reaccions redox/àcid-base.",
                 anys: [{ any: 2026, pau: { examen: "pdf/quimica/pau/2026-examen.pdf", solucio: "pdf/quimica/pau/2026-solucio.pdf" }, m25: { examen: "pdf/quimica/m25/2026-examen.pdf", solucio: "pdf/quimica/m25/2026-solucio.pdf" }, gs: { examen: "pdf/quimica/gs/2026-examen.pdf", solucio: "pdf/quimica/gs/2026-solucio.pdf" } }]
@@ -363,23 +379,23 @@
             {
                 id: "biologia",
                 assignaturaNom: "Biologia",
-                fases: { pau: "Ciències de la Salut", m25: "Ciències de la Salut", gs: "Ciències de la Salut" },
+                fases: { pau: "Ciències de la Salut", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
                 blocs: ["Ciències de la Salut", "Ciències"],
                 descripcio: "Bioquímica, genètica, biologia cel·lular, metabolisme i microbiologia.",
                 anys: [{ any: 2026, pau: { examen: "pdf/biologia/pau/2026-examen.pdf", solucio: "pdf/biologia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/biologia/m25/2026-examen.pdf", solucio: "pdf/biologia/m25/2026-solucio.pdf" }, gs: { examen: "pdf/biologia/gs/2026-examen.pdf", solucio: "pdf/biologia/gs/2026-solucio.pdf" } }]
             },
             {
                 id: "geologia-ciencies-ambientals",
-                assignaturaNom: "Geologia i Ciències Ambientals",
-                fases: { pau: "Ciències de la Salut", m25: "Ciències de la Salut", gs: "Ciències de la Salut" },
+                assignaturaNom: "Ciències de la Terra i del Medi Ambient",
+                fases: { pau: "Ciències de la Salut", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
                 blocs: ["Ciències de la Salut", "Ciències"],
                 descripcio: "Geologia, processos terrestres, ecosistemes i gestió ambiental.",
-                anys: [{ any: 2026, pau: { examen: "pdf/geologia/pau/2026-examen.pdf", solucio: "pdf/geologia/pau/2026-solucio.pdf" }, m25: null, gs: null }]
+                anys: [{ any: 2026, pau: { examen: "pdf/geologia/pau/2026-examen.pdf", solucio: "pdf/geologia/pau/2026-solucio.pdf" }, m25: null, gs: { examen: "pdf/geologia/gs/2026-examen.pdf", solucio: "pdf/geologia/gs/2026-solucio.pdf" } }]
             },
             {
                 id: "dibuix-tecnic",
                 assignaturaNom: "Dibuix Tècnic",
-                fases: { pau: "Científica-Tecnològica", m25: "Científica-Tecnològica", gs: "Científica-Tecnològica" },
+                fases: { pau: "Científica-Tecnològica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
                 blocs: ["Enginyeria i Arquitectura"],
                 descripcio: "Geometria plana, sistema diètric, axonometria i normalització.",
                 anys: [{ any: 2026, pau: { examen: "pdf/dibuix/pau/2026-examen.pdf", solucio: "pdf/dibuix/pau/2026-solucio.pdf" }, m25: { examen: "pdf/dibuix/m25/2026-examen.pdf", solucio: "pdf/dibuix/m25/2026-solucio.pdf" }, gs: { examen: "pdf/dibuix/gs/2026-examen.pdf", solucio: "pdf/dibuix/gs/2026-solucio.pdf" } }]
@@ -387,7 +403,7 @@
             {
                 id: "tecnologia-enginyeria",
                 assignaturaNom: "Tecnologia i Enginyeria",
-                fases: { pau: "Científica-Tecnològica", m25: "Científica-Tecnològica", gs: "Científica-Tecnològica" },
+                fases: { pau: "Científica-Tecnològica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
                 blocs: ["Enginyeria i Arquitectura"],
                 descripcio: "Sistemes automàtics, robòtica, materials, energies i circuits.",
                 anys: [{ any: 2026, pau: { examen: "pdf/tecnologia-enginyeria/pau/2026-examen.pdf", solucio: "pdf/tecnologia-enginyeria/pau/2026-solucio.pdf" }, m25: null, gs: { examen: "pdf/tecnologia-enginyeria/gs/2026-examen.pdf", solucio: null } }]
@@ -397,15 +413,15 @@
             {
                 id: "funcionament-empresa",
                 assignaturaNom: "Funcionament de l'Empresa i Disseny de Models de Negoci",
-                fases: { pau: "Humanitats i Ciències Socials", m25: "Socials i Jurídiques", gs: "Socials i Jurídiques" },
+                fases: { pau: "Humanitats i Ciències Socials", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
                 blocs: ["Ciències Socials i Jurídiques"],
-                descripcio: "Organització empresarial, estratègia, modelització de negoci i finançament (substitueix l'antiga Economia d'Empresa).",
+                descripcio: "Organització empresarial, estratègia, modelització de negoci i finançament.",
                 anys: [{ any: 2026, pau: { examen: "pdf/empresa/pau/2026-examen.pdf", solucio: "pdf/empresa/pau/2026-solucio.pdf" }, m25: { examen: "pdf/empresa/m25/2026-examen.pdf", solucio: "pdf/empresa/m25/2026-solucio.pdf" }, gs: { examen: "pdf/empresa/gs/2026-examen.pdf", solucio: "pdf/empresa/gs/2026-solucio.pdf" } }]
             },
             {
                 id: "matematiques-socials",
                 assignaturaNom: "Matemàtiques Aplicades a les Ciències Socials",
-                fases: { pau: "Humanitats i Ciències Socials", m25: "Socials i Jurídiques", gs: "Socials i Jurídiques" },
+                fases: { pau: "Humanitats i Ciències Socials", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
                 blocs: ["Ciències Socials i Jurídiques"],
                 descripcio: "Programació lineal, probabilitat, estadística i anàlisi de funcions.",
                 anys: [{ any: 2026, pau: { examen: "pdf/mat-socials/pau/2026-examen.pdf", solucio: "pdf/mat-socials/pau/2026-solucio.pdf" }, m25: { examen: "pdf/mat-socials/m25/2026-examen.pdf", solucio: "pdf/mat-socials/m25/2026-solucio.pdf" }, gs: { examen: "pdf/mat-socials/gs/2026-examen.pdf", solucio: "pdf/mat-socials/gs/2026-solucio.pdf" } }]
@@ -413,37 +429,29 @@
             {
                 id: "geografia",
                 assignaturaNom: "Geografia",
-                fases: { pau: "Humanitats i Ciències Socials", m25: "Socials i Jurídiques", gs: "Socials i Jurídiques" },
+                fases: { pau: "Humanitats i Ciències Socials", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
                 blocs: ["Ciències Socials i Jurídiques"],
                 descripcio: "Relleu, clima, demografia, activitats econòmiques i organització territorial.",
                 anys: [{ any: 2026, pau: { examen: "pdf/geografia/pau/2026-examen.pdf", solucio: "pdf/geografia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/geografia/m25/2026-examen.pdf", solucio: "pdf/geografia/m25/2026-solucio.pdf" }, gs: { examen: "pdf/geografia/gs/2026-examen.pdf", solucio: "pdf/geografia/gs/2026-solucio.pdf" } }]
             },
+            {
+                id: "psicologia-sociologia",
+                assignaturaNom: "Psicologia i Sociologia",
+                fases: { pau: null, m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
+                blocs: ["Ciències Socials i Jurídiques"],
+                descripcio: "Processos psicològics, conducta humana, estructura social i relacions de grup.",
+                anys: [{ any: 2026, pau: null, m25: null, gs: { examen: "pdf/psicologia/gs/2026-examen.pdf", solucio: "pdf/psicologia/gs/2026-solucio.pdf" } }]
+            },
+            {
+                id: "educacio-fisica",
+                assignaturaNom: "Educació Física",
+                fases: { pau: null, m25: null, gs: "Opció D (Activitats Físiques)" },
+                blocs: ["Ciències de la Salut"],
+                descripcio: "Anatomia, fisiologia de l'exercici, condició física, activitat física i salut.",
+                anys: [{ any: 2026, pau: null, m25: null, gs: { examen: "pdf/educacio-fisica/gs/2026-examen.pdf", solucio: "pdf/educacio-fisica/gs/2026-solucio.pdf" } }]
+            },
 
             // ARTS I HUMANITATS
-            {
-                id: "analisi-musical",
-                assignaturaNom: "Anàlisi Musical",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Estructures musicals, formes sonores, harmonia i audició analítica.",
-                anys: [{ any: 2026, pau: { examen: "pdf/analisi-musical/pau/2026-examen.pdf", solucio: "pdf/analisi-musical/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
-                id: "arts-esceniques",
-                assignaturaNom: "Arts Escèniques",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Teatre, dramatúrgia, interpretació, escenografia i història de l'espectacle.",
-                anys: [{ any: 2026, pau: { examen: "pdf/arts-esceniques/pau/2026-examen.pdf", solucio: "pdf/arts-esceniques/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
-                id: "cor-tecnica-vocal",
-                assignaturaNom: "Cor i Tècnica Vocal",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Fisiologia vocal, cant coral, repertori i interpretació en conjunt.",
-                anys: [{ any: 2026, pau: { examen: "pdf/cor-vocal/pau/2026-examen.pdf", solucio: "pdf/cor-vocal/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
             {
                 id: "dibuix-artistic",
                 assignaturaNom: "Dibuix Artístic",
@@ -453,68 +461,12 @@
                 anys: [{ any: 2026, pau: { examen: "pdf/dibuix-artistic/pau/2026-examen.pdf", solucio: "pdf/dibuix-artistic/pau/2026-solucio.pdf" }, m25: { examen: "pdf/dibuix-artistic/m25/2026-examen.pdf", solucio: "pdf/dibuix-artistic/m25/2026-solucio.pdf" }, gs: { examen: "pdf/dibuix-artistic/gs/2026-examen.pdf", solucio: null } }]
             },
             {
-                id: "dibuix-tecnic-disseny",
-                assignaturaNom: "Dibuix Tècnic Aplicat a les Arts Plàstiques i el Disseny",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Geometria i representació tècnica aplicada a la creació artística i disseny.",
-                anys: [{ any: 2026, pau: { examen: "pdf/dibuix-tecnic-disseny/pau/2026-examen.pdf", solucio: "pdf/dibuix-tecnic-disseny/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
-                id: "disseny",
-                assignaturaNom: "Disseny",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Disseny gràfic, d'interiors, d'objectes i metodologia de projecte.",
-                anys: [{ any: 2026, pau: { examen: "pdf/disseny/pau/2026-examen.pdf", solucio: "pdf/disseny/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
-                id: "fonaments-artistics",
-                assignaturaNom: "Fonaments Artístics",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Conceptes fonamentals del llenguatge visual i les arts plàstiques.",
-                anys: [{ any: 2026, pau: { examen: "pdf/fonaments-artistics/pau/2026-examen.pdf", solucio: "pdf/fonaments-artistics/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
                 id: "historia-art",
                 assignaturaNom: "Història de l'Art",
                 fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
                 blocs: ["Arts i Humanitats"],
                 descripcio: "Anàlisi d'estils, obres d'arquitectura, escultura i pintura al llarg de la història.",
                 anys: [{ any: 2026, pau: { examen: "pdf/historia-art/pau/2026-examen.pdf", solucio: "pdf/historia-art/pau/2026-solucio.pdf" }, m25: { examen: "pdf/historia-art/m25/2026-examen.pdf", solucio: "pdf/historia-art/m25/2026-solucio.pdf" }, gs: null }]
-            },
-            {
-                id: "historia-musica-dansa",
-                assignaturaNom: "Història de la Música i de la Dansa",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Evolució de les formes musicals i dansa des de l'Antiguitat fins a l'època contemporània.",
-                anys: [{ any: 2026, pau: { examen: "pdf/historia-musica/pau/2026-examen.pdf", solucio: "pdf/historia-musica/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
-                id: "literatura-castellana",
-                assignaturaNom: "Literatura Castellana",
-                fases: { pau: "Humanitats i Ciències Socials", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Estudi de les grans obres, autors i moviments de la literatura en castellà.",
-                anys: [{ any: 2026, pau: { examen: "pdf/literatura-castellana/pau/2026-examen.pdf", solucio: "pdf/literatura-castellana/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
-                id: "literatura-catalana",
-                assignaturaNom: "Literatura Catalana",
-                fases: { pau: "Humanitats i Ciències Socials", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Estudi del canon literari, obres de lectura i moviments de la literatura catalana.",
-                anys: [{ any: 2026, pau: { examen: "pdf/literatura-catalana/pau/2026-examen.pdf", solucio: "pdf/literatura-catalana/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
-                id: "literatura-dramatica",
-                assignaturaNom: "Literatura Dramàtica",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Anàlisi de textos teatrals, dramatúrgia i evolució del gènere dramàtic.",
-                anys: [{ any: 2026, pau: { examen: "pdf/literatura-dramatica/pau/2026-examen.pdf", solucio: "pdf/literatura-dramatica/pau/2026-solucio.pdf" }, m25: null, gs: null }]
             },
             {
                 id: "llati",
@@ -531,22 +483,6 @@
                 blocs: ["Arts i Humanitats"],
                 descripcio: "Traducció de textos clàssics, gramàtica i cultura hel·lènica.",
                 anys: [{ any: 2026, pau: { examen: "pdf/grec/pau/2026-examen.pdf", solucio: "pdf/grec/pau/2026-solucio.pdf" }, m25: { examen: "pdf/grec/m25/2026-examen.pdf", solucio: "pdf/grec/m25/2026-solucio.pdf" }, gs: null }]
-            },
-            {
-                id: "moviments-culturals",
-                assignaturaNom: "Moviments Culturals i Artístics",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Anàlisi interdisciplinary de manifestacions culturals i corrents artístics.",
-                anys: [{ any: 2026, pau: { examen: "pdf/moviments-culturals/pau/2026-examen.pdf", solucio: "pdf/moviments-culturals/pau/2026-solucio.pdf" }, m25: null, gs: null }]
-            },
-            {
-                id: "tecniques-graficoplastiques",
-                assignaturaNom: "Tècniques d’Expressió Graficoplàstica",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
-                blocs: ["Arts i Humanitats"],
-                descripcio: "Procediments de gravat, il·lustració, pintura i tècniques mixtes de representació.",
-                anys: [{ any: 2026, pau: { examen: "pdf/tecniques-grafiques/pau/2026-examen.pdf", solucio: "pdf/tecniques-grafiques/pau/2026-solucio.pdf" }, m25: null, gs: null }]
             }
         ];
 
