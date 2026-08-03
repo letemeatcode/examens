@@ -134,7 +134,7 @@
                 <div class="flex items-center gap-3 bg-indigo-50/70 p-4 rounded-2xl border border-indigo-100 max-w-xs flex-shrink-0">
                     <i class="fa-solid fa-circle-info text-indigo-600 text-xl flex-shrink-0"></i>
                     <span class="text-xs text-indigo-950 font-medium leading-relaxed">
-                        Observa la fase o modalitat específica assignada a aquesta matèria segons cada via d'accés.
+                        Fes clic a qualsevol via d'accés per desplegar o plegar els seus exàmens.
                     </span>
                 </div>
             </div>
@@ -146,84 +146,102 @@
                 <p class="text-xs text-amber-700 mt-1">Activa com a mínim un dels botons de la capçalera (PAU, M25 o GS) per veure els exàmens.</p>
             </div>
 
-            <!-- Taula / Graella Dinàmica de Columnes amb Fases individuals per via -->
-            <div id="contenidor-columnes" class="grid grid-cols-1 gap-8 transition-all">
+            <!-- Desplegables / Acordions per Via d'Accés -->
+            <div id="contenidor-columnes" class="space-y-4 max-w-4xl mx-auto transition-all">
                 
-                <!-- Columna 1: PAU / Selectivitat -->
-                <div id="columna-pau" class="bg-white rounded-2xl shadow-sm border border-blue-200 p-5 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-100">
-                            <div class="flex items-center gap-2.5 text-left">
-                                <div class="p-2 rounded-xl bg-blue-600 text-white shadow-sm">
-                                    <i class="fa-solid fa-graduation-cap text-sm"></i>
-                                </div>
-                                <div>
-                                    <h3 class="text-sm font-bold text-slate-900 m-0">PAU / Selectivitat</h3>
-                                    <p class="text-[10px] text-slate-500 m-0">Batxillerat</p>
-                                </div>
+                <!-- Desplegable 1: Accés PAU / Selectivitat -->
+                <div id="columna-pau" class="bg-white rounded-2xl shadow-sm border border-blue-200/80 overflow-hidden transition-all">
+                    <!-- Capçalera interactiva per desplegar -->
+                    <div onclick="toggleAcordio('pau')" class="flex items-center justify-between p-5 bg-gradient-to-r from-blue-50/40 via-white to-white cursor-pointer hover:bg-blue-50/70 transition-colors select-none">
+                        <div class="flex items-center gap-3 text-left">
+                            <div class="p-2.5 rounded-xl bg-blue-600 text-white shadow-sm flex-shrink-0">
+                                <i class="fa-solid fa-graduation-cap text-base"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-bold text-slate-900 m-0 flex items-center gap-2">
+                                    Accés PAU / Selectivitat
+                                </h3>
+                                <p class="text-xs text-slate-500 m-0">Batxillerat</p>
                             </div>
                         </div>
-                        <!-- Badge de Fase Específica per a PAU -->
-                        <div class="mb-4 text-left">
-                            <span class="text-[10px] uppercase font-bold text-slate-400 block mb-1">Fase en PAU:</span>
+                        <div class="flex items-center gap-3">
                             <span id="badge-fase-pau" class="inline-block px-2.5 py-1 rounded-lg text-xs font-bold border">
                                 -
                             </span>
+                            <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500">
+                                <i id="icona-desplegar-pau" class="fa-solid fa-chevron-down text-sm transition-transform duration-300"></i>
+                            </div>
                         </div>
+                    </div>
+                    
+                    <!-- Cos desplegable -->
+                    <div id="cos-pau" class="p-5 border-t border-slate-100 bg-slate-50/30">
                         <div id="llista-pau" class="space-y-2.5">
                             <!-- Es genera per JS -->
                         </div>
                     </div>
                 </div>
 
-                <!-- Columna 2: Proves Majors de 25 anys -->
-                <div id="columna-m25" class="bg-white rounded-2xl shadow-sm border border-purple-200 p-5 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-100">
-                            <div class="flex items-center gap-2.5 text-left">
-                                <div class="p-2 rounded-xl bg-purple-600 text-white shadow-sm">
-                                    <i class="fa-solid fa-user-graduate text-sm"></i>
-                                </div>
-                                <div>
-                                    <h3 class="text-sm font-bold text-slate-900 m-0">Majors de 25 anys</h3>
-                                    <p class="text-[10px] text-slate-500 m-0">Prova d'Accés M25</p>
-                                </div>
+                <!-- Desplegable 2: Accés Majors de 25 anys -->
+                <div id="columna-m25" class="bg-white rounded-2xl shadow-sm border border-purple-200/80 overflow-hidden transition-all">
+                    <!-- Capçalera interactiva per desplegar -->
+                    <div onclick="toggleAcordio('m25')" class="flex items-center justify-between p-5 bg-gradient-to-r from-purple-50/40 via-white to-white cursor-pointer hover:bg-purple-50/70 transition-colors select-none">
+                        <div class="flex items-center gap-3 text-left">
+                            <div class="p-2.5 rounded-xl bg-purple-600 text-white shadow-sm flex-shrink-0">
+                                <i class="fa-solid fa-user-graduate text-base"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-bold text-slate-900 m-0 flex items-center gap-2">
+                                    Accés Majors de 25 anys
+                                </h3>
+                                <p class="text-xs text-slate-500 m-0">Prova d'Accés M25</p>
                             </div>
                         </div>
-                        <!-- Badge de Fase Específica per a M25 -->
-                        <div class="mb-4 text-left">
-                            <span class="text-[10px] uppercase font-bold text-slate-400 block mb-1">Fase en M25:</span>
+                        <div class="flex items-center gap-3">
                             <span id="badge-fase-m25" class="inline-block px-2.5 py-1 rounded-lg text-xs font-bold border">
                                 -
                             </span>
+                            <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500">
+                                <i id="icona-desplegar-m25" class="fa-solid fa-chevron-down text-sm transition-transform duration-300"></i>
+                            </div>
                         </div>
+                    </div>
+
+                    <!-- Cos desplegable -->
+                    <div id="cos-m25" class="p-5 border-t border-slate-100 bg-slate-50/30">
                         <div id="llista-m25" class="space-y-2.5">
                             <!-- Es genera per JS -->
                         </div>
                     </div>
                 </div>
 
-                <!-- Columna 3: Prova d'Accés a Grau Superior -->
-                <div id="columna-gs" class="bg-white rounded-2xl shadow-sm border border-emerald-200 p-5 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-100">
-                            <div class="flex items-center gap-2.5 text-left">
-                                <div class="p-2 rounded-xl bg-emerald-600 text-white shadow-sm">
-                                    <i class="fa-solid fa-briefcase text-sm"></i>
-                                </div>
-                                <div>
-                                    <h3 class="text-sm font-bold text-slate-900 m-0">Grau Superior</h3>
-                                    <p class="text-[10px] text-slate-500 m-0">Accés Cicles Formatius GS</p>
-                                </div>
+                <!-- Desplegable 3: Accés Grau Superior -->
+                <div id="columna-gs" class="bg-white rounded-2xl shadow-sm border border-emerald-200/80 overflow-hidden transition-all">
+                    <!-- Capçalera interactiva per desplegar -->
+                    <div onclick="toggleAcordio('gs')" class="flex items-center justify-between p-5 bg-gradient-to-r from-emerald-50/40 via-white to-white cursor-pointer hover:bg-emerald-50/70 transition-colors select-none">
+                        <div class="flex items-center gap-3 text-left">
+                            <div class="p-2.5 rounded-xl bg-emerald-600 text-white shadow-sm flex-shrink-0">
+                                <i class="fa-solid fa-briefcase text-base"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-bold text-slate-900 m-0 flex items-center gap-2">
+                                    Accés Grau Superior
+                                </h3>
+                                <p class="text-xs text-slate-500 m-0">Accés Cicles Formatius GS</p>
                             </div>
                         </div>
-                        <!-- Badge de Fase Específica per a Grau Superior -->
-                        <div class="mb-4 text-left">
-                            <span class="text-[10px] uppercase font-bold text-slate-400 block mb-1">Fase en Grau Superior:</span>
+                        <div class="flex items-center gap-3">
                             <span id="badge-fase-gs" class="inline-block px-2.5 py-1 rounded-lg text-xs font-bold border">
                                 -
                             </span>
+                            <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500">
+                                <i id="icona-desplegar-gs" class="fa-solid fa-chevron-down text-sm transition-transform duration-300"></i>
+                            </div>
                         </div>
+                    </div>
+
+                    <!-- Cos desplegable -->
+                    <div id="cos-gs" class="p-5 border-t border-slate-100 bg-slate-50/30">
                         <div id="llista-gs" class="space-y-2.5">
                             <!-- Es genera per JS -->
                         </div>
@@ -251,7 +269,30 @@
             gs: true
         };
 
-        // BASE DE DADES COMPLETA D'ASSIGNATURES OFICIALS (PAU, M25, GS)
+        // ESTAT DELS DESPLEGABLES DINS DE LA VISTA DE DETALL (Accordion state)
+        let acordionsOberts = {
+            pau: false, // Plegat per defecte
+            m25: false, // Plegat per defecte
+            gs: false   // Plegat per defecte
+        };
+
+        // Funció auxiliar per generar automàticament el llistat d'anys des de 2026 fins a 2015
+        function generarAnys(folder, tePau = true, teM25 = true, teGs = true) {
+            const anys = [];
+            for (let year = 2026; year >= 2015; year--) {
+                anys.push({
+                    any: year,
+                    pau: tePau ? {
+                        juny: { examen: `pdf/${folder}/pau/${year}-juny-examen.pdf`, solucio: `pdf/${folder}/pau/${year}-juny-solucio.pdf` },
+                        setembre: { examen: `pdf/${folder}/pau/${year}-setembre-examen.pdf`, solucio: `pdf/${folder}/pau/${year}-setembre-solucio.pdf` }
+                    } : null,
+                    m25: teM25 ? { examen: `pdf/${folder}/m25/${year}-examen.pdf`, solucio: `pdf/${folder}/m25/${year}-solucio.pdf` } : null,
+                    gs: teGs ? { examen: `pdf/${folder}/gs/${year}-examen.pdf`, solucio: `pdf/${folder}/gs/${year}-solucio.pdf` } : null
+                });
+            }
+            return anys;
+        }
+
         const dadesMateries = [
             // FASE COMUNA I LLENGÜES
             {
@@ -259,230 +300,286 @@
                 assignaturaNom: "Llengua Catalana",
                 fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: "Fase Comuna" },
                 blocs: ["Fase Comuna"],
-                descripcio: "Exàmens de llengua i literatura catalana per a les proves d'accés obligatòries.",
-                anys: [{ any: 2026, pau: { examen: "pdf/catala/pau/2026-examen.pdf", solucio: "pdf/catala/pau/2026-solucio.pdf" }, m25: { examen: "pdf/catala/m25/2026-examen.pdf", solucio: "pdf/catala/m25/2026-solucio.pdf" }, gs: { examen: "pdf/catala/gs/2026-examen.pdf", solucio: "pdf/catala/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("catala", true, true, true)
             },
             {
                 id: "llengua-castellana",
                 assignaturaNom: "Llengua Castellana",
                 fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: "Fase Comuna" },
                 blocs: ["Fase Comuna"],
-                descripcio: "Comprensió lectora, anàlisi sintàctica, gramàtica i expressió escrita.",
-                anys: [{ any: 2026, pau: { examen: "pdf/castella/pau/2026-examen.pdf", solucio: "pdf/castella/pau/2026-solucio.pdf" }, m25: { examen: "pdf/castella/m25/2026-examen.pdf", solucio: "pdf/castella/m25/2026-solucio.pdf" }, gs: { examen: "pdf/castella/gs/2026-examen.pdf", solucio: "pdf/castella/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("castella", true, true, true)
             },
             {
                 id: "angles",
                 assignaturaNom: "Anglès",
                 fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: "Fase Comuna" },
                 blocs: ["Fase Comuna"],
-                descripcio: "Idioma estranger obligatori en fase comuna per a PAU, M25 i Grau Superior.",
-                anys: [{ any: 2026, pau: { examen: "pdf/angles/pau/2026-examen.pdf", solucio: "pdf/angles/pau/2026-solucio.pdf" }, m25: { examen: "pdf/angles/m25/2026-examen.pdf", solucio: "pdf/angles/m25/2026-solucio.pdf" }, gs: { examen: "pdf/angles/gs/2026-examen.pdf", solucio: null } }]
+                anys: generarAnys("angles", true, true, true)
             },
             {
                 id: "alemany",
                 assignaturaNom: "Alemany",
                 fases: { pau: "Fase Específica", m25: "Fase Comuna", gs: "Opció C (Socials)" },
                 blocs: ["Fase Comuna", "Ciències Socials i Jurídiques", "Arts i Humanitats"],
-                descripcio: "Llengua estrangera: Opció específica en PAU, Fase Comuna en M25 i Opció C en GS.",
-                anys: [{ any: 2026, pau: { examen: "pdf/alemany/pau/2026-examen.pdf", solucio: "pdf/alemany/pau/2026-solucio.pdf" }, m25: { examen: "pdf/alemany/m25/2026-examen.pdf", solucio: "pdf/alemany/m25/2026-solucio.pdf" }, gs: { examen: "pdf/alemany/gs/2026-examen.pdf", solucio: "pdf/alemany/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("alemany", true, true, true)
             },
             {
                 id: "frances",
                 assignaturaNom: "Francès",
                 fases: { pau: "Fase Específica", m25: "Fase Comuna", gs: "Opció C (Socials)" },
                 blocs: ["Fase Comuna", "Ciències Socials i Jurídiques", "Arts i Humanitats"],
-                descripcio: "Llengua estrangera: Opció específica en PAU, Fase Comuna en M25 i Opció C en GS.",
-                anys: [{ any: 2026, pau: { examen: "pdf/frances/pau/2026-examen.pdf", solucio: "pdf/frances/pau/2026-solucio.pdf" }, m25: { examen: "pdf/frances/m25/2026-examen.pdf", solucio: "pdf/frances/m25/2026-solucio.pdf" }, gs: { examen: "pdf/frances/gs/2026-examen.pdf", solucio: "pdf/frances/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("frances", true, true, true)
             },
             {
                 id: "italia",
                 assignaturaNom: "Italià",
                 fases: { pau: "Fase Específica", m25: "Fase Comuna", gs: null },
                 blocs: ["Fase Comuna", "Arts i Humanitats"],
-                descripcio: "Llengua estrangera: Opció específica en PAU i Fase Comuna en M25.",
-                anys: [{ any: 2026, pau: { examen: "pdf/italia/pau/2026-examen.pdf", solucio: "pdf/italia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/italia/m25/2026-examen.pdf", solucio: "pdf/italia/m25/2026-solucio.pdf" }, gs: null }]
+                anys: generarAnys("italia", true, true, false)
             },
             {
                 id: "arab",
                 assignaturaNom: "Àrab",
                 fases: { pau: "Fase Específica", m25: null, gs: null },
                 blocs: ["Arts i Humanitats"],
-                descripcio: "Llengua estrangera optativa de Fase Específica a la PAU.",
-                anys: [{ any: 2026, pau: { examen: "pdf/arab/pau/2026-examen.pdf", solucio: "pdf/arab/pau/2026-solucio.pdf" }, m25: null, gs: null }]
+                anys: generarAnys("arab", true, false, false)
             },
             {
                 id: "portugues",
                 assignaturaNom: "Portuguès",
                 fases: { pau: null, m25: "Fase Comuna", gs: null },
                 blocs: ["Fase Comuna"],
-                descripcio: "Llengua estrangera optativa de Fase Comuna a les proves M25.",
-                anys: [{ any: 2026, pau: null, m25: { examen: "pdf/portugues/m25/2026-examen.pdf", solucio: "pdf/portugues/m25/2026-solucio.pdf" }, gs: null }]
+                anys: generarAnys("portugues", false, true, false)
             },
             {
                 id: "historia",
                 assignaturaNom: "Història",
                 fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: null },
                 blocs: ["Fase Comuna", "Ciències Socials i Jurídiques"],
-                descripcio: "Anàlisi de processos històrics, opció en la fase comuna de la PAU.",
-                anys: [{ any: 2026, pau: { examen: "pdf/historia/pau/2026-examen.pdf", solucio: "pdf/historia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/historia/m25/2026-examen.pdf", solucio: "pdf/historia/m25/2026-solucio.pdf" }, gs: null }]
+                anys: generarAnys("historia", true, true, false)
             },
             {
                 id: "historia-filosofia",
                 assignaturaNom: "Història de la Filosofia",
                 fases: { pau: "Fase Comuna", m25: "Arts i Humanitats", gs: null },
                 blocs: ["Fase Comuna", "Arts i Humanitats"],
-                descripcio: "Pensament i autors de la filosofia occidental, opció de fase comuna en PAU.",
-                anys: [{ any: 2026, pau: { examen: "pdf/filosofia/pau/2026-examen.pdf", solucio: "pdf/filosofia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/filosofia/m25/2026-examen.pdf", solucio: "pdf/filosofia/m25/2026-solucio.pdf" }, gs: null }]
+                anys: generarAnys("filosofia", true, true, false)
             },
             {
                 id: "comentari-text",
                 assignaturaNom: "Comentari de Text",
                 fases: { pau: null, m25: "Fase Comuna", gs: null },
                 blocs: ["Fase Comuna"],
-                descripcio: "Anàlisi i redacció argumentativa per a proves d'accés M25.",
-                anys: [{ any: 2026, pau: null, m25: { examen: "pdf/comentari/m25/2026-examen.pdf", solucio: "pdf/comentari/m25/2026-solucio.pdf" }, gs: null }]
+                anys: generarAnys("comentari", false, true, false)
             },
 
             // CIÈNCIES, ENGINYERIA I SALUT
             {
                 id: "ciencies-generals",
                 assignaturaNom: "Ciències Generals",
-                fases: { pau: "General", m25: "Científica-Tecnològica", gs: null },
+                fases: { pau: "Fase Específica (General)", m25: "Científica-Tecnològica", gs: null },
                 blocs: ["Ciències", "Ciències de la Salut"],
-                descripcio: "Matèria de la modalitat General del Batxillerat.",
-                anys: [{ any: 2026, pau: { examen: "pdf/ciencies-generals/pau/2026-examen.pdf", solucio: "pdf/ciencies-generals/pau/2026-solucio.pdf" }, m25: null, gs: null }]
+                anys: generarAnys("ciencies-generals", true, false, false)
             },
             {
                 id: "matematiques",
                 assignaturaNom: "Matemàtiques",
-                fases: { pau: "Científica-Tecnològica", m25: "Científica-Tecnològica", gs: "Fase Comuna" },
+                fases: { pau: "Fase Específica", m25: "Científica-Tecnològica", gs: "Fase Comuna" },
                 blocs: ["Ciències", "Enginyeria i Arquitectura"],
-                descripcio: "Àlgebra, càlcul, geometria analítica i probabilitat.",
-                anys: [{ any: 2025, pau: { examen: "pdf/MatemàtiquesPAU25-2025-S2.pdf", solucio: "pdf/matematiques/pau/2026-solucio.pdf" }, m25: { examen: "pdf/matematiques/m25/2026-examen.pdf", solucio: "pdf/matematiques/m25/2026-solucio.pdf" }, gs: { examen: "pdf/matematiques/gs/2026-examen.pdf", solucio: "pdf/matematiques/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("matematiques", true, true, true)
             },
             {
                 id: "fisica",
                 assignaturaNom: "Física",
-                fases: { pau: "Científica-Tecnològica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
+                fases: { pau: "Fase Específica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
                 blocs: ["Ciències", "Enginyeria i Arquitectura"],
-                descripcio: "Mecànica, electromagnetisme, ones, òptica i física moderna.",
-                anys: [{ any: 2026, pau: { examen: "pdf/fisica/pau/2026-examen.pdf", solucio: "pdf/fisica/pau/2026-solucio.pdf" }, m25: { examen: "pdf/fisica/m25/2026-examen.pdf", solucio: "pdf/fisica/m25/2026-solucio.pdf" }, gs: { examen: "pdf/fisica/gs/2026-examen.pdf", solucio: "pdf/fisica/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("fisica", true, true, true)
             },
             {
                 id: "quimica",
                 assignaturaNom: "Química",
-                fases: { pau: "Ciències de la Salut", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
+                fases: { pau: "Fase Específica", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
                 blocs: ["Ciències de la Salut", "Ciències"],
-                descripcio: "Estructura atòmica, enllaç, termodinàmica, equilibri i reaccions redox/àcid-base.",
-                anys: [{ any: 2026, pau: { examen: "pdf/quimica/pau/2026-examen.pdf", solucio: "pdf/quimica/pau/2026-solucio.pdf" }, m25: { examen: "pdf/quimica/m25/2026-examen.pdf", solucio: "pdf/quimica/m25/2026-solucio.pdf" }, gs: { examen: "pdf/quimica/gs/2026-examen.pdf", solucio: "pdf/quimica/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("quimica", true, true, true)
             },
             {
                 id: "biologia",
                 assignaturaNom: "Biologia",
-                fases: { pau: "Ciències de la Salut", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
+                fases: { pau: "Fase Específica", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
                 blocs: ["Ciències de la Salut", "Ciències"],
-                descripcio: "Bioquímica, genètica, biologia cel·lular, metabolisme i microbiologia.",
-                anys: [{ any: 2026, pau: { examen: "pdf/biologia/pau/2026-examen.pdf", solucio: "pdf/biologia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/biologia/m25/2026-examen.pdf", solucio: "pdf/biologia/m25/2026-solucio.pdf" }, gs: { examen: "pdf/biologia/gs/2026-examen.pdf", solucio: "pdf/biologia/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("biologia", true, true, true)
             },
             {
                 id: "geologia-ciencies-ambientals",
-                assignaturaNom: "Ciències de la Terra i del Medi Ambient",
-                fases: { pau: "Ciències de la Salut", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
+                assignaturaNom: "Geologia i Ciències Ambientals",
+                fases: { pau: "Fase Específica", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
                 blocs: ["Ciències de la Salut", "Ciències"],
-                descripcio: "Geologia, processos terrestres, ecosistemes i gestió ambiental.",
-                anys: [{ any: 2026, pau: { examen: "pdf/geologia/pau/2026-examen.pdf", solucio: "pdf/geologia/pau/2026-solucio.pdf" }, m25: null, gs: { examen: "pdf/geologia/gs/2026-examen.pdf", solucio: "pdf/geologia/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("geologia", true, false, true)
             },
             {
                 id: "dibuix-tecnic",
                 assignaturaNom: "Dibuix Tècnic",
-                fases: { pau: "Científica-Tecnològica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
+                fases: { pau: "Fase Específica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
                 blocs: ["Enginyeria i Arquitectura"],
-                descripcio: "Geometria plana, sistema diètric, axonometria i normalització.",
-                anys: [{ any: 2026, pau: { examen: "pdf/dibuix/pau/2026-examen.pdf", solucio: "pdf/dibuix/pau/2026-solucio.pdf" }, m25: { examen: "pdf/dibuix/m25/2026-examen.pdf", solucio: "pdf/dibuix/m25/2026-solucio.pdf" }, gs: { examen: "pdf/dibuix/gs/2026-examen.pdf", solucio: "pdf/dibuix/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("dibuix", true, true, true)
             },
             {
                 id: "tecnologia-enginyeria",
                 assignaturaNom: "Tecnologia i Enginyeria",
-                fases: { pau: "Científica-Tecnològica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
+                fases: { pau: "Fase Específica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
                 blocs: ["Enginyeria i Arquitectura"],
-                descripcio: "Sistemes automàtics, robòtica, materials, energies i circuits.",
-                anys: [{ any: 2026, pau: { examen: "pdf/tecnologia-enginyeria/pau/2026-examen.pdf", solucio: "pdf/tecnologia-enginyeria/pau/2026-solucio.pdf" }, m25: null, gs: { examen: "pdf/tecnologia-enginyeria/gs/2026-examen.pdf", solucio: null } }]
+                anys: generarAnys("tecnologia-enginyeria", true, false, true)
             },
 
             // CIÈNCIES SOCIALS I JURÍDIQUES
             {
                 id: "funcionament-empresa",
                 assignaturaNom: "Funcionament de l'Empresa i Disseny de Models de Negoci",
-                fases: { pau: "Humanitats i Ciències Socials", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
+                fases: { pau: "Fase Específica", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
                 blocs: ["Ciències Socials i Jurídiques"],
-                descripcio: "Organització empresarial, estratègia, modelització de negoci i finançament.",
-                anys: [{ any: 2026, pau: { examen: "pdf/empresa/pau/2026-examen.pdf", solucio: "pdf/empresa/pau/2026-solucio.pdf" }, m25: { examen: "pdf/empresa/m25/2026-examen.pdf", solucio: "pdf/empresa/m25/2026-solucio.pdf" }, gs: { examen: "pdf/empresa/gs/2026-examen.pdf", solucio: "pdf/empresa/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("empresa", true, true, true)
             },
             {
                 id: "matematiques-socials",
                 assignaturaNom: "Matemàtiques Aplicades a les Ciències Socials",
-                fases: { pau: "Humanitats i Ciències Socials", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
+                fases: { pau: "Fase Específica", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
                 blocs: ["Ciències Socials i Jurídiques"],
-                descripcio: "Programació lineal, probabilitat, estadística i anàlisi de funcions.",
-                anys: [{ any: 2026, pau: { examen: "pdf/mat-socials/pau/2026-examen.pdf", solucio: "pdf/mat-socials/pau/2026-solucio.pdf" }, m25: { examen: "pdf/mat-socials/m25/2026-examen.pdf", solucio: "pdf/mat-socials/m25/2026-solucio.pdf" }, gs: { examen: "pdf/mat-socials/gs/2026-examen.pdf", solucio: "pdf/mat-socials/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("mat-socials", true, true, true)
             },
             {
                 id: "geografia",
                 assignaturaNom: "Geografia",
-                fases: { pau: "Humanitats i Ciències Socials", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
+                fases: { pau: "Fase Específica", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
                 blocs: ["Ciències Socials i Jurídiques"],
-                descripcio: "Relleu, clima, demografia, activitats econòmiques i organització territorial.",
-                anys: [{ any: 2026, pau: { examen: "pdf/geografia/pau/2026-examen.pdf", solucio: "pdf/geografia/pau/2026-solucio.pdf" }, m25: { examen: "pdf/geografia/m25/2026-examen.pdf", solucio: "pdf/geografia/m25/2026-solucio.pdf" }, gs: { examen: "pdf/geografia/gs/2026-examen.pdf", solucio: "pdf/geografia/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("geografia", true, true, true)
             },
             {
                 id: "psicologia-sociologia",
                 assignaturaNom: "Psicologia i Sociologia",
                 fases: { pau: null, m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
                 blocs: ["Ciències Socials i Jurídiques"],
-                descripcio: "Processos psicològics, conducta humana, estructura social i relacions de grup.",
-                anys: [{ any: 2026, pau: null, m25: null, gs: { examen: "pdf/psicologia/gs/2026-examen.pdf", solucio: "pdf/psicologia/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("psicologia", false, false, true)
             },
             {
                 id: "educacio-fisica",
                 assignaturaNom: "Educació Física",
                 fases: { pau: null, m25: null, gs: "Opció D (Activitats Físiques)" },
                 blocs: ["Ciències de la Salut"],
-                descripcio: "Anatomia, fisiologia de l'exercici, condició física, activitat física i salut.",
-                anys: [{ any: 2026, pau: null, m25: null, gs: { examen: "pdf/educacio-fisica/gs/2026-examen.pdf", solucio: "pdf/educacio-fisica/gs/2026-solucio.pdf" } }]
+                anys: generarAnys("educacio-fisica", false, false, true)
             },
 
             // ARTS I HUMANITATS
             {
                 id: "dibuix-artistic",
                 assignaturaNom: "Dibuix Artístic",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: "Arts" },
                 blocs: ["Arts i Humanitats"],
-                descripcio: "Tècniques graficoplàstiques, composició visual, proporció i llum.",
-                anys: [{ any: 2026, pau: { examen: "pdf/dibuix-artistic/pau/2026-examen.pdf", solucio: "pdf/dibuix-artistic/pau/2026-solucio.pdf" }, m25: { examen: "pdf/dibuix-artistic/m25/2026-examen.pdf", solucio: "pdf/dibuix-artistic/m25/2026-solucio.pdf" }, gs: { examen: "pdf/dibuix-artistic/gs/2026-examen.pdf", solucio: null } }]
+                anys: generarAnys("dibuix-artistic", true, true, true)
+            },
+            {
+                id: "dibuix-tecnic-aplicat",
+                assignaturaNom: "Dibuix Tècnic Aplicat a les Arts Plàstiques i el Disseny",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("dibuix-tecnic-aplicat", true, false, false)
+            },
+            {
+                id: "disseny",
+                assignaturaNom: "Disseny",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("disseny", true, false, false)
+            },
+            {
+                id: "arts-esceniques",
+                assignaturaNom: "Arts Escèniques",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("arts-esceniques", true, false, false)
+            },
+            {
+                id: "analisi-musical",
+                assignaturaNom: "Anàlisi Musical",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("analisi-musical", true, false, false)
+            },
+            {
+                id: "cor-tecnica-vocal",
+                assignaturaNom: "Cor i Tècnica Vocal",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("cor-tecnica-vocal", true, false, false)
+            },
+            {
+                id: "fonaments-artistics",
+                assignaturaNom: "Fonaments Artístics",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("fonaments-artistics", true, false, false)
             },
             {
                 id: "historia-art",
                 assignaturaNom: "Història de l'Art",
-                fases: { pau: "Arts", m25: "Arts i Humanitats", gs: "Arts" },
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: "Arts" },
                 blocs: ["Arts i Humanitats"],
-                descripcio: "Anàlisi d'estils, obres d'arquitectura, escultura i pintura al llarg de la història.",
-                anys: [{ any: 2026, pau: { examen: "pdf/historia-art/pau/2026-examen.pdf", solucio: "pdf/historia-art/pau/2026-solucio.pdf" }, m25: { examen: "pdf/historia-art/m25/2026-examen.pdf", solucio: "pdf/historia-art/m25/2026-solucio.pdf" }, gs: null }]
+                anys: generarAnys("historia-art", true, true, false)
+            },
+            {
+                id: "historia-musica-dansa",
+                assignaturaNom: "Història de la Música i de la Dansa",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("historia-musica-dansa", true, false, false)
+            },
+            {
+                id: "literatura-castellana",
+                assignaturaNom: "Literatura Castellana",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("lit-castellana", true, false, false)
+            },
+            {
+                id: "literatura-catalana",
+                assignaturaNom: "Literatura Catalana",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("lit-catalana", true, false, false)
+            },
+            {
+                id: "literatura-dramatica",
+                assignaturaNom: "Literatura Dramàtica",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("lit-dramatica", true, false, false)
             },
             {
                 id: "llati",
                 assignaturaNom: "Llengua i Cultura Llatines",
-                fases: { pau: "Humanitats i Ciències Socials", m25: "Arts i Humanitats", gs: null },
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
                 blocs: ["Arts i Humanitats"],
-                descripcio: "Traducció, sintaxi, morfologia llatina i civilització romana.",
-                anys: [{ any: 2026, pau: { examen: "pdf/llati/pau/2026-examen.pdf", solucio: "pdf/llati/pau/2026-solucio.pdf" }, m25: { examen: "pdf/llati/m25/2026-examen.pdf", solucio: "pdf/llati/m25/2026-solucio.pdf" }, gs: null }]
+                anys: generarAnys("llati", true, true, false)
             },
             {
                 id: "grec",
                 assignaturaNom: "Llengua i Cultura Gregues",
-                fases: { pau: "Humanitats i Ciències Socials", m25: "Arts i Humanitats", gs: null },
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
                 blocs: ["Arts i Humanitats"],
-                descripcio: "Traducció de textos clàssics, gramàtica i cultura hel·lènica.",
-                anys: [{ any: 2026, pau: { examen: "pdf/grec/pau/2026-examen.pdf", solucio: "pdf/grec/pau/2026-solucio.pdf" }, m25: { examen: "pdf/grec/m25/2026-examen.pdf", solucio: "pdf/grec/m25/2026-solucio.pdf" }, gs: null }]
+                anys: generarAnys("grec", true, true, false)
+            },
+            {
+                id: "moviments-culturals-artistics",
+                assignaturaNom: "Moviments Culturals i Artístics",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("moviments-culturals", true, false, false)
+            },
+            {
+                id: "tecniques-expressio-graficoplastica",
+                assignaturaNom: "Tècniques d’Expressió Graficoplàstica",
+                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
+                blocs: ["Arts i Humanitats"],
+                anys: generarAnys("expressio-graficoplastica", true, false, false)
             }
         ];
 
@@ -493,7 +590,7 @@
             window.addEventListener('hashchange', interpretarRuta);
         });
 
-        // RETORNA ELS ESTILS CSS D'UN BADGE SEGONS LA VIA D'ACCÉS (PAU=Blau, M25=Lila, GS=Verd)
+        // RETORNA ELS ESTILS CSS D'UN BADGE SEGONS LA VIA D'ACCÉS
         function getEstilRutaBadge(ruta) {
             switch(ruta) {
                 case "pau":
@@ -663,6 +760,28 @@
             filtrarMateries();
         }
 
+        function toggleAcordio(clauRuta) {
+            acordionsOberts[clauRuta] = !acordionsOberts[clauRuta];
+            actualitzarEstatAcordions();
+        }
+
+        function actualitzarEstatAcordions() {
+            ['pau', 'm25', 'gs'].forEach(ruta => {
+                const cos = document.getElementById(`cos-${ruta}`);
+                const icona = document.getElementById(`icona-desplegar-${ruta}`);
+                
+                if (cos && icona) {
+                    if (acordionsOberts[ruta]) {
+                        cos.style.display = 'block';
+                        icona.classList.add('rotate-180');
+                    } else {
+                        cos.style.display = 'none';
+                        icona.classList.remove('rotate-180');
+                    }
+                }
+            });
+        }
+
         // VISTA 2: PÀGINA DE MATÈRIA INDIVIDUAL
         function mostrarDetallMateria(id) {
             const materia = dadesMateries.find(m => m.id === id);
@@ -694,11 +813,19 @@
             construirColumnaRuta('llista-m25', materia.anys, 'm25');
             construirColumnaRuta('llista-gs', materia.anys, 'gs');
 
+            // Per defecte tots els desplegables queden tancats
+            acordionsOberts = {
+                pau: false,
+                m25: false,
+                gs: false
+            };
+
             actualitzarVistaColumnes();
+            actualitzarEstatAcordions();
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // MOSTRA O AMAGA LES COLUMNES DE LA MATÈRIA SEGONS ELS FILTRES DE LA CAPÇALERA
+        // MOSTRA O AMAGA ELS DESPLEGABLES SEGONS ELS FILTRES DE LA CAPÇALERA
         function actualitzarVistaColumnes() {
             const colPau = document.getElementById('columna-pau');
             const colM25 = document.getElementById('columna-m25');
@@ -708,9 +835,9 @@
 
             if (!colPau || !colM25 || !colGs) return;
 
-            colPau.style.display = rutesActives.pau ? 'flex' : 'none';
-            colM25.style.display = rutesActives.m25 ? 'flex' : 'none';
-            colGs.style.display = rutesActives.gs ? 'flex' : 'none';
+            colPau.style.display = rutesActives.pau ? 'block' : 'none';
+            colM25.style.display = rutesActives.m25 ? 'block' : 'none';
+            colGs.style.display = rutesActives.gs ? 'block' : 'none';
 
             const quantesVisibles = Object.values(rutesActives).filter(Boolean).length;
 
@@ -720,61 +847,124 @@
             } else {
                 contenidor.classList.remove('hidden');
                 avisSenseVies.classList.add('hidden');
-
-                if (quantesVisibles === 3) {
-                    contenidor.className = "grid grid-cols-1 lg:grid-cols-3 gap-8 transition-all";
-                } else if (quantesVisibles === 2) {
-                    contenidor.className = "grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto transition-all";
-                } else if (quantesVisibles === 1) {
-                    contenidor.className = "grid grid-cols-1 gap-8 max-w-2xl mx-auto transition-all";
-                }
             }
         }
 
-        // CONSTRUEIX ELS BLOCS DE DESCÀRREGA PER A CADA RUTA
         function construirColumnaRuta(elementId, anysArray, clauRuta) {
             const llista = document.getElementById(elementId);
             llista.innerHTML = '';
 
             anysArray.forEach(anyDada => {
                 const dadesRuta = anyDada[clauRuta];
-                const fila = document.createElement('div');
-                fila.className = "flex items-center justify-between p-3 rounded-xl border border-slate-100 hover:bg-slate-50 transition-colors";
 
-                let accionsHTML = '';
+                if (clauRuta === 'pau') {
+                    const blocAny = document.createElement('div');
+                    blocAny.className = "p-3 rounded-xl border border-slate-100 hover:bg-slate-50/50 transition-colors space-y-2 bg-white";
 
-                if (dadesRuta) {
-                    const botoExamen = dadesRuta.examen 
-                        ? `<a href="${dadesRuta.examen}" class="inline-flex items-center px-2.5 py-1.5 border border-indigo-600 text-[11px] font-bold rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 no-underline transition-colors shadow-sm" target="_blank">
-                               <i class="fa-solid fa-file-pdf mr-1"></i> Examen
-                           </a>`
-                        : `<span class="text-xs text-slate-400">Pendent</span>`;
+                    if (dadesRuta) {
+                        // Juny
+                        const botoExamenJuny = dadesRuta.juny && dadesRuta.juny.examen 
+                            ? `<a href="${dadesRuta.juny.examen}" class="inline-flex items-center px-2 py-1 border border-indigo-600 text-[11px] font-bold rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 no-underline transition-colors shadow-sm" target="_blank">
+                                   <i class="fa-solid fa-file-pdf mr-1"></i> Examen
+                               </a>`
+                            : `<span class="text-[11px] text-slate-400">Pendent</span>`;
 
-                    const botoSolucio = dadesRuta.solucio
-                        ? `<a href="${dadesRuta.solucio}" class="inline-flex items-center px-2.5 py-1.5 border border-emerald-500 text-[11px] font-bold rounded-lg text-emerald-700 bg-emerald-50 hover:bg-emerald-100 no-underline transition-colors" target="_blank">
-                               <i class="fa-solid fa-check mr-1 text-emerald-600"></i> Solució
-                           </a>`
-                        : `<span class="inline-flex items-center px-2 py-1 border border-slate-200 text-[11px] font-medium rounded-lg text-slate-400 bg-slate-50 cursor-not-allowed">
-                               Pendent
-                           </span>`;
+                        const botoSolucioJuny = dadesRuta.juny && dadesRuta.juny.solucio
+                            ? `<a href="${dadesRuta.juny.solucio}" class="inline-flex items-center px-2 py-1 border border-emerald-500 text-[11px] font-bold rounded-lg text-emerald-700 bg-emerald-50 hover:bg-emerald-100 no-underline transition-colors" target="_blank">
+                                   <i class="fa-solid fa-check mr-1 text-emerald-600"></i> Solució
+                               </a>`
+                            : `<span class="inline-flex items-center px-2 py-1 border border-slate-200 text-[11px] font-medium rounded-lg text-slate-400 bg-slate-50 cursor-not-allowed">Pendent</span>`;
 
-                    accionsHTML = `
-                        <div class="flex items-center space-x-2">
-                            ${botoExamen}
-                            ${botoSolucio}
-                        </div>
-                    `;
+                        // Setembre
+                        const botoExamenSet = dadesRuta.setembre && dadesRuta.setembre.examen 
+                            ? `<a href="${dadesRuta.setembre.examen}" class="inline-flex items-center px-2 py-1 border border-indigo-600 text-[11px] font-bold rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 no-underline transition-colors shadow-sm" target="_blank">
+                                   <i class="fa-solid fa-file-pdf mr-1"></i> Examen
+                               </a>`
+                            : `<span class="text-[11px] text-slate-400">Pendent</span>`;
+
+                        const botoSolucioSet = dadesRuta.setembre && dadesRuta.setembre.solucio
+                            ? `<a href="${dadesRuta.setembre.solucio}" class="inline-flex items-center px-2 py-1 border border-emerald-500 text-[11px] font-bold rounded-lg text-emerald-700 bg-emerald-50 hover:bg-emerald-100 no-underline transition-colors" target="_blank">
+                                   <i class="fa-solid fa-check mr-1 text-emerald-600"></i> Solució
+                               </a>`
+                            : `<span class="inline-flex items-center px-2 py-1 border border-slate-200 text-[11px] font-medium rounded-lg text-slate-400 bg-slate-50 cursor-not-allowed">Pendent</span>`;
+
+                        blocAny.innerHTML = `
+                            <div class="flex items-center justify-between pb-1.5 border-b border-slate-200/60">
+                                <span class="font-extrabold text-slate-800 text-xs bg-slate-100 px-2.5 py-0.5 rounded-md">
+                                    Convocatòria ${anyDada.any}
+                                </span>
+                            </div>
+                            <div class="flex items-center justify-between text-xs pt-1">
+                                <span class="font-semibold text-slate-600 flex items-center gap-1">
+                                    <i class="fa-regular fa-calendar-check text-blue-500 text-[11px]"></i> Juny:
+                                </span>
+                                <div class="flex items-center space-x-1.5">
+                                    ${botoExamenJuny}
+                                    ${botoSolucioJuny}
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between text-xs pt-1 border-t border-slate-100">
+                                <span class="font-semibold text-slate-600 flex items-center gap-1">
+                                    <i class="fa-regular fa-calendar-minus text-amber-500 text-[11px]"></i> Setembre:
+                                </span>
+                                <div class="flex items-center space-x-1.5">
+                                    ${botoExamenSet}
+                                    ${botoSolucioSet}
+                                </div>
+                            </div>
+                        `;
+                    } else {
+                        blocAny.innerHTML = `
+                            <div class="flex items-center justify-between">
+                                <span class="font-extrabold text-slate-800 text-xs bg-slate-100 px-2.5 py-1 rounded-md">
+                                    Convocatòria ${anyDada.any}
+                                </span>
+                                <span class="text-xs text-slate-400 italic">No convocat</span>
+                            </div>
+                        `;
+                    }
+
+                    llista.appendChild(blocAny);
                 } else {
-                    accionsHTML = `<span class="text-xs text-slate-400 italic">No convocat</span>`;
-                }
+                    // M25 i GS (Convocatòria única)
+                    const fila = document.createElement('div');
+                    fila.className = "flex items-center justify-between p-3 rounded-xl border border-slate-100 hover:bg-slate-50 transition-colors bg-white";
 
-                fila.innerHTML = `
-                    <span class="font-extrabold text-slate-800 text-xs bg-slate-100 px-2.5 py-1 rounded-md">
-                        Convocatòria ${anyDada.any}
-                    </span>
-                    ${accionsHTML}
-                `;
-                llista.appendChild(fila);
+                    let accionsHTML = '';
+
+                    if (dadesRuta) {
+                        const botoExamen = dadesRuta.examen 
+                            ? `<a href="${dadesRuta.examen}" class="inline-flex items-center px-2.5 py-1.5 border border-indigo-600 text-[11px] font-bold rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 no-underline transition-colors shadow-sm" target="_blank">
+                                   <i class="fa-solid fa-file-pdf mr-1"></i> Examen
+                               </a>`
+                            : `<span class="text-xs text-slate-400">Pendent</span>`;
+
+                        const botoSolucio = dadesRuta.solucio
+                            ? `<a href="${dadesRuta.solucio}" class="inline-flex items-center px-2.5 py-1.5 border border-emerald-500 text-[11px] font-bold rounded-lg text-emerald-700 bg-emerald-50 hover:bg-emerald-100 no-underline transition-colors" target="_blank">
+                                   <i class="fa-solid fa-check mr-1 text-emerald-600"></i> Solució
+                               </a>`
+                            : `<span class="inline-flex items-center px-2 py-1 border border-slate-200 text-[11px] font-medium rounded-lg text-slate-400 bg-slate-50 cursor-not-allowed">
+                                   Pendent
+                               </span>`;
+
+                        accionsHTML = `
+                            <div class="flex items-center space-x-2">
+                                ${botoExamen}
+                                ${botoSolucio}
+                            </div>
+                        `;
+                    } else {
+                        accionsHTML = `<span class="text-xs text-slate-400 italic">No convocat</span>`;
+                    }
+
+                    fila.innerHTML = `
+                        <span class="font-extrabold text-slate-800 text-xs bg-slate-100 px-2.5 py-1 rounded-md">
+                            Convocatòria ${anyDada.any}
+                        </span>
+                        ${accionsHTML}
+                    `;
+                    llista.appendChild(fila);
+                }
             });
         }
     </script>
