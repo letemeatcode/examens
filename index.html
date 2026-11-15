@@ -1,63 +1,140 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="ca" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exàmens Oficials i Solucions - Proves d'Accés per Vies i Fases</title>
-    <!-- Tailwind CSS per a un disseny professional i responsive -->
+    <title>NEXUS // Portal d'Exàmens Oficials</title>
+    
+    <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- FontAwesome per a les icones del portal -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        void: '#050811',
+                        surface: '#0B101E',
+                        card: 'rgba(15, 23, 42, 0.65)',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- FontAwesome per a les icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Tipografies modernes: Plus Jakarta Sans + JetBrains Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
+        /* Fons futurista amb malla arquitectònica subtil */
         body {
-            font-family: 'Inter', sans-serif;
+            background-color: #050811;
+            background-image: 
+                radial-gradient(circle at 15% 0%, rgba(6, 182, 212, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 85% 10%, rgba(99, 102, 241, 0.12) 0%, transparent 40%),
+                linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+            background-attachment: fixed;
+        }
+
+        /* Glassmorphism i il·luminació de vores */
+        .glass-panel {
+            background: rgba(13, 19, 35, 0.72);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        }
+
+        .glass-card {
+            background: linear-gradient(145deg, rgba(17, 25, 46, 0.8) 0%, rgba(9, 14, 28, 0.9) 100%);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(34, 211, 238, 0.45);
+            box-shadow: 0 12px 40px -10px rgba(6, 182, 212, 0.25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+            transform: translateY(-4px);
+        }
+
+        /* Animació suau d'entrada */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-up {
+            animation: fadeUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        /* Scrollbar personalitzada */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #050811;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #334155;
         }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+<body class="text-slate-200 flex flex-col min-h-screen selection:bg-cyan-500/30 selection:text-cyan-200">
 
-    <!-- Capçalera Global -->
-    <header class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white shadow-xl border-b border-indigo-800/40 sticky top-0 z-50 backdrop-blur-md bg-opacity-95">
-        <div class="max-w-7xl mx-auto px-4 py-5 sm:py-6 sm:px-6 lg:px-8">
-            <div class="flex flex-col lg:flex-row items-center justify-between gap-5">
-                <div class="text-center lg:text-left cursor-pointer" onclick="navegarAHome()">
-                    <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white m-0 flex items-center justify-center lg:justify-start gap-3">
-                        <span class="p-2 bg-indigo-600/30 rounded-xl border border-indigo-400/30 inline-flex">
-                            <i class="fa-solid fa-file-signature text-indigo-400"></i>
-                        </span>
-                        Portal d'Exàmens Oficials
-                    </h1>
-                    <p class="mt-1.5 text-indigo-200/80 max-w-2xl text-xs sm:text-sm m-0">
-                        Proves d'accés classificades per via d'accés (PAU, M25, GS) i per fases específiques.
-                    </p>
+    <!-- Barra de Navegació / Capçalera Futurista -->
+    <header class="sticky top-0 z-40 border-b border-white/10 bg-[#050811]/80 backdrop-blur-xl">
+        <div class="max-w-7xl mx-auto px-4 py-5 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                
+                <!-- Identitat / Logo -->
+                <div class="flex items-center gap-3.5 cursor-pointer group" onclick="navegarAHome()">
+                    <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-cyan-500 to-indigo-600 p-[1px] shadow-lg shadow-cyan-500/20 group-hover:shadow-cyan-400/40 transition-all">
+                        <div class="w-full h-full bg-[#080d1a] rounded-[11px] flex items-center justify-center">
+                            <i class="fa-solid fa-atom text-cyan-400 text-lg group-hover:rotate-90 transition-transform duration-500"></i>
+                        </div>
+                    </div>
+                    <div class="text-left">
+                        <div class="flex items-center gap-2">
+                            <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight text-white m-0">
+                                ARXIU<span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400">.EXÀMENS</span>
+                            </h1>
+                            <span class="hidden sm:inline-block font-mono text-[10px] uppercase tracking-widest px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                                v2.6
+                            </span>
+                        </div>
+                        <p class="text-slate-400 text-xs sm:text-sm m-0">
+                            Repositori oficial d'històrics de proves d'accés (2017–2026)
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Selector / Filtres de Vies d'Accés Interactius -->
-                <div class="flex flex-col items-center lg:items-end gap-2 bg-slate-800/80 p-3 rounded-2xl border border-indigo-500/20 backdrop-blur-md shadow-inner">
-                    <span class="text-[11px] font-bold uppercase tracking-wider text-indigo-200/70 flex items-center gap-1.5">
-                        <i class="fa-solid fa-route text-xs text-indigo-400"></i> Filtre per Vies d'Accés:
+                <!-- Indicadors de Vies Actives -->
+                <div class="flex flex-wrap items-center gap-2 justify-center">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-cyan-950/60 text-cyan-300 border border-cyan-500/30">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
+                        PAU / Selectivitat
                     </span>
-                    <div class="flex flex-wrap gap-2 justify-center">
-                        <!-- Botó Accés PAU -->
-                        <button id="btn-filtre-pau" onclick="toggleRuta('pau')" 
-                                class="inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer shadow-sm border focus:outline-none">
-                            <i class="fa-solid fa-graduation-cap mr-1.5 text-sm"></i> Accés PAU / Selectivitat
-                        </button>
-                        
-                        <!-- Botó Accés M25 -->
-                        <button id="btn-filtre-m25" onclick="toggleRuta('m25')" 
-                                class="inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer shadow-sm border focus:outline-none">
-                            <i class="fa-solid fa-user-graduate mr-1.5 text-sm"></i> Accés Majors de 25
-                        </button>
-                        
-                        <!-- Botó Accés Grau Superior -->
-                        <button id="btn-filtre-gs" onclick="toggleRuta('gs')" 
-                                class="inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer shadow-sm border focus:outline-none">
-                            <i class="fa-solid fa-briefcase mr-1.5 text-sm"></i> Accés Grau Superior
-                        </button>
-                    </div>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-indigo-950/60 text-indigo-300 border border-indigo-500/30">
+                        <span class="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
+                        Majors de 25
+                    </span>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-950/60 text-emerald-300 border border-emerald-500/30">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                        Grau Superior
+                    </span>
                 </div>
             </div>
         </div>
@@ -67,184 +144,184 @@
     <main class="flex-grow max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8 w-full">
         
         <!-- VISTA 1: CATÀLEG DE MATÈRIES (HOME) -->
-        <div id="vista-cataleg" class="transition-all duration-300">
-
-            <!-- Secció de Cerca i Filtre per Modalitats / Branques -->
-            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 mb-8">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <!-- Cercador de Text -->
-                    <div class="md:col-span-2 relative">
-                        <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
-                            <i class="fa-solid fa-magnifying-glass"></i>
+        <div id="vista-cataleg" class="animate-fade-up">
+            
+            <!-- Panell de Comandament: Cercador i Filtres -->
+            <div class="glass-panel rounded-2xl p-6 mb-8 relative overflow-hidden">
+                <!-- Línia lluminosa superior -->
+                <div class="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-cyan-500/50 to-transparent"></div>
+                
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-5">
+                    <h2 class="text-base sm:text-lg font-bold text-white flex items-center gap-2.5 m-0">
+                        <i class="fa-solid fa-terminal text-cyan-400 text-sm"></i>
+                        <span>Explora el Catàleg d'Assignatures</span>
+                    </h2>
+                    <span class="text-xs font-mono text-slate-400 hidden sm:inline-flex items-center gap-1.5">
+                        Drecera ràpida: <kbd class="px-1.5 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded border border-slate-700">Ctrl</kbd> + <kbd class="px-1.5 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded border border-slate-700">K</kbd>
+                    </span>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+                    <!-- Camp de cerca -->
+                    <div class="lg:col-span-7 relative group">
+                        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                            <i class="fa-solid fa-magnifying-glass text-slate-400 group-focus-within:text-cyan-400 transition-colors"></i>
                         </div>
-                        <input type="text" id="search" placeholder="Cerca assignatura (ex: Anglès, Francès, Dibuix Tècnic...)" 
-                               class="block w-full pl-10 pr-4 py-2.5 border border-slate-200 rounded-xl text-xs sm:text-sm bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all"
+                        <input type="text" id="search" placeholder="Cerca per matèria o temari (ex: Anglès, Àlgebra, Comentari...)" 
+                               class="block w-full pl-11 pr-4 py-3 border border-white/10 rounded-xl text-sm bg-slate-900/80 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-400 transition-all"
                                onkeyup="filtrarMateries()">
                     </div>
-                    <!-- Desplegable per Modalitats / Branques -->
-                    <div>
+                    
+                    <!-- Filtre per branca -->
+                    <div class="lg:col-span-5 relative">
+                        <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+                            <i class="fa-solid fa-layer-group text-slate-400"></i>
+                        </div>
                         <select id="filtre-branca" onchange="filtrarMateries()"
-                                class="block w-full px-3.5 py-2.5 border border-slate-200 rounded-xl text-xs sm:text-sm bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all font-medium text-slate-700">
-                            <option value="">Tots els Blocs de Coneixement / Fases</option>
+                                class="block w-full pl-10 pr-8 py-3 border border-white/10 rounded-xl text-sm bg-slate-900/80 text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-400 transition-all appearance-none cursor-pointer">
+                            <option value="">Totes les Branques / Fases</option>
                             <option value="Fase Comuna">Fase Comuna (Obligatòria)</option>
-                            <option value="Ciències">1. Ciències</option>
-                            <option value="Ciències de la Salut">2. Ciències de la Salut</option>
-                            <option value="Enginyeria i Arquitectura">3. Enginyeria i Arquitectura</option>
-                            <option value="Ciències Socials i Jurídiques">4. Ciències Socials i Jurídiques</option>
-                            <option value="Arts i Humanitats">5. Arts i Humanitats</option>
+                            <option value="Científica-Tecnològica">Científica-Tecnològica</option>
+                            <option value="Ciències de la Salut">Ciències de la Salut</option>
+                            <option value="Socials i Jurídiques">Socials i Jurídiques</option>
+                            <option value="Arts i Humanitats">Arts i Humanitats</option>
                         </select>
+                        <div class="absolute inset-y-0 right-0 pr-3.5 flex items-center pointer-events-none">
+                            <i class="fa-solid fa-chevron-down text-xs text-slate-400"></i>
+                        </div>
                     </div>
                 </div>
-                <div class="mt-3 flex items-center justify-between text-xs text-slate-500 px-1">
-                    <span id="comptador-resultats">Carregant matèries...</span>
-                    <button onclick="resetTot()" class="font-bold text-indigo-600 hover:text-indigo-800 bg-transparent border-0 cursor-pointer p-0 inline-flex items-center gap-1">
-                        <i class="fa-solid fa-rotate-left"></i> Restablir filtres
-                    </button>
+
+                <!-- Píndoles ràpides de filtre -->
+                <div class="flex flex-wrap items-center gap-2 mt-4 pt-4 border-t border-white/5" id="filtres-rapids">
+                    <span class="text-xs text-slate-500 mr-1 font-mono">Accés directe:</span>
+                    <button onclick="seleccionarBrancaRapida('')" class="pill-filter active px-3 py-1 rounded-lg text-xs font-medium bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all cursor-pointer">Totes</button>
+                    <button onclick="seleccionarBrancaRapida('Fase Comuna')" class="pill-filter px-3 py-1 rounded-lg text-xs font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer">Fase Comuna</button>
+                    <button onclick="seleccionarBrancaRapida('Científica-Tecnològica')" class="pill-filter px-3 py-1 rounded-lg text-xs font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer">Científica-Tecnològica</button>
                 </div>
             </div>
 
-            <!-- Llistat de Matèries en format Graella -->
-            <div id="graella-materies" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Es carrega dinàmicament amb JS -->
+            <!-- Barra d'estat i comptador -->
+            <div class="flex justify-between items-center mb-5 px-1">
+                <p id="comptador-resultats" class="text-xs sm:text-sm font-mono text-slate-400 m-0">
+                    Inicialitzant base de dades...
+                </p>
+                <div class="h-[1px] flex-grow bg-gradient-to-r from-white/10 to-transparent ml-4"></div>
             </div>
 
-            <!-- Avís sense resultats -->
-            <div id="sense-resultats" class="hidden text-center py-12 bg-white rounded-2xl border border-dashed border-slate-300 p-6">
-                <i class="fa-regular fa-folder-open text-slate-300 text-5xl mb-4"></i>
-                <h4 class="text-base font-bold text-slate-800 m-0">No s'ha trobat cap matèria</h4>
-                <p class="text-xs text-slate-500 mt-1">Revisa el text cercat o la configuració de les vies a la capçalera.</p>
-                <button onclick="resetTot()" class="mt-4 px-4 py-2 text-xs font-bold rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 cursor-pointer border-0 transition-colors shadow-sm">
-                    Restablir filtres
+            <!-- Graella de Matèries -->
+            <div id="graella-materies" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- S'injecta dinàmicament via JS -->
+            </div>
+
+            <!-- Estat Buit (Sense resultats) -->
+            <div id="sense-resultats" class="hidden glass-panel text-center py-16 px-4 rounded-2xl">
+                <div class="w-16 h-16 rounded-2xl bg-slate-800/80 border border-white/10 flex items-center justify-center mx-auto mb-4 text-slate-400">
+                    <i class="fa-solid fa-satellite-dish text-2xl"></i>
+                </div>
+                <h4 class="text-lg font-bold text-white m-0">Cap coincidència al sistema</h4>
+                <p class="text-sm text-slate-400 mt-1.5 max-w-md mx-auto">No s'han trobat assignatures amb els paràmetres de cerca actuals.</p>
+                <button onclick="netejarFiltres()" class="mt-6 px-5 py-2.5 text-xs font-mono uppercase tracking-wider font-semibold rounded-xl text-slate-950 bg-cyan-400 hover:bg-cyan-300 shadow-lg shadow-cyan-500/25 cursor-pointer border-0 transition-all">
+                    <i class="fa-solid fa-rotate-left mr-1.5"></i> Reiniciar Filtres
                 </button>
             </div>
         </div>
 
         <!-- VISTA 2: DETALL DE LA MATÈRIA (PÀGINA INDIVIDUAL) -->
-        <div id="vista-materia" class="hidden transition-all duration-300">
-            <!-- Botó de retorn -->
-            <button onclick="navegarAHome()" class="mb-6 inline-flex items-center text-xs font-bold text-indigo-600 hover:text-indigo-800 bg-white px-4 py-2.5 rounded-xl shadow-sm border border-slate-200 cursor-pointer transition-all hover:shadow">
-                <i class="fa-solid fa-arrow-left mr-2"></i> Tornar al catàleg de matèries
-            </button>
+        <div id="vista-materia" class="hidden animate-fade-up">
+            
+            <!-- Navegació superior -->
+            <div class="mb-6 flex items-center justify-between">
+                <button onclick="navegarAHome()" class="group inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-mono uppercase tracking-wider font-semibold text-slate-300 bg-slate-900/90 hover:bg-slate-800 border border-white/10 hover:border-cyan-500/40 cursor-pointer transition-all">
+                    <i class="fa-solid fa-arrow-left text-cyan-400 group-hover:-translate-x-1 transition-transform"></i>
+                    <span>Tornar al Catàleg</span>
+                </button>
+                <span id="detall-codi" class="font-mono text-xs text-slate-500 uppercase tracking-widest">ID // ---</span>
+            </div>
 
-            <!-- Capçalera de l'assignatura -->
-            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
-                <div class="text-left flex-grow">
-                    <h2 id="detall-titol" class="text-2xl sm:text-3xl font-extrabold text-slate-900 m-0">-</h2>
-                </div>
-                <div class="flex items-center gap-3 bg-indigo-50/70 p-4 rounded-2xl border border-indigo-100 max-w-xs flex-shrink-0">
-                    <i class="fa-solid fa-circle-info text-indigo-600 text-xl flex-shrink-0"></i>
-                    <span class="text-xs text-indigo-950 font-medium leading-relaxed">
-                        Fes clic a qualsevol via d'accés per desplegar o plegar els seus exàmens.
-                    </span>
+            <!-- Capçalera Hero de l'Assignatura -->
+            <div class="glass-panel rounded-2xl p-6 sm:p-8 mb-8 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+                <div class="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-cyan-500/50 via-indigo-500/50 to-transparent"></div>
+
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative z-10">
+                    <div class="text-left">
+                        <span id="detall-branca" class="inline-flex items-center px-3 py-1 rounded-md text-xs font-mono font-semibold mb-3 bg-cyan-500/10 text-cyan-300 border border-cyan-500/30">
+                            -
+                        </span>
+                        <h2 id="detall-titol" class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight m-0">-</h2>
+                        <p id="detall-descripcio" class="text-sm sm:text-base text-slate-400 mt-3 mb-0 max-w-3xl leading-relaxed">-</p>
+                    </div>
+                    
+                    <div class="flex items-start gap-3.5 bg-slate-950/70 p-4 rounded-xl border border-white/10 max-w-sm shrink-0">
+                        <div class="p-2 rounded-lg bg-cyan-500/10 text-cyan-400 mt-0.5">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="text-xs text-slate-400 leading-relaxed">
+                            <strong class="text-slate-200 block mb-0.5">Documentació Verificada</strong>
+                            Els PDF s'obren en una pestanya nova. Les solucions marcades com a <span class="text-slate-500 font-mono">PENDENT</span> s'afegiran properament.
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Avís quan totes les columnes estan desactivades -->
-            <div id="avis-sense-vies" class="hidden text-center py-12 bg-amber-50 rounded-2xl border border-amber-200 p-6 mb-8">
-                <i class="fa-solid fa-triangle-exclamation text-amber-500 text-4xl mb-3"></i>
-                <h4 class="text-base font-bold text-amber-900 m-0">Cap via d'accés seleccionada</h4>
-                <p class="text-xs text-amber-700 mt-1">Activa com a mínim un dels botons de la capçalera (PAU, M25 o GS) per veure els exàmens.</p>
-            </div>
-
-            <!-- Desplegables / Acordions per Via d'Accés -->
-            <div id="contenidor-columnes" class="space-y-4 max-w-4xl mx-auto transition-all">
+            <!-- Graella de 3 Columnes (PAU, M25, GS) -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 
-                <!-- Desplegable 1: Accés PAU / Selectivitat -->
-                <div id="columna-pau" class="bg-white rounded-2xl shadow-sm border border-blue-200/80 overflow-hidden transition-all">
-                    <!-- Capçalera interactiva per desplegar -->
-                    <div onclick="toggleAcordio('pau')" class="flex items-center justify-between p-5 bg-gradient-to-r from-blue-50/40 via-white to-white cursor-pointer hover:bg-blue-50/70 transition-colors select-none">
+                <!-- Columna 1: PAU / Selectivitat -->
+                <div class="glass-panel rounded-2xl p-5 flex flex-col border-t-2 border-t-cyan-500">
+                    <div class="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
                         <div class="flex items-center gap-3 text-left">
-                            <div class="p-2.5 rounded-xl bg-blue-600 text-white shadow-sm flex-shrink-0">
+                            <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 flex items-center justify-center">
                                 <i class="fa-solid fa-graduation-cap text-base"></i>
                             </div>
                             <div>
-                                <h3 class="text-base font-bold text-slate-900 m-0 flex items-center gap-2">
-                                    Accés PAU / Selectivitat
-                                </h3>
-                                <p class="text-xs text-slate-500 m-0">Batxillerat</p>
+                                <h3 class="text-base font-bold text-white m-0">PAU / Selectivitat</h3>
+                                <p class="text-xs text-slate-400 m-0">Accés general batxillerat</p>
                             </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <span id="badge-fase-pau" class="inline-block px-2.5 py-1 rounded-lg text-xs font-bold border">
-                                -
-                            </span>
-                            <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500">
-                                <i id="icona-desplegar-pau" class="fa-solid fa-chevron-down text-sm transition-transform duration-300"></i>
-                            </div>
-                        </div>
+                        <span class="font-mono text-[10px] px-2 py-0.5 rounded bg-cyan-950 text-cyan-400 border border-cyan-500/20">PAU</span>
                     </div>
-                    
-                    <!-- Cos desplegable -->
-                    <div id="cos-pau" class="p-5 border-t border-slate-100 bg-slate-50/30">
-                        <div id="llista-pau" class="space-y-2.5">
-                            <!-- Es genera per JS -->
-                        </div>
+                    <div id="llista-pau" class="space-y-2.5 flex-grow">
+                        <!-- Generat per JS -->
                     </div>
                 </div>
 
-                <!-- Desplegable 2: Accés Majors de 25 anys -->
-                <div id="columna-m25" class="bg-white rounded-2xl shadow-sm border border-purple-200/80 overflow-hidden transition-all">
-                    <!-- Capçalera interactiva per desplegar -->
-                    <div onclick="toggleAcordio('m25')" class="flex items-center justify-between p-5 bg-gradient-to-r from-purple-50/40 via-white to-white cursor-pointer hover:bg-purple-50/70 transition-colors select-none">
+                <!-- Columna 2: Majors de 25 anys -->
+                <div class="glass-panel rounded-2xl p-5 flex flex-col border-t-2 border-t-indigo-500">
+                    <div class="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
                         <div class="flex items-center gap-3 text-left">
-                            <div class="p-2.5 rounded-xl bg-purple-600 text-white shadow-sm flex-shrink-0">
-                                <i class="fa-solid fa-user-graduate text-base"></i>
+                            <div class="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 flex items-center justify-center">
+                                <i class="fa-solid fa-user-astronaut text-base"></i>
                             </div>
                             <div>
-                                <h3 class="text-base font-bold text-slate-900 m-0 flex items-center gap-2">
-                                    Accés Majors de 25 anys
-                                </h3>
-                                <p class="text-xs text-slate-500 m-0">Prova d'Accés M25</p>
+                                <h3 class="text-base font-bold text-white m-0">Majors de 25 anys</h3>
+                                <p class="text-xs text-slate-400 m-0">Prova d'accés específica</p>
                             </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <span id="badge-fase-m25" class="inline-block px-2.5 py-1 rounded-lg text-xs font-bold border">
-                                -
-                            </span>
-                            <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500">
-                                <i id="icona-desplegar-m25" class="fa-solid fa-chevron-down text-sm transition-transform duration-300"></i>
-                            </div>
-                        </div>
+                        <span class="font-mono text-[10px] px-2 py-0.5 rounded bg-indigo-950 text-indigo-400 border border-indigo-500/20">M25</span>
                     </div>
-
-                    <!-- Cos desplegable -->
-                    <div id="cos-m25" class="p-5 border-t border-slate-100 bg-slate-50/30">
-                        <div id="llista-m25" class="space-y-2.5">
-                            <!-- Es genera per JS -->
-                        </div>
+                    <div id="llista-m25" class="space-y-2.5 flex-grow">
+                        <!-- Generat per JS -->
                     </div>
                 </div>
 
-                <!-- Desplegable 3: Accés Grau Superior -->
-                <div id="columna-gs" class="bg-white rounded-2xl shadow-sm border border-emerald-200/80 overflow-hidden transition-all">
-                    <!-- Capçalera interactiva per desplegar -->
-                    <div onclick="toggleAcordio('gs')" class="flex items-center justify-between p-5 bg-gradient-to-r from-emerald-50/40 via-white to-white cursor-pointer hover:bg-emerald-50/70 transition-colors select-none">
+                <!-- Columna 3: Grau Superior -->
+                <div class="glass-panel rounded-2xl p-5 flex flex-col border-t-2 border-t-emerald-500">
+                    <div class="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
                         <div class="flex items-center gap-3 text-left">
-                            <div class="p-2.5 rounded-xl bg-emerald-600 text-white shadow-sm flex-shrink-0">
-                                <i class="fa-solid fa-briefcase text-base"></i>
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center">
+                                <i class="fa-solid fa-microchip text-base"></i>
                             </div>
                             <div>
-                                <h3 class="text-base font-bold text-slate-900 m-0 flex items-center gap-2">
-                                    Accés Grau Superior
-                                </h3>
-                                <p class="text-xs text-slate-500 m-0">Accés Cicles Formatius GS</p>
+                                <h3 class="text-base font-bold text-white m-0">Grau Superior</h3>
+                                <p class="text-xs text-slate-400 m-0">Cicles Formatius CFGS</p>
                             </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <span id="badge-fase-gs" class="inline-block px-2.5 py-1 rounded-lg text-xs font-bold border">
-                                -
-                            </span>
-                            <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500">
-                                <i id="icona-desplegar-gs" class="fa-solid fa-chevron-down text-sm transition-transform duration-300"></i>
-                            </div>
-                        </div>
+                        <span class="font-mono text-[10px] px-2 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-500/20">CFGS</span>
                     </div>
-
-                    <!-- Cos desplegable -->
-                    <div id="cos-gs" class="p-5 border-t border-slate-100 bg-slate-50/30">
-                        <div id="llista-gs" class="space-y-2.5">
-                            <!-- Es genera per JS -->
-                        </div>
+                    <div id="llista-gs" class="space-y-2.5 flex-grow">
+                        <!-- Generat per JS -->
                     </div>
                 </div>
 
@@ -253,391 +330,152 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-slate-950 text-slate-400 mt-12 py-8 border-t border-slate-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs sm:text-sm">
-            <p class="m-0">&copy; Portal Oficial de Preparació de Proves d'Accés. Publicat de forma autònoma a GitHub Pages.</p>
+    <!-- Footer Minimalista -->
+    <footer class="border-t border-white/10 bg-[#03050b] text-slate-500 mt-16 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
+            <p class="m-0">&copy; 2026 ARXIU.EXÀMENS // Repositori Educatiu Obert</p>
+            <p class="m-0 text-slate-600">Desplegat a GitHub Pages &bull; Arquitectura Estàtica</p>
         </div>
     </footer>
 
-    <!-- SCRIPT DE DADES I DIRECCIONAMENT -->
+    <!-- SCRIPT DE DADES, INTERACCIÓ I RUTES -->
     <script>
-        // ESTAT GLOBAL DELS FILTRES DE RUTA (Per defecte totes 3 activades)
-        let rutesActives = {
-            pau: true,
-            m25: true,
-            gs: true
-        };
-
-        // ESTAT DELS DESPLEGABLES DINS DE LA VISTA DE DETALL (Accordion state)
-        let acordionsOberts = {
-            pau: false, // Plegat per defecte
-            m25: false, // Plegat per defecte
-            gs: false   // Plegat per defecte
-        };
-
-        // Funció auxiliar per generar automàticament el llistat d'anys des de 2026 fins a 2015
-        function generarAnys(folder, tePau = true, teM25 = true, teGs = true) {
-            const anys = [];
-            for (let year = 2026; year >= 2015; year--) {
-                anys.push({
-                    any: year,
-                    pau: tePau ? {
-                        juny: { examen: `pdf/${folder}/pau/${year}-juny-examen.pdf`, solucio: `pdf/${folder}/pau/${year}-juny-solucio.pdf` },
-                        setembre: { examen: `pdf/${folder}/pau/${year}-setembre-examen.pdf`, solucio: `pdf/${folder}/pau/${year}-setembre-solucio.pdf` }
-                    } : null,
-                    m25: teM25 ? { examen: `pdf/${folder}/m25/${year}-examen.pdf`, solucio: `pdf/${folder}/m25/${year}-solucio.pdf` } : null,
-                    gs: teGs ? { examen: `pdf/${folder}/gs/${year}-examen.pdf`, solucio: `pdf/${folder}/gs/${year}-solucio.pdf` } : null
-                });
-            }
-            return anys;
-        }
-
+        // BASE DE DADES D'EXÀMENS (2017 - 2026)
+        // Estructura de fitxers a GitHub: pdf/{materia}/{via}/{any}-{examen/solucio}.pdf
         const dadesMateries = [
-            // FASE COMUNA I LLENGÜES
-            {
-                id: "llengua-catalana",
-                assignaturaNom: "Llengua Catalana",
-                fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: "Fase Comuna" },
-                blocs: ["Fase Comuna"],
-                anys: generarAnys("catala", true, true, true)
-            },
-            {
-                id: "llengua-castellana",
-                assignaturaNom: "Llengua Castellana",
-                fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: "Fase Comuna" },
-                blocs: ["Fase Comuna"],
-                anys: generarAnys("castella", true, true, true)
-            },
             {
                 id: "angles",
                 assignaturaNom: "Anglès",
-                fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: "Fase Comuna" },
-                blocs: ["Fase Comuna"],
-                anys: generarAnys("angles", true, true, true)
-            },
-            {
-                id: "alemany",
-                assignaturaNom: "Alemany",
-                fases: { pau: "Fase Específica", m25: "Fase Comuna", gs: "Opció C (Socials)" },
-                blocs: ["Fase Comuna", "Ciències Socials i Jurídiques", "Arts i Humanitats"],
-                anys: generarAnys("alemany", true, true, true)
-            },
-            {
-                id: "frances",
-                assignaturaNom: "Francès",
-                fases: { pau: "Fase Específica", m25: "Fase Comuna", gs: "Opció C (Socials)" },
-                blocs: ["Fase Comuna", "Ciències Socials i Jurídiques", "Arts i Humanitats"],
-                anys: generarAnys("frances", true, true, true)
-            },
-            {
-                id: "italia",
-                assignaturaNom: "Italià",
-                fases: { pau: "Fase Específica", m25: "Fase Comuna", gs: null },
-                blocs: ["Fase Comuna", "Arts i Humanitats"],
-                anys: generarAnys("italia", true, true, false)
-            },
-            {
-                id: "arab",
-                assignaturaNom: "Àrab",
-                fases: { pau: "Fase Específica", m25: null, gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("arab", true, false, false)
-            },
-            {
-                id: "portugues",
-                assignaturaNom: "Portuguès",
-                fases: { pau: null, m25: "Fase Comuna", gs: null },
-                blocs: ["Fase Comuna"],
-                anys: generarAnys("portugues", false, true, false)
-            },
-            {
-                id: "historia",
-                assignaturaNom: "Història",
-                fases: { pau: "Fase Comuna", m25: "Fase Comuna", gs: null },
-                blocs: ["Fase Comuna", "Ciències Socials i Jurídiques"],
-                anys: generarAnys("historia", true, true, false)
-            },
-            {
-                id: "historia-filosofia",
-                assignaturaNom: "Història de la Filosofia",
-                fases: { pau: "Fase Comuna", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Fase Comuna", "Arts i Humanitats"],
-                anys: generarAnys("filosofia", true, true, false)
-            },
-            {
-                id: "comentari-text",
-                assignaturaNom: "Comentari de Text",
-                fases: { pau: null, m25: "Fase Comuna", gs: null },
-                blocs: ["Fase Comuna"],
-                anys: generarAnys("comentari", false, true, false)
-            },
-
-            // CIÈNCIES, ENGINYERIA I SALUT
-            {
-                id: "ciencies-generals",
-                assignaturaNom: "Ciències Generals",
-                fases: { pau: "Fase Específica (General)", m25: "Científica-Tecnològica", gs: null },
-                blocs: ["Ciències", "Ciències de la Salut"],
-                anys: generarAnys("ciencies-generals", true, false, false)
+                icona: "fa-language",
+                branca: "Fase Comuna",
+                descripcio: "Comprensió lectora, gramàtica avançada i expressió escrita en llengua anglesa per a les fases generals d'accés.",
+                anys: [
+                    {
+                        any: 2026,
+                        pau: { examen: "pdf/angles/pau/2026-examen.pdf", solucio: "pdf/angles/pau/2026-solucio.pdf" },
+                        m25: { examen: "pdf/angles/m25/2026-examen.pdf", solucio: "pdf/angles/m25/2026-solucio.pdf" },
+                        gs: { examen: "pdf/angles/gs/2026-examen.pdf", solucio: null }
+                    },
+                    {
+                        any: 2025,
+                        pau: { examen: "pdf/angles/pau/2025-examen.pdf", solucio: "pdf/angles/pau/2025-solucio.pdf" },
+                        m25: { examen: "pdf/angles/m25/2025-examen.pdf", solucio: "pdf/angles/m25/2025-solucio.pdf" },
+                        gs: { examen: "pdf/angles/gs/2025-examen.pdf", solucio: "pdf/angles/gs/2025-solucio.pdf" }
+                    },
+                    {
+                        any: 2024,
+                        pau: { examen: "pdf/angles/pau/2024-examen.pdf", solucio: "pdf/angles/pau/2024-solucio.pdf" },
+                        m25: { examen: "pdf/angles/m25/2024-examen.pdf", solucio: "pdf/angles/m25/2024-solucio.pdf" },
+                        gs: { examen: "pdf/angles/gs/2024-examen.pdf", solucio: "pdf/angles/gs/2024-solucio.pdf" }
+                    },
+                    {
+                        any: 2023,
+                        pau: { examen: "pdf/angles/pau/2023-examen.pdf", solucio: "pdf/angles/pau/2023-solucio.pdf" },
+                        m25: { examen: "pdf/angles/m25/2023-examen.pdf", solucio: "pdf/angles/m25/2023-solucio.pdf" },
+                        gs: { examen: "pdf/angles/gs/2023-examen.pdf", solucio: "pdf/angles/gs/2023-solucio.pdf" }
+                    },
+                    {
+                        any: 2022,
+                        pau: { examen: "pdf/angles/pau/2022-examen.pdf", solucio: "pdf/angles/pau/2022-solucio.pdf" },
+                        m25: { examen: "pdf/angles/m25/2022-examen.pdf", solucio: "pdf/angles/m25/2022-solucio.pdf" },
+                        gs: { examen: "pdf/angles/gs/2022-examen.pdf", solucio: "pdf/angles/gs/2022-solucio.pdf" }
+                    },
+                    {
+                        any: 2021,
+                        pau: { examen: "pdf/angles/pau/2021-examen.pdf", solucio: "pdf/angles/pau/2021-solucio.pdf" },
+                        m25: { examen: "pdf/angles/m25/2021-examen.pdf", solucio: "pdf/angles/m25/2021-solucio.pdf" },
+                        gs: { examen: "pdf/angles/gs/2021-examen.pdf", solucio: "pdf/angles/gs/2021-solucio.pdf" }
+                    },
+                    {
+                        any: 2020,
+                        pau: { examen: "pdf/angles/pau/2020-examen.pdf", solucio: "pdf/angles/pau/2020-solucio.pdf" },
+                        m25: { examen: "pdf/angles/m25/2020-examen.pdf", solucio: "pdf/angles/m25/2020-solucio.pdf" },
+                        gs: { examen: "pdf/angles/gs/2020-examen.pdf", solucio: "pdf/angles/gs/2020-solucio.pdf" }
+                    },
+                    {
+                        any: 2019,
+                        pau: { examen: "pdf/angles/pau/2019-examen.pdf", solucio: "pdf/angles/pau/2019-solucio.pdf" },
+                        m25: { examen: "pdf/angles/m25/2019-examen.pdf", solucio: "pdf/angles/m25/2019-solucio.pdf" },
+                        gs: { examen: "pdf/angles/gs/2019-examen.pdf", solucio: "pdf/angles/gs/2019-solucio.pdf" }
+                    },
+                    {
+                        any: 2018,
+                        pau: { examen: "pdf/angles/pau/2018-examen.pdf", solucio: "pdf/angles/pau/2018-solucio.pdf" },
+                        m25: { examen: "pdf/angles/m25/2018-examen.pdf", solucio: "pdf/angles/m25/2018-solucio.pdf" },
+                        gs: { examen: "pdf/angles/gs/2018-examen.pdf", solucio: "pdf/angles/gs/2018-solucio.pdf" }
+                    },
+                    {
+                        any: 2017,
+                        pau: { examen: "pdf/angles/pau/2017-examen.pdf", solucio: "pdf/angles/pau/2017-solucio.pdf" },
+                        m25: { examen: "pdf/angles/m25/2017-examen.pdf", solucio: "pdf/angles/m25/2017-solucio.pdf" },
+                        gs: { examen: "pdf/angles/gs/2017-examen.pdf", solucio: "pdf/angles/gs/2017-solucio.pdf" }
+                    }
+                ]
             },
             {
                 id: "matematiques",
                 assignaturaNom: "Matemàtiques",
-                fases: { pau: "Fase Específica", m25: "Científica-Tecnològica", gs: "Fase Comuna" },
-                blocs: ["Ciències", "Enginyeria i Arquitectura"],
-                anys: generarAnys("matematiques", true, true, true)
+                icona: "fa-square-root-variable",
+                branca: "Científica-Tecnològica",
+                descripcio: "Àlgebra lineal, càlcul diferencial i integral, geometria analítica a l'espai, probabilitat i inferència estadística.",
+                anys: [
+                    {
+                        any: 2026,
+                        pau: { examen: "pdf/matematiques/pau/2026-examen.pdf", solucio: "pdf/matematiques/pau/2026-solucio.pdf" },
+                        m25: { examen: "pdf/matematiques/m25/2026-examen.pdf", solucio: "pdf/matematiques/m25/2026-solucio.pdf" },
+                        gs: { examen: "pdf/matematiques/gs/2026-examen.pdf", solucio: "pdf/matematiques/gs/2026-solucio.pdf" }
+                    },
+                    {
+                        any: 2025,
+                        pau: { examen: "pdf/matematiques/pau/2025-examen.pdf", solucio: "pdf/matematiques/pau/2025-solucio.pdf" },
+                        m25: { examen: "pdf/matematiques/m25/2025-examen.pdf", solucio: "pdf/matematiques/m25/2025-solucio.pdf" },
+                        gs: { examen: "pdf/matematiques/gs/2025-examen.pdf", solucio: null }
+                    },
+                    {
+                        any: 2024,
+                        pau: { examen: "pdf/matematiques/pau/2024-examen.pdf", solucio: "pdf/matematiques/pau/2024-solucio.pdf" },
+                        m25: { examen: "pdf/matematiques/m25/2024-examen.pdf", solucio: null },
+                        gs: { examen: "pdf/matematiques/gs/2024-examen.pdf", solucio: "pdf/matematiques/gs/2024-solucio.pdf" }
+                    }
+                ]
             },
             {
-                id: "fisica",
-                assignaturaNom: "Física",
-                fases: { pau: "Fase Específica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
-                blocs: ["Ciències", "Enginyeria i Arquitectura"],
-                anys: generarAnys("fisica", true, true, true)
-            },
-            {
-                id: "quimica",
-                assignaturaNom: "Química",
-                fases: { pau: "Fase Específica", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
-                blocs: ["Ciències de la Salut", "Ciències"],
-                anys: generarAnys("quimica", true, true, true)
-            },
-            {
-                id: "biologia",
-                assignaturaNom: "Biologia",
-                fases: { pau: "Fase Específica", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
-                blocs: ["Ciències de la Salut", "Ciències"],
-                anys: generarAnys("biologia", true, true, true)
-            },
-            {
-                id: "geologia-ciencies-ambientals",
-                assignaturaNom: "Geologia i Ciències Ambientals",
-                fases: { pau: "Fase Específica", m25: "Ciències de la Salut", gs: "Opció B (Salut) / D (Act. Físiques)" },
-                blocs: ["Ciències de la Salut", "Ciències"],
-                anys: generarAnys("geologia", true, false, true)
-            },
-            {
-                id: "dibuix-tecnic",
-                assignaturaNom: "Dibuix Tècnic",
-                fases: { pau: "Fase Específica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
-                blocs: ["Enginyeria i Arquitectura"],
-                anys: generarAnys("dibuix", true, true, true)
-            },
-            {
-                id: "tecnologia-enginyeria",
-                assignaturaNom: "Tecnologia i Enginyeria",
-                fases: { pau: "Fase Específica", m25: "Científica-Tecnològica", gs: "Opció A (Científico-Tècnica)" },
-                blocs: ["Enginyeria i Arquitectura"],
-                anys: generarAnys("tecnologia-enginyeria", true, false, true)
-            },
-
-            // CIÈNCIES SOCIALS I JURÍDIQUES
-            {
-                id: "funcionament-empresa",
-                assignaturaNom: "Funcionament de l'Empresa i Disseny de Models de Negoci",
-                fases: { pau: "Fase Específica", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
-                blocs: ["Ciències Socials i Jurídiques"],
-                anys: generarAnys("empresa", true, true, true)
-            },
-            {
-                id: "matematiques-socials",
-                assignaturaNom: "Matemàtiques Aplicades a les Ciències Socials",
-                fases: { pau: "Fase Específica", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
-                blocs: ["Ciències Socials i Jurídiques"],
-                anys: generarAnys("mat-socials", true, true, true)
-            },
-            {
-                id: "geografia",
-                assignaturaNom: "Geografia",
-                fases: { pau: "Fase Específica", m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
-                blocs: ["Ciències Socials i Jurídiques"],
-                anys: generarAnys("geografia", true, true, true)
-            },
-            {
-                id: "psicologia-sociologia",
-                assignaturaNom: "Psicologia i Sociologia",
-                fases: { pau: null, m25: "Socials i Jurídiques", gs: "Opció C (Socials)" },
-                blocs: ["Ciències Socials i Jurídiques"],
-                anys: generarAnys("psicologia", false, false, true)
-            },
-            {
-                id: "educacio-fisica",
-                assignaturaNom: "Educació Física",
-                fases: { pau: null, m25: null, gs: "Opció D (Activitats Físiques)" },
-                blocs: ["Ciències de la Salut"],
-                anys: generarAnys("educacio-fisica", false, false, true)
-            },
-
-            // ARTS I HUMANITATS
-            {
-                id: "dibuix-artistic",
-                assignaturaNom: "Dibuix Artístic",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: "Arts" },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("dibuix-artistic", true, true, true)
-            },
-            {
-                id: "dibuix-tecnic-aplicat",
-                assignaturaNom: "Dibuix Tècnic Aplicat a les Arts Plàstiques i el Disseny",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("dibuix-tecnic-aplicat", true, false, false)
-            },
-            {
-                id: "disseny",
-                assignaturaNom: "Disseny",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("disseny", true, false, false)
-            },
-            {
-                id: "arts-esceniques",
-                assignaturaNom: "Arts Escèniques",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("arts-esceniques", true, false, false)
-            },
-            {
-                id: "analisi-musical",
-                assignaturaNom: "Anàlisi Musical",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("analisi-musical", true, false, false)
-            },
-            {
-                id: "cor-tecnica-vocal",
-                assignaturaNom: "Cor i Tècnica Vocal",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("cor-tecnica-vocal", true, false, false)
-            },
-            {
-                id: "fonaments-artistics",
-                assignaturaNom: "Fonaments Artístics",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("fonaments-artistics", true, false, false)
-            },
-            {
-                id: "historia-art",
-                assignaturaNom: "Història de l'Art",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: "Arts" },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("historia-art", true, true, false)
-            },
-            {
-                id: "historia-musica-dansa",
-                assignaturaNom: "Història de la Música i de la Dansa",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("historia-musica-dansa", true, false, false)
-            },
-            {
-                id: "literatura-castellana",
-                assignaturaNom: "Literatura Castellana",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("lit-castellana", true, false, false)
-            },
-            {
-                id: "literatura-catalana",
-                assignaturaNom: "Literatura Catalana",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("lit-catalana", true, false, false)
-            },
-            {
-                id: "literatura-dramatica",
-                assignaturaNom: "Literatura Dramàtica",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("lit-dramatica", true, false, false)
-            },
-            {
-                id: "llati",
-                assignaturaNom: "Llengua i Cultura Llatines",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("llati", true, true, false)
-            },
-            {
-                id: "grec",
-                assignaturaNom: "Llengua i Cultura Gregues",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("grec", true, true, false)
-            },
-            {
-                id: "moviments-culturals-artistics",
-                assignaturaNom: "Moviments Culturals i Artístics",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("moviments-culturals", true, false, false)
-            },
-            {
-                id: "tecniques-expressio-graficoplastica",
-                assignaturaNom: "Tècniques d’Expressió Graficoplàstica",
-                fases: { pau: "Fase Específica", m25: "Arts i Humanitats", gs: null },
-                blocs: ["Arts i Humanitats"],
-                anys: generarAnys("expressio-graficoplastica", true, false, false)
+                id: "comentari-text",
+                assignaturaNom: "Comentari de Text",
+                icona: "fa-feather-pointed",
+                branca: "Fase Comuna",
+                descripcio: "Anàlisi crítica i estructural de textos contemporanis, síntesi argumentativa, cohesió discursiva i redacció formal.",
+                anys: [
+                    {
+                        any: 2026,
+                        pau: { examen: "pdf/comentari/pau/2026-examen.pdf", solucio: "pdf/comentari/pau/2026-solucio.pdf" },
+                        m25: { examen: "pdf/comentari/m25/2026-examen.pdf", solucio: "pdf/comentari/m25/2026-solucio.pdf" },
+                        gs: { examen: "pdf/comentari/gs/2026-examen.pdf", solucio: "pdf/comentari/gs/2026-solucio.pdf" }
+                    }
+                ]
             }
         ];
 
-        // INICIALITZACIÓ
+        // INICIALITZACIÓ I DRECERES DE TECLAT
         document.addEventListener('DOMContentLoaded', () => {
-            actualitzarEstilBotonsCapcalera();
-            interpretarRuta();
-            window.addEventListener('hashchange', interpretarRuta);
+            try {
+                interpretarRuta();
+                window.addEventListener('hashchange', interpretarRuta);
+
+                // Drecera Ctrl+K / Cmd+K per enfocar el cercador
+                document.addEventListener('keydown', (e) => {
+                    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+                        e.preventDefault();
+                        if (!document.getElementById('vista-cataleg').classList.contains('hidden')) {
+                            document.getElementById('search').focus();
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error("Error d'inicialització:", error);
+            }
         });
 
-        // RETORNA ELS ESTILS CSS D'UN BADGE SEGONS LA VIA D'ACCÉS
-        function getEstilRutaBadge(ruta) {
-            switch(ruta) {
-                case "pau":
-                    return "bg-blue-50 text-blue-800 border-blue-200/80";
-                case "m25":
-                    return "bg-purple-50 text-purple-800 border-purple-200/80";
-                case "gs":
-                    return "bg-emerald-50 text-emerald-800 border-emerald-200/80";
-                default:
-                    return "bg-slate-100 text-slate-800 border-slate-200";
-            }
-        }
-
-        // ACTIVA / DESACTIVA UNA RUTA DE LA CAPÇALERA
-        function toggleRuta(clauRuta) {
-            rutesActives[clauRuta] = !rutesActives[clauRuta];
-            actualitzarEstilBotonsCapcalera();
-            actualitzarVistaColumnes();
-            filtrarMateries();
-        }
-
-        // CANVIA ELS COLORS DELS BOTONS SEGONS ELS ESTATS (Actiu / Inactiu)
-        function actualitzarEstilBotonsCapcalera() {
-            const btnPau = document.getElementById('btn-filtre-pau');
-            const btnM25 = document.getElementById('btn-filtre-m25');
-            const btnGs = document.getElementById('btn-filtre-gs');
-
-            if (rutesActives.pau) {
-                btnPau.className = "inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer shadow-sm border bg-blue-600 hover:bg-blue-700 text-white border-blue-400";
-            } else {
-                btnPau.className = "inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer border bg-slate-800/80 text-slate-400 border-slate-700 hover:bg-slate-700 opacity-60 line-through";
-            }
-
-            if (rutesActives.m25) {
-                btnM25.className = "inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer shadow-sm border bg-purple-600 hover:bg-purple-700 text-white border-purple-400";
-            } else {
-                btnM25.className = "inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer border bg-slate-800/80 text-slate-400 border-slate-700 hover:bg-slate-700 opacity-60 line-through";
-            }
-
-            if (rutesActives.gs) {
-                btnGs.className = "inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer shadow-sm border bg-emerald-600 hover:bg-emerald-700 text-white border-emerald-400";
-            } else {
-                btnGs.className = "inline-flex items-center px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 cursor-pointer border bg-slate-800/80 text-slate-400 border-slate-700 hover:bg-slate-700 opacity-60 line-through";
-            }
-        }
-
-        // CONTROL DE NAVEGACIÓ D'URLS (#/materia/id)
         function interpretarRuta() {
             const ruta = window.location.hash;
             if (ruta.startsWith('#/materia/')) {
@@ -656,11 +494,29 @@
             window.location.hash = '';
         }
 
-        // VISTA 1: CATÀLEG DE MATÈRIES
+        // --- VISTA 1: CATÀLEG PRINCIPAL ---
         function mostrarCatalegHome() {
             document.getElementById('vista-materia').classList.add('hidden');
-            document.getElementById('vista-cataleg').classList.remove('hidden');
-            document.title = "Exàmens Oficials i Solucions - Proves d'Accés";
+            const vistaCataleg = document.getElementById('vista-cataleg');
+            vistaCataleg.classList.remove('hidden');
+            document.title = "ARXIU.EXÀMENS // Proves d'Accés Oficials";
+            filtrarMateries();
+        }
+
+        function seleccionarBrancaRapida(branca) {
+            const select = document.getElementById('filtre-branca');
+            select.value = branca;
+            
+            // Actualitzem estat visual de les píndoles
+            document.querySelectorAll('.pill-filter').forEach(btn => {
+                const esActiu = (branca === '' && btn.textContent.trim() === 'Totes') || btn.textContent.trim() === branca;
+                if (esActiu) {
+                    btn.className = "pill-filter active px-3 py-1 rounded-lg text-xs font-medium bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all cursor-pointer";
+                } else {
+                    btn.className = "pill-filter px-3 py-1 rounded-lg text-xs font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer";
+                }
+            });
+
             filtrarMateries();
         }
 
@@ -674,47 +530,85 @@
             if (llistat.length === 0) {
                 graella.classList.add('hidden');
                 senseResultats.classList.remove('hidden');
-                if (comptador) comptador.innerHTML = "S'han trobat <strong>0</strong> matèries";
+                if (comptador) comptador.innerHTML = `RESULTATS // <span class="text-rose-400">0 MÒDULS TROBATS</span>`;
                 return;
             }
 
             graella.classList.remove('hidden');
             senseResultats.classList.add('hidden');
-            if (comptador) comptador.innerHTML = `Mostrant <strong>${llistat.length}</strong> assignatures`;
+            if (comptador) {
+                comptador.innerHTML = `SISTEMA // <span class="text-cyan-400 font-semibold">${llistat.length}</span> ${llistat.length === 1 ? 'ASSIGNATURA ACTIVA' : 'ASSIGNATURES ACTIVES'}`;
+            }
 
-            llistat.forEach(materia => {
+            llistat.forEach((materia, index) => {
+                let estilsBranca = {
+                    badge: "bg-slate-800 text-slate-300 border-slate-700",
+                    iconBg: "text-cyan-400 bg-cyan-500/10 border-cyan-500/20"
+                };
+
+                if (materia.branca === "Fase Comuna") {
+                    estilsBranca = {
+                        badge: "bg-purple-500/10 text-purple-300 border-purple-500/30",
+                        iconBg: "text-purple-400 bg-purple-500/10 border-purple-500/20"
+                    };
+                } else if (materia.branca === "Científica-Tecnològica") {
+                    estilsBranca = {
+                        badge: "bg-cyan-500/10 text-cyan-300 border-cyan-500/30",
+                        iconBg: "text-cyan-400 bg-cyan-500/10 border-cyan-500/20"
+                    };
+                } else if (materia.branca === "Ciències de la Salut") {
+                    estilsBranca = {
+                        badge: "bg-emerald-500/10 text-emerald-300 border-emerald-500/30",
+                        iconBg: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20"
+                    };
+                } else if (materia.branca === "Socials i Jurídiques") {
+                    estilsBranca = {
+                        badge: "bg-amber-500/10 text-amber-300 border-amber-500/30",
+                        iconBg: "text-amber-400 bg-amber-500/10 border-amber-500/20"
+                    };
+                }
+
+                // Calculem el rang d'anys disponibles
+                const anysOrdenats = materia.anys.map(a => a.any).sort((a, b) => a - b);
+                const rangAnys = anysOrdenats.length > 1 
+                    ? `${anysOrdenats[0]}–${anysOrdenats[anysOrdenats.length - 1]}` 
+                    : `${anysOrdenats[0]}`;
+
                 const targeta = document.createElement('div');
-                targeta.className = "bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md cursor-pointer transition-all duration-200 hover:-translate-y-1 group";
+                targeta.className = "group glass-card rounded-2xl overflow-hidden flex flex-col justify-between cursor-pointer relative";
+                targeta.style.animationDelay = `${index * 60}ms`;
                 targeta.onclick = () => navegarAMateria(materia.id);
 
-                let fasesResumHTML = '<div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5">';
-                
-                if (rutesActives.pau && materia.fases.pau) {
-                    fasesResumHTML += `<span class="inline-block px-2 py-0.5 rounded-md text-[10px] font-bold border ${getEstilRutaBadge('pau')}">
-                        PAU: ${materia.fases.pau}
-                    </span>`;
-                }
-                if (rutesActives.m25 && materia.fases.m25) {
-                    fasesResumHTML += `<span class="inline-block px-2 py-0.5 rounded-md text-[10px] font-bold border ${getEstilRutaBadge('m25')}">
-                        M25: ${materia.fases.m25}
-                    </span>`;
-                }
-                if (rutesActives.gs && materia.fases.gs) {
-                    fasesResumHTML += `<span class="inline-block px-2 py-0.5 rounded-md text-[10px] font-bold border ${getEstilRutaBadge('gs')}">
-                        GS: ${materia.fases.gs}
-                    </span>`;
-                }
-                fasesResumHTML += '</div>';
-
                 targeta.innerHTML = `
-                    <div class="p-6 text-left flex-grow flex flex-col justify-between">
-                        <div>
-                            <h4 class="text-xl font-extrabold text-slate-900 m-0 group-hover:text-indigo-600 transition-colors">${materia.assignaturaNom}</h4>
+                    <div class="p-6 text-left flex-grow">
+                        <div class="flex items-start justify-between gap-3 mb-4">
+                            <span class="inline-block px-2.5 py-1 rounded-md text-[11px] font-mono font-medium border ${estilsBranca.badge}">
+                                ${materia.branca}
+                            </span>
+                            <div class="w-9 h-9 rounded-xl border flex items-center justify-center ${estilsBranca.iconBg} group-hover:scale-110 transition-transform">
+                                <i class="fa-solid ${materia.icona || 'fa-book'} text-sm"></i>
+                            </div>
                         </div>
-                        ${fasesResumHTML}
+                        
+                        <h3 class="text-xl font-bold text-white group-hover:text-cyan-300 transition-colors m-0 tracking-tight">
+                            ${materia.assignaturaNom}
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-400 mt-2.5 mb-0 leading-relaxed">
+                            ${materia.descripcio}
+                        </p>
                     </div>
-                    <div class="px-6 py-3.5 bg-slate-50/80 border-t border-slate-100 flex items-center justify-end text-xs font-bold text-indigo-600">
-                        <i class="fa-solid fa-chevron-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                    
+                    <div class="px-6 py-4 bg-slate-950/60 border-t border-white/5 flex items-center justify-between">
+                        <div class="flex items-center gap-2">
+                            <span class="font-mono text-xs text-slate-400 bg-white/5 px-2 py-0.5 rounded border border-white/5">
+                                ${rangAnys}
+                            </span>
+                            <span class="text-xs text-slate-500">(${materia.anys.length} conv.)</span>
+                        </div>
+                        <span class="inline-flex items-center gap-1.5 text-xs font-mono font-semibold text-cyan-400 group-hover:text-cyan-300">
+                            ACCEDIR
+                            <i class="fa-solid fa-arrow-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                        </span>
                     </div>
                 `;
                 graella.appendChild(targeta);
@@ -722,26 +616,15 @@
         }
 
         function filtrarMateries() {
-            const elSearch = document.getElementById('search');
-            const cerca = elSearch ? elSearch.value.toLowerCase() : '';
-            const elBranca = document.getElementById('filtre-branca');
-            const filtreBranca = elBranca ? elBranca.value : '';
+            const cerca = document.getElementById('search').value.toLowerCase().trim();
+            const filtreBranca = document.getElementById('filtre-branca').value;
 
             const resultatsFiltrats = dadesMateries.filter(materia => {
-                const teViaActiva = (rutesActives.pau && materia.fases.pau) ||
-                                    (rutesActives.m25 && materia.fases.m25) ||
-                                    (rutesActives.gs && materia.fases.gs);
+                const coincideixCerca = 
+                    materia.assignaturaNom.toLowerCase().includes(cerca) || 
+                    materia.descripcio.toLowerCase().includes(cerca);
 
-                if (!teViaActiva) return false;
-
-                const coincideixCerca = !cerca || 
-                    materia.assignaturaNom.toLowerCase().includes(cerca);
-
-                const coincideixBranca = filtreBranca === "" || 
-                    (materia.blocs && materia.blocs.includes(filtreBranca)) ||
-                    (rutesActives.pau && materia.fases.pau === filtreBranca) ||
-                    (rutesActives.m25 && materia.fases.m25 === filtreBranca) ||
-                    (rutesActives.gs && materia.fases.gs === filtreBranca);
+                const coincideixBranca = filtreBranca === "" || materia.branca === filtreBranca;
 
                 return coincideixCerca && coincideixBranca;
             });
@@ -749,40 +632,12 @@
             renderitzarCataleg(resultatsFiltrats);
         }
 
-        function resetTot() {
-            const elSearch = document.getElementById('search');
-            if (elSearch) elSearch.value = '';
-            const elBranca = document.getElementById('filtre-branca');
-            if (elBranca) elBranca.value = '';
-            rutesActives = { pau: true, m25: true, gs: true };
-            actualitzarEstilBotonsCapcalera();
-            actualitzarVistaColumnes();
-            filtrarMateries();
+        function netejarFiltres() {
+            document.getElementById('search').value = '';
+            seleccionarBrancaRapida('');
         }
 
-        function toggleAcordio(clauRuta) {
-            acordionsOberts[clauRuta] = !acordionsOberts[clauRuta];
-            actualitzarEstatAcordions();
-        }
-
-        function actualitzarEstatAcordions() {
-            ['pau', 'm25', 'gs'].forEach(ruta => {
-                const cos = document.getElementById(`cos-${ruta}`);
-                const icona = document.getElementById(`icona-desplegar-${ruta}`);
-                
-                if (cos && icona) {
-                    if (acordionsOberts[ruta]) {
-                        cos.style.display = 'block';
-                        icona.classList.add('rotate-180');
-                    } else {
-                        cos.style.display = 'none';
-                        icona.classList.remove('rotate-180');
-                    }
-                }
-            });
-        }
-
-        // VISTA 2: PÀGINA DE MATÈRIA INDIVIDUAL
+        // --- VISTA 2: DETALL DE MATÈRIA INDIVIDUAL ---
         function mostrarDetallMateria(id) {
             const materia = dadesMateries.find(m => m.id === id);
             if (!materia) {
@@ -791,180 +646,77 @@
             }
 
             document.getElementById('vista-cataleg').classList.add('hidden');
-            document.getElementById('vista-materia').classList.remove('hidden');
+            const vistaMateria = document.getElementById('vista-materia');
+            vistaMateria.classList.remove('hidden');
 
             document.getElementById('detall-titol').textContent = materia.assignaturaNom;
-            document.title = `${materia.assignaturaNom} - Exàmens Oficials`;
+            document.getElementById('detall-branca').textContent = materia.branca;
+            document.getElementById('detall-descripcio').textContent = materia.descripcio;
+            document.getElementById('detall-codi').textContent = `MOD // ${materia.id.toUpperCase()}`;
+            document.title = `${materia.assignaturaNom} // ARXIU.EXÀMENS`;
 
-            const badgePau = document.getElementById('badge-fase-pau');
-            const badgeM25 = document.getElementById('badge-fase-m25');
-            const badgeGs = document.getElementById('badge-fase-gs');
+            construirColumnaRuta('llista-pau', materia.anys, 'pau', 'cyan');
+            construirColumnaRuta('llista-m25', materia.anys, 'm25', 'indigo');
+            construirColumnaRuta('llista-gs', materia.anys, 'gs', 'emerald');
 
-            badgePau.textContent = materia.fases.pau || "No convocat";
-            badgePau.className = `inline-block px-2.5 py-1 rounded-lg text-xs font-bold border ${materia.fases.pau ? getEstilRutaBadge('pau') : 'bg-slate-100 text-slate-400 border-slate-200'}`;
-
-            badgeM25.textContent = materia.fases.m25 || "No convocat";
-            badgeM25.className = `inline-block px-2.5 py-1 rounded-lg text-xs font-bold border ${materia.fases.m25 ? getEstilRutaBadge('m25') : 'bg-slate-100 text-slate-400 border-slate-200'}`;
-
-            badgeGs.textContent = materia.fases.gs || "No convocat";
-            badgeGs.className = `inline-block px-2.5 py-1 rounded-lg text-xs font-bold border ${materia.fases.gs ? getEstilRutaBadge('gs') : 'bg-slate-100 text-slate-400 border-slate-200'}`;
-
-            construirColumnaRuta('llista-pau', materia.anys, 'pau');
-            construirColumnaRuta('llista-m25', materia.anys, 'm25');
-            construirColumnaRuta('llista-gs', materia.anys, 'gs');
-
-            // Per defecte tots els desplegables queden tancats
-            acordionsOberts = {
-                pau: false,
-                m25: false,
-                gs: false
-            };
-
-            actualitzarVistaColumnes();
-            actualitzarEstatAcordions();
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // MOSTRA O AMAGA ELS DESPLEGABLES SEGONS ELS FILTRES DE LA CAPÇALERA
-        function actualitzarVistaColumnes() {
-            const colPau = document.getElementById('columna-pau');
-            const colM25 = document.getElementById('columna-m25');
-            const colGs = document.getElementById('columna-gs');
-            const contenidor = document.getElementById('contenidor-columnes');
-            const avisSenseVies = document.getElementById('avis-sense-vies');
-
-            if (!colPau || !colM25 || !colGs) return;
-
-            colPau.style.display = rutesActives.pau ? 'block' : 'none';
-            colM25.style.display = rutesActives.m25 ? 'block' : 'none';
-            colGs.style.display = rutesActives.gs ? 'block' : 'none';
-
-            const quantesVisibles = Object.values(rutesActives).filter(Boolean).length;
-
-            if (quantesVisibles === 0) {
-                contenidor.classList.add('hidden');
-                avisSenseVies.classList.remove('hidden');
-            } else {
-                contenidor.classList.remove('hidden');
-                avisSenseVies.classList.add('hidden');
-            }
-        }
-
-        function construirColumnaRuta(elementId, anysArray, clauRuta) {
+        function construirColumnaRuta(elementId, anysArray, clauRuta, colorTema) {
             const llista = document.getElementById(elementId);
             llista.innerHTML = '';
 
+            // Estils dinàmics segons el color de la columna
+            const estilsBotoExamen = {
+                cyan: "bg-cyan-500/15 text-cyan-300 border-cyan-500/40 hover:bg-cyan-500 hover:text-slate-950",
+                indigo: "bg-indigo-500/15 text-indigo-300 border-indigo-500/40 hover:bg-indigo-500 hover:text-white",
+                emerald: "bg-emerald-500/15 text-emerald-300 border-emerald-500/40 hover:bg-emerald-500 hover:text-slate-950"
+            };
+
             anysArray.forEach(anyDada => {
                 const dadesRuta = anyDada[clauRuta];
+                const fila = document.createElement('div');
+                fila.className = "flex items-center justify-between p-3 rounded-xl bg-slate-900/60 border border-white/5 hover:border-white/15 hover:bg-slate-900 transition-all";
 
-                if (clauRuta === 'pau') {
-                    const blocAny = document.createElement('div');
-                    blocAny.className = "p-3 rounded-xl border border-slate-100 hover:bg-slate-50/50 transition-colors space-y-2 bg-white";
+                let accionsHTML = '';
 
-                    if (dadesRuta) {
-                        // Juny
-                        const botoExamenJuny = dadesRuta.juny && dadesRuta.juny.examen 
-                            ? `<a href="${dadesRuta.juny.examen}" class="inline-flex items-center px-2 py-1 border border-indigo-600 text-[11px] font-bold rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 no-underline transition-colors shadow-sm" target="_blank">
-                                   <i class="fa-solid fa-file-pdf mr-1"></i> Examen
-                               </a>`
-                            : `<span class="text-[11px] text-slate-400">Pendent</span>`;
+                if (dadesRuta) {
+                    const botoExamen = dadesRuta.examen 
+                        ? `<a href="${dadesRuta.examen}" class="inline-flex items-center px-2.5 py-1.5 border text-xs font-mono font-semibold rounded-lg no-underline transition-all ${estilsBotoExamen[colorTema]}" target="_blank" rel="noopener noreferrer" title="Descarregar enunciat PDF">
+                               <i class="fa-regular fa-file-pdf mr-1.5"></i>Examen
+                           </a>`
+                        : `<span class="inline-flex items-center px-2.5 py-1.5 border border-white/5 text-xs font-mono rounded-lg text-slate-600 bg-slate-950/50 cursor-not-allowed">
+                               Pendent
+                           </span>`;
 
-                        const botoSolucioJuny = dadesRuta.juny && dadesRuta.juny.solucio
-                            ? `<a href="${dadesRuta.juny.solucio}" class="inline-flex items-center px-2 py-1 border border-emerald-500 text-[11px] font-bold rounded-lg text-emerald-700 bg-emerald-50 hover:bg-emerald-100 no-underline transition-colors" target="_blank">
-                                   <i class="fa-solid fa-check mr-1 text-emerald-600"></i> Solució
-                               </a>`
-                            : `<span class="inline-flex items-center px-2 py-1 border border-slate-200 text-[11px] font-medium rounded-lg text-slate-400 bg-slate-50 cursor-not-allowed">Pendent</span>`;
+                    const botoSolucio = dadesRuta.solucio
+                        ? `<a href="${dadesRuta.solucio}" class="inline-flex items-center px-2.5 py-1.5 border border-white/15 text-xs font-mono font-medium rounded-lg text-slate-200 bg-white/5 hover:bg-white/15 hover:border-white/30 no-underline transition-all" target="_blank" rel="noopener noreferrer" title="Veure criteris de correcció">
+                               <i class="fa-solid fa-check text-emerald-400 mr-1.5"></i>Solució
+                           </a>`
+                        : `<span class="inline-flex items-center px-2.5 py-1.5 border border-white/5 text-xs font-mono rounded-lg text-slate-600 bg-slate-950/50 cursor-not-allowed">
+                               Pendent
+                           </span>`;
 
-                        // Setembre
-                        const botoExamenSet = dadesRuta.setembre && dadesRuta.setembre.examen 
-                            ? `<a href="${dadesRuta.setembre.examen}" class="inline-flex items-center px-2 py-1 border border-indigo-600 text-[11px] font-bold rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 no-underline transition-colors shadow-sm" target="_blank">
-                                   <i class="fa-solid fa-file-pdf mr-1"></i> Examen
-                               </a>`
-                            : `<span class="text-[11px] text-slate-400">Pendent</span>`;
-
-                        const botoSolucioSet = dadesRuta.setembre && dadesRuta.setembre.solucio
-                            ? `<a href="${dadesRuta.setembre.solucio}" class="inline-flex items-center px-2 py-1 border border-emerald-500 text-[11px] font-bold rounded-lg text-emerald-700 bg-emerald-50 hover:bg-emerald-100 no-underline transition-colors" target="_blank">
-                                   <i class="fa-solid fa-check mr-1 text-emerald-600"></i> Solució
-                               </a>`
-                            : `<span class="inline-flex items-center px-2 py-1 border border-slate-200 text-[11px] font-medium rounded-lg text-slate-400 bg-slate-50 cursor-not-allowed">Pendent</span>`;
-
-                        blocAny.innerHTML = `
-                            <div class="flex items-center justify-between pb-1.5 border-b border-slate-200/60">
-                                <span class="font-extrabold text-slate-800 text-xs bg-slate-100 px-2.5 py-0.5 rounded-md">
-                                    Convocatòria ${anyDada.any}
-                                </span>
-                            </div>
-                            <div class="flex items-center justify-between text-xs pt-1">
-                                <span class="font-semibold text-slate-600 flex items-center gap-1">
-                                    <i class="fa-regular fa-calendar-check text-blue-500 text-[11px]"></i> Juny:
-                                </span>
-                                <div class="flex items-center space-x-1.5">
-                                    ${botoExamenJuny}
-                                    ${botoSolucioJuny}
-                                </div>
-                            </div>
-                            <div class="flex items-center justify-between text-xs pt-1 border-t border-slate-100">
-                                <span class="font-semibold text-slate-600 flex items-center gap-1">
-                                    <i class="fa-regular fa-calendar-minus text-amber-500 text-[11px]"></i> Setembre:
-                                </span>
-                                <div class="flex items-center space-x-1.5">
-                                    ${botoExamenSet}
-                                    ${botoSolucioSet}
-                                </div>
-                            </div>
-                        `;
-                    } else {
-                        blocAny.innerHTML = `
-                            <div class="flex items-center justify-between">
-                                <span class="font-extrabold text-slate-800 text-xs bg-slate-100 px-2.5 py-1 rounded-md">
-                                    Convocatòria ${anyDada.any}
-                                </span>
-                                <span class="text-xs text-slate-400 italic">No convocat</span>
-                            </div>
-                        `;
-                    }
-
-                    llista.appendChild(blocAny);
-                } else {
-                    // M25 i GS (Convocatòria única)
-                    const fila = document.createElement('div');
-                    fila.className = "flex items-center justify-between p-3 rounded-xl border border-slate-100 hover:bg-slate-50 transition-colors bg-white";
-
-                    let accionsHTML = '';
-
-                    if (dadesRuta) {
-                        const botoExamen = dadesRuta.examen 
-                            ? `<a href="${dadesRuta.examen}" class="inline-flex items-center px-2.5 py-1.5 border border-indigo-600 text-[11px] font-bold rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 no-underline transition-colors shadow-sm" target="_blank">
-                                   <i class="fa-solid fa-file-pdf mr-1"></i> Examen
-                               </a>`
-                            : `<span class="text-xs text-slate-400">Pendent</span>`;
-
-                        const botoSolucio = dadesRuta.solucio
-                            ? `<a href="${dadesRuta.solucio}" class="inline-flex items-center px-2.5 py-1.5 border border-emerald-500 text-[11px] font-bold rounded-lg text-emerald-700 bg-emerald-50 hover:bg-emerald-100 no-underline transition-colors" target="_blank">
-                                   <i class="fa-solid fa-check mr-1 text-emerald-600"></i> Solució
-                               </a>`
-                            : `<span class="inline-flex items-center px-2 py-1 border border-slate-200 text-[11px] font-medium rounded-lg text-slate-400 bg-slate-50 cursor-not-allowed">
-                                   Pendent
-                               </span>`;
-
-                        accionsHTML = `
-                            <div class="flex items-center space-x-2">
-                                ${botoExamen}
-                                ${botoSolucio}
-                            </div>
-                        `;
-                    } else {
-                        accionsHTML = `<span class="text-xs text-slate-400 italic">No convocat</span>`;
-                    }
-
-                    fila.innerHTML = `
-                        <span class="font-extrabold text-slate-800 text-xs bg-slate-100 px-2.5 py-1 rounded-md">
-                            Convocatòria ${anyDada.any}
-                        </span>
-                        ${accionsHTML}
+                    accionsHTML = `
+                        <div class="flex items-center gap-2">
+                            ${botoExamen}
+                            ${botoSolucio}
+                        </div>
                     `;
-                    llista.appendChild(fila);
+                } else {
+                    accionsHTML = `<span class="text-xs font-mono text-slate-600 italic">Sense dades</span>`;
                 }
+
+                fila.innerHTML = `
+                    <div class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-${colorTema}-400/70"></span>
+                        <span class="font-mono font-bold text-white text-sm tracking-wide">
+                            ${anyDada.any}
+                        </span>
+                    </div>
+                    ${accionsHTML}
+                `;
+                llista.appendChild(fila);
             });
         }
     </script>
