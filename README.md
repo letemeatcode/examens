@@ -1,44 +1,138 @@
-# examens
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="ca" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exàmens Oficials i Solucions - Proves d'Accés</title>
-    <!-- Tailwind CSS per a un disseny professional i responsive -->
+    <title>NEXUS // Portal d'Exàmens Oficials</title>
+    
+    <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome per a les icones del portal -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        void: '#050811',
+                        surface: '#0B101E',
+                        card: 'rgba(15, 23, 42, 0.65)',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- FontAwesome per a les icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Tipografies modernes: Plus Jakarta Sans + JetBrains Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
+        /* Fons futurista amb malla arquitectònica subtil */
         body {
-            font-family: 'Inter', sans-serif;
+            background-color: #050811;
+            background-image: 
+                radial-gradient(circle at 15% 0%, rgba(6, 182, 212, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 85% 10%, rgba(99, 102, 241, 0.12) 0%, transparent 40%),
+                linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+            background-attachment: fixed;
+        }
+
+        /* Glassmorphism i il·luminació de vores */
+        .glass-panel {
+            background: rgba(13, 19, 35, 0.72);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        }
+
+        .glass-card {
+            background: linear-gradient(145deg, rgba(17, 25, 46, 0.8) 0%, rgba(9, 14, 28, 0.9) 100%);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(34, 211, 238, 0.45);
+            box-shadow: 0 12px 40px -10px rgba(6, 182, 212, 0.25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+            transform: translateY(-4px);
+        }
+
+        /* Animació suau d'entrada */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-up {
+            animation: fadeUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        /* Scrollbar personalitzada */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #050811;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #334155;
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
+<body class="text-slate-200 flex flex-col min-h-screen selection:bg-cyan-500/30 selection:text-cyan-200">
 
-    <!-- Capçalera Global -->
-    <header class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white shadow-md">
-        <div class="max-w-7xl mx-auto px-4 py-8 sm:py-10 sm:px-6 lg:px-8">
-            <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
-                <div class="text-center sm:text-left cursor-pointer" onclick="navegarAHome()">
-                    <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white m-0">
-                        Portal d'Exàmens Oficials
-                    </h1>
-                    <p class="mt-1 text-blue-100 max-w-2xl text-sm sm:text-base m-0">
-                        Recull dels últims 10 anys de proves d'accés per a totes les matèries i vies.
-                    </p>
+    <!-- Barra de Navegació / Capçalera Futurista -->
+    <header class="sticky top-0 z-40 border-b border-white/10 bg-[#050811]/80 backdrop-blur-xl">
+        <div class="max-w-7xl mx-auto px-4 py-5 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                
+                <!-- Identitat / Logo -->
+                <div class="flex items-center gap-3.5 cursor-pointer group" onclick="navegarAHome()">
+                    <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-cyan-500 to-indigo-600 p-[1px] shadow-lg shadow-cyan-500/20 group-hover:shadow-cyan-400/40 transition-all">
+                        <div class="w-full h-full bg-[#080d1a] rounded-[11px] flex items-center justify-center">
+                            <i class="fa-solid fa-atom text-cyan-400 text-lg group-hover:rotate-90 transition-transform duration-500"></i>
+                        </div>
+                    </div>
+                    <div class="text-left">
+                        <div class="flex items-center gap-2">
+                            <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight text-white m-0">
+                                ARXIU<span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400">.EXÀMENS</span>
+                            </h1>
+                            <span class="hidden sm:inline-block font-mono text-[10px] uppercase tracking-widest px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                                v2.6
+                            </span>
+                        </div>
+                        <p class="text-slate-400 text-xs sm:text-sm m-0">
+                            Repositori oficial d'històrics de proves d'accés (2017–2026)
+                        </p>
+                    </div>
                 </div>
-                <div class="flex flex-wrap gap-2 justify-center">
-                    <span class="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-600 text-white border border-blue-400">
+
+                <!-- Indicadors de Vies Actives -->
+                <div class="flex flex-wrap items-center gap-2 justify-center">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-cyan-950/60 text-cyan-300 border border-cyan-500/30">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
                         PAU / Selectivitat
                     </span>
-                    <span class="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold bg-indigo-600 text-white border border-indigo-400">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-indigo-950/60 text-indigo-300 border border-indigo-500/30">
+                        <span class="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
                         Majors de 25
                     </span>
-                    <span class="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold bg-emerald-600 text-white border border-emerald-400">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-950/60 text-emerald-300 border border-emerald-500/30">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
                         Grau Superior
                     </span>
                 </div>
@@ -50,27 +144,41 @@
     <main class="flex-grow max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8 w-full">
         
         <!-- VISTA 1: CATÀLEG DE MATÈRIES (HOME) -->
-        <div id="vista-cataleg" class="transition-all duration-300">
-            <!-- Cercador i Filtres -->
-            <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
-                <h3 class="text-lg font-semibold text-gray-900 mb-4 flex items-center m-0">
-                    <i class="fa-solid fa-graduation-cap text-blue-600 mr-2"></i> Selecciona una assignatura per estudiar:
-                </h3>
+        <div id="vista-cataleg" class="animate-fade-up">
+            
+            <!-- Panell de Comandament: Cercador i Filtres -->
+            <div class="glass-panel rounded-2xl p-6 mb-8 relative overflow-hidden">
+                <!-- Línia lluminosa superior -->
+                <div class="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-cyan-500/50 to-transparent"></div>
                 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-5">
+                    <h2 class="text-base sm:text-lg font-bold text-white flex items-center gap-2.5 m-0">
+                        <i class="fa-solid fa-terminal text-cyan-400 text-sm"></i>
+                        <span>Explora el Catàleg d'Assignatures</span>
+                    </h2>
+                    <span class="text-xs font-mono text-slate-400 hidden sm:inline-flex items-center gap-1.5">
+                        Drecera ràpida: <kbd class="px-1.5 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded border border-slate-700">Ctrl</kbd> + <kbd class="px-1.5 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded border border-slate-700">K</kbd>
+                    </span>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
                     <!-- Camp de cerca -->
-                    <div class="md:col-span-2 relative">
-                        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                            <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
+                    <div class="lg:col-span-7 relative group">
+                        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                            <i class="fa-solid fa-magnifying-glass text-slate-400 group-focus-within:text-cyan-400 transition-colors"></i>
                         </div>
-                        <input type="text" id="search" placeholder="Cerca assignatura (ex: Anglès, Matemàtiques, Història...)" 
-                               class="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
+                        <input type="text" id="search" placeholder="Cerca per matèria o temari (ex: Anglès, Àlgebra, Comentari...)" 
+                               class="block w-full pl-11 pr-4 py-3 border border-white/10 rounded-xl text-sm bg-slate-900/80 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-400 transition-all"
                                onkeyup="filtrarMateries()">
                     </div>
+                    
                     <!-- Filtre per branca -->
-                    <div>
+                    <div class="lg:col-span-5 relative">
+                        <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+                            <i class="fa-solid fa-layer-group text-slate-400"></i>
+                        </div>
                         <select id="filtre-branca" onchange="filtrarMateries()"
-                                class="block w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all">
+                                class="block w-full pl-10 pr-8 py-3 border border-white/10 rounded-xl text-sm bg-slate-900/80 text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-400 transition-all appearance-none cursor-pointer">
                             <option value="">Totes les Branques / Fases</option>
                             <option value="Fase Comuna">Fase Comuna (Obligatòria)</option>
                             <option value="Científica-Tecnològica">Científica-Tecnològica</option>
@@ -78,96 +186,142 @@
                             <option value="Socials i Jurídiques">Socials i Jurídiques</option>
                             <option value="Arts i Humanitats">Arts i Humanitats</option>
                         </select>
+                        <div class="absolute inset-y-0 right-0 pr-3.5 flex items-center pointer-events-none">
+                            <i class="fa-solid fa-chevron-down text-xs text-slate-400"></i>
+                        </div>
                     </div>
+                </div>
+
+                <!-- Píndoles ràpides de filtre -->
+                <div class="flex flex-wrap items-center gap-2 mt-4 pt-4 border-t border-white/5" id="filtres-rapids">
+                    <span class="text-xs text-slate-500 mr-1 font-mono">Accés directe:</span>
+                    <button onclick="seleccionarBrancaRapida('')" class="pill-filter active px-3 py-1 rounded-lg text-xs font-medium bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all cursor-pointer">Totes</button>
+                    <button onclick="seleccionarBrancaRapida('Fase Comuna')" class="pill-filter px-3 py-1 rounded-lg text-xs font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer">Fase Comuna</button>
+                    <button onclick="seleccionarBrancaRapida('Científica-Tecnològica')" class="pill-filter px-3 py-1 rounded-lg text-xs font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer">Científica-Tecnològica</button>
                 </div>
             </div>
 
-            <!-- Llistat de Matèries en format Graella -->
-            <div id="graella-materies" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Es carrega amb JS -->
+            <!-- Barra d'estat i comptador -->
+            <div class="flex justify-between items-center mb-5 px-1">
+                <p id="comptador-resultats" class="text-xs sm:text-sm font-mono text-slate-400 m-0">
+                    Inicialitzant base de dades...
+                </p>
+                <div class="h-[1px] flex-grow bg-gradient-to-r from-white/10 to-transparent ml-4"></div>
             </div>
 
-            <!-- Avís sense resultats -->
-            <div id="sense-resultats" class="hidden text-center py-12 bg-white rounded-xl border border-dashed border-gray-300">
-                <i class="fa-regular fa-folder-open text-gray-300 text-5xl mb-4"></i>
-                <h4 class="text-md font-medium text-gray-900 m-0">No s'ha trobat cap matèria</h4>
-                <p class="text-sm text-gray-500 mt-1">Neteja els filtres per tornar a començar.</p>
-                <button onclick="netejarFiltres()" class="mt-4 px-4 py-2 text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 cursor-pointer border-0 transition-colors">
-                    Netejar Filtres
+            <!-- Graella de Matèries -->
+            <div id="graella-materies" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- S'injecta dinàmicament via JS -->
+            </div>
+
+            <!-- Estat Buit (Sense resultats) -->
+            <div id="sense-resultats" class="hidden glass-panel text-center py-16 px-4 rounded-2xl">
+                <div class="w-16 h-16 rounded-2xl bg-slate-800/80 border border-white/10 flex items-center justify-center mx-auto mb-4 text-slate-400">
+                    <i class="fa-solid fa-satellite-dish text-2xl"></i>
+                </div>
+                <h4 class="text-lg font-bold text-white m-0">Cap coincidència al sistema</h4>
+                <p class="text-sm text-slate-400 mt-1.5 max-w-md mx-auto">No s'han trobat assignatures amb els paràmetres de cerca actuals.</p>
+                <button onclick="netejarFiltres()" class="mt-6 px-5 py-2.5 text-xs font-mono uppercase tracking-wider font-semibold rounded-xl text-slate-950 bg-cyan-400 hover:bg-cyan-300 shadow-lg shadow-cyan-500/25 cursor-pointer border-0 transition-all">
+                    <i class="fa-solid fa-rotate-left mr-1.5"></i> Reiniciar Filtres
                 </button>
             </div>
         </div>
 
         <!-- VISTA 2: DETALL DE LA MATÈRIA (PÀGINA INDIVIDUAL) -->
-        <div id="vista-materia" class="hidden transition-all duration-300">
-            <!-- Botó de retorn -->
-            <button onclick="navegarAHome()" class="mb-6 inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800 bg-transparent border-0 cursor-pointer p-0 transition-colors">
-                <i class="fa-solid fa-arrow-left mr-2"></i> Tornar al llistat de matèries
-            </button>
+        <div id="vista-materia" class="hidden animate-fade-up">
+            
+            <!-- Navegació superior -->
+            <div class="mb-6 flex items-center justify-between">
+                <button onclick="navegarAHome()" class="group inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-mono uppercase tracking-wider font-semibold text-slate-300 bg-slate-900/90 hover:bg-slate-800 border border-white/10 hover:border-cyan-500/40 cursor-pointer transition-all">
+                    <i class="fa-solid fa-arrow-left text-cyan-400 group-hover:-translate-x-1 transition-transform"></i>
+                    <span>Tornar al Catàleg</span>
+                </button>
+                <span id="detall-codi" class="font-mono text-xs text-slate-500 uppercase tracking-widest">ID // ---</span>
+            </div>
 
-            <!-- Capçalera de l'assignatura -->
-            <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
-                <div class="text-left">
-                    <span id="detall-branca" class="inline-block px-2.5 py-0.5 rounded text-xs font-semibold mb-2 bg-blue-100 text-blue-800">
-                        -
-                    </span>
-                    <h2 id="detall-titol" class="text-2xl sm:text-3xl font-extrabold text-gray-900 m-0">-</h2>
-                    <p id="detall-descripcio" class="text-sm sm:text-base text-gray-600 mt-2 mb-0 max-w-3xl">-</p>
-                </div>
-                <div class="flex items-center gap-2 bg-gray-50 p-3 rounded-lg border border-gray-200">
-                    <i class="fa-solid fa-circle-info text-blue-600 text-lg"></i>
-                    <span class="text-xs text-gray-600 leading-tight">Trobaràs els exàmens i les solucions separades per vies de dret d'accés.</span>
+            <!-- Capçalera Hero de l'Assignatura -->
+            <div class="glass-panel rounded-2xl p-6 sm:p-8 mb-8 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+                <div class="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-cyan-500/50 via-indigo-500/50 to-transparent"></div>
+
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative z-10">
+                    <div class="text-left">
+                        <span id="detall-branca" class="inline-flex items-center px-3 py-1 rounded-md text-xs font-mono font-semibold mb-3 bg-cyan-500/10 text-cyan-300 border border-cyan-500/30">
+                            -
+                        </span>
+                        <h2 id="detall-titol" class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight m-0">-</h2>
+                        <p id="detall-descripcio" class="text-sm sm:text-base text-slate-400 mt-3 mb-0 max-w-3xl leading-relaxed">-</p>
+                    </div>
+                    
+                    <div class="flex items-start gap-3.5 bg-slate-950/70 p-4 rounded-xl border border-white/10 max-w-sm shrink-0">
+                        <div class="p-2 rounded-lg bg-cyan-500/10 text-cyan-400 mt-0.5">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="text-xs text-slate-400 leading-relaxed">
+                            <strong class="text-slate-200 block mb-0.5">Documentació Verificada</strong>
+                            Els PDF s'obren en una pestanya nova. Les solucions marcades com a <span class="text-slate-500 font-mono">PENDENT</span> s'afegiran properament.
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Taula / Graella de 3 columnes (PAU, M25, GS) dels darrers 10 anys -->
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Graella de 3 Columnes (PAU, M25, GS) -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 
                 <!-- Columna 1: PAU / Selectivitat -->
-                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
-                    <div class="flex items-center gap-2 pb-4 mb-4 border-b border-gray-100 text-left">
-                        <div class="p-2 rounded bg-blue-100 text-blue-700">
-                            <i class="fa-solid fa-graduation-cap"></i>
+                <div class="glass-panel rounded-2xl p-5 flex flex-col border-t-2 border-t-cyan-500">
+                    <div class="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
+                        <div class="flex items-center gap-3 text-left">
+                            <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 flex items-center justify-center">
+                                <i class="fa-solid fa-graduation-cap text-base"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-bold text-white m-0">PAU / Selectivitat</h3>
+                                <p class="text-xs text-slate-400 m-0">Accés general batxillerat</p>
+                            </div>
                         </div>
-                        <div>
-                            <h3 class="text-base font-bold text-gray-900 m-0">PAU / Selectivitat</h3>
-                            <p class="text-[11px] text-gray-500 m-0">Proves d'accés general batxillerat</p>
-                        </div>
+                        <span class="font-mono text-[10px] px-2 py-0.5 rounded bg-cyan-950 text-cyan-400 border border-cyan-500/20">PAU</span>
                     </div>
-                    <div id="llista-pau" class="space-y-3">
-                        <!-- Es genera per JS -->
-                    </div>
-                </div>
-
-                <!-- Columna 2: Proves Majors de 25 anys -->
-                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
-                    <div class="flex items-center gap-2 pb-4 mb-4 border-b border-gray-100 text-left">
-                        <div class="p-2 rounded bg-indigo-100 text-indigo-700">
-                            <i class="fa-solid fa-user-graduate"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-base font-bold text-gray-900 m-0">Majors de 25 anys</h3>
-                            <p class="text-[11px] text-gray-500 m-0">Prova d'accés per a majors de 25</p>
-                        </div>
-                    </div>
-                    <div id="llista-m25" class="space-y-3">
-                        <!-- Es genera per JS -->
+                    <div id="llista-pau" class="space-y-2.5 flex-grow">
+                        <!-- Generat per JS -->
                     </div>
                 </div>
 
-                <!-- Columna 3: Prova d'Accés a Grau Superior -->
-                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
-                    <div class="flex items-center gap-2 pb-4 mb-4 border-b border-gray-100 text-left">
-                        <div class="p-2 rounded bg-emerald-100 text-emerald-700">
-                            <i class="fa-solid fa-briefcase"></i>
+                <!-- Columna 2: Majors de 25 anys -->
+                <div class="glass-panel rounded-2xl p-5 flex flex-col border-t-2 border-t-indigo-500">
+                    <div class="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
+                        <div class="flex items-center gap-3 text-left">
+                            <div class="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 flex items-center justify-center">
+                                <i class="fa-solid fa-user-astronaut text-base"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-bold text-white m-0">Majors de 25 anys</h3>
+                                <p class="text-xs text-slate-400 m-0">Prova d'accés específica</p>
+                            </div>
                         </div>
-                        <div>
-                            <h3 class="text-base font-bold text-gray-900 m-0">Grau Superior</h3>
-                            <p class="text-[11px] text-gray-500 m-0">Proves per a Cicles Formatius GS</p>
-                        </div>
+                        <span class="font-mono text-[10px] px-2 py-0.5 rounded bg-indigo-950 text-indigo-400 border border-indigo-500/20">M25</span>
                     </div>
-                    <div id="llista-gs" class="space-y-3">
-                        <!-- Es genera per JS -->
+                    <div id="llista-m25" class="space-y-2.5 flex-grow">
+                        <!-- Generat per JS -->
+                    </div>
+                </div>
+
+                <!-- Columna 3: Grau Superior -->
+                <div class="glass-panel rounded-2xl p-5 flex flex-col border-t-2 border-t-emerald-500">
+                    <div class="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
+                        <div class="flex items-center gap-3 text-left">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center">
+                                <i class="fa-solid fa-microchip text-base"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-bold text-white m-0">Grau Superior</h3>
+                                <p class="text-xs text-slate-400 m-0">Cicles Formatius CFGS</p>
+                            </div>
+                        </div>
+                        <span class="font-mono text-[10px] px-2 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-500/20">CFGS</span>
+                    </div>
+                    <div id="llista-gs" class="space-y-2.5 flex-grow">
+                        <!-- Generat per JS -->
                     </div>
                 </div>
 
@@ -176,30 +330,31 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-950 text-gray-400 mt-12 py-8 border-t border-gray-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
-            <p>&copy; Portal de Preparació de Proves d'Accés. Publicat íntegrament a GitHub Pages.</p>
+    <!-- Footer Minimalista -->
+    <footer class="border-t border-white/10 bg-[#03050b] text-slate-500 mt-16 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
+            <p class="m-0">&copy; 2026 ARXIU.EXÀMENS // Repositori Educatiu Obert</p>
+            <p class="m-0 text-slate-600">Desplegat a GitHub Pages &bull; Arquitectura Estàtica</p>
         </div>
     </footer>
 
-    <!-- SCRIPT DE DADES I DIRECCIONAMENT -->
+    <!-- SCRIPT DE DADES, INTERACCIÓ I RUTES -->
     <script>
-        // BASE DE DADES D'EXÀMENS (Últims 10 anys: 2017 a 2026)
-        // Les rutes apunten a carpetes ordenades: pdf/{materia}/{via}/{any}-{examen/solucio}.pdf
+        // BASE DE DADES D'EXÀMENS (2017 - 2026)
+        // Estructura de fitxers a GitHub: pdf/{materia}/{via}/{any}-{examen/solucio}.pdf
         const dadesMateries = [
             {
                 id: "angles",
                 assignaturaNom: "Anglès",
+                icona: "fa-language",
                 branca: "Fase Comuna",
-                descripcio: "Preparació de l'examen d'idioma estranger obligatori per a la fase comuna de PAU, Majors de 25 i Grau Superior.",
-                // 10 Anys de dades (2017-2026)
+                descripcio: "Comprensió lectora, gramàtica avançada i expressió escrita en llengua anglesa per a les fases generals d'accés.",
                 anys: [
                     {
                         any: 2026,
                         pau: { examen: "pdf/angles/pau/2026-examen.pdf", solucio: "pdf/angles/pau/2026-solucio.pdf" },
                         m25: { examen: "pdf/angles/m25/2026-examen.pdf", solucio: "pdf/angles/m25/2026-solucio.pdf" },
-                        gs: { examen: "pdf/angles/gs/2026-examen.pdf", solucio: null } // null vol dir no disponible / pendent
+                        gs: { examen: "pdf/angles/gs/2026-examen.pdf", solucio: null }
                     },
                     {
                         any: 2025,
@@ -260,8 +415,9 @@
             {
                 id: "matematiques",
                 assignaturaNom: "Matemàtiques",
+                icona: "fa-square-root-variable",
                 branca: "Científica-Tecnològica",
-                descripcio: "Matemàtiques per a enginyeries i ciències. Àlgebra elemental, càlcul integral i diferencial, geometria plana i estadística.",
+                descripcio: "Àlgebra lineal, càlcul diferencial i integral, geometria analítica a l'espai, probabilitat i inferència estadística.",
                 anys: [
                     {
                         any: 2026,
@@ -281,14 +437,14 @@
                         m25: { examen: "pdf/matematiques/m25/2024-examen.pdf", solucio: null },
                         gs: { examen: "pdf/matematiques/gs/2024-examen.pdf", solucio: "pdf/matematiques/gs/2024-solucio.pdf" }
                     }
-                    // S'afegirien la resta d'anys històrics en aquest format...
                 ]
             },
             {
                 id: "comentari-text",
                 assignaturaNom: "Comentari de Text",
+                icona: "fa-feather-pointed",
                 branca: "Fase Comuna",
-                descripcio: "Exercicis d'anàlisi de textos, estructuració d'idees, expressió escrita, redacció d'articles i comentari crític.",
+                descripcio: "Anàlisi crítica i estructural de textos contemporanis, síntesi argumentativa, cohesió discursiva i redacció formal.",
                 anys: [
                     {
                         any: 2026,
@@ -300,13 +456,26 @@
             }
         ];
 
-        // INICIALITZACIÓ I SISTEMA D'ENLLAÇOS HASH (Rutes dinàmiques)
+        // INICIALITZACIÓ I DRECERES DE TECLAT
         document.addEventListener('DOMContentLoaded', () => {
-            interpretarRuta();
-            window.addEventListener('hashchange', interpretarRuta);
+            try {
+                interpretarRuta();
+                window.addEventListener('hashchange', interpretarRuta);
+
+                // Drecera Ctrl+K / Cmd+K per enfocar el cercador
+                document.addEventListener('keydown', (e) => {
+                    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+                        e.preventDefault();
+                        if (!document.getElementById('vista-cataleg').classList.contains('hidden')) {
+                            document.getElementById('search').focus();
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error("Error d'inicialització:", error);
+            }
         });
 
-        // Llegeix la URL per saber quina vista mostrar (Home o la matèria específica)
         function interpretarRuta() {
             const ruta = window.location.hash;
             if (ruta.startsWith('#/materia/')) {
@@ -317,7 +486,6 @@
             }
         }
 
-        // --- FUNCIONS DE NAVEGACIÓ ---
         function navegarAMateria(id) {
             window.location.hash = `#/materia/${id}`;
         }
@@ -329,9 +497,27 @@
         // --- VISTA 1: CATÀLEG PRINCIPAL ---
         function mostrarCatalegHome() {
             document.getElementById('vista-materia').classList.add('hidden');
-            document.getElementById('vista-cataleg').classList.remove('hidden');
-            document.title = "Exàmens Oficials i Solucions - Proves d'Accés";
-            filtrarMateries(); // Carrega la graella amb els filtres actius
+            const vistaCataleg = document.getElementById('vista-cataleg');
+            vistaCataleg.classList.remove('hidden');
+            document.title = "ARXIU.EXÀMENS // Proves d'Accés Oficials";
+            filtrarMateries();
+        }
+
+        function seleccionarBrancaRapida(branca) {
+            const select = document.getElementById('filtre-branca');
+            select.value = branca;
+            
+            // Actualitzem estat visual de les píndoles
+            document.querySelectorAll('.pill-filter').forEach(btn => {
+                const esActiu = (branca === '' && btn.textContent.trim() === 'Totes') || btn.textContent.trim() === branca;
+                if (esActiu) {
+                    btn.className = "pill-filter active px-3 py-1 rounded-lg text-xs font-medium bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all cursor-pointer";
+                } else {
+                    btn.className = "pill-filter px-3 py-1 rounded-lg text-xs font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer";
+                }
+            });
+
+            filtrarMateries();
         }
 
         function renderitzarCataleg(llistat) {
@@ -344,36 +530,85 @@
             if (llistat.length === 0) {
                 graella.classList.add('hidden');
                 senseResultats.classList.remove('hidden');
-                comptador.innerHTML = "S'han trobat <strong>0</strong> matèries";
+                if (comptador) comptador.innerHTML = `RESULTATS // <span class="text-rose-400">0 MÒDULS TROBATS</span>`;
                 return;
             }
 
             graella.classList.remove('hidden');
             senseResultats.classList.add('hidden');
-            comptador.innerHTML = `Mostrant <strong>${llistat.length}</strong> matèries`;
+            if (comptador) {
+                comptador.innerHTML = `SISTEMA // <span class="text-cyan-400 font-semibold">${llistat.length}</span> ${llistat.length === 1 ? 'ASSIGNATURA ACTIVA' : 'ASSIGNATURES ACTIVES'}`;
+            }
 
-            llistat.forEach(materia => {
-                let colorBadge = "bg-gray-100 text-gray-800";
-                if (materia.branca === "Fase Comuna") colorBadge = "bg-purple-100 text-purple-800";
-                else if (materia.branca === "Científica-Tecnològica") colorBadge = "bg-blue-100 text-blue-800";
-                else if (materia.branca === "Ciències de la Salut") colorBadge = "bg-emerald-100 text-emerald-800";
-                else if (materia.branca === "Socials i Jurídiques") colorBadge = "bg-orange-100 text-orange-800";
+            llistat.forEach((materia, index) => {
+                let estilsBranca = {
+                    badge: "bg-slate-800 text-slate-300 border-slate-700",
+                    iconBg: "text-cyan-400 bg-cyan-500/10 border-cyan-500/20"
+                };
+
+                if (materia.branca === "Fase Comuna") {
+                    estilsBranca = {
+                        badge: "bg-purple-500/10 text-purple-300 border-purple-500/30",
+                        iconBg: "text-purple-400 bg-purple-500/10 border-purple-500/20"
+                    };
+                } else if (materia.branca === "Científica-Tecnològica") {
+                    estilsBranca = {
+                        badge: "bg-cyan-500/10 text-cyan-300 border-cyan-500/30",
+                        iconBg: "text-cyan-400 bg-cyan-500/10 border-cyan-500/20"
+                    };
+                } else if (materia.branca === "Ciències de la Salut") {
+                    estilsBranca = {
+                        badge: "bg-emerald-500/10 text-emerald-300 border-emerald-500/30",
+                        iconBg: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20"
+                    };
+                } else if (materia.branca === "Socials i Jurídiques") {
+                    estilsBranca = {
+                        badge: "bg-amber-500/10 text-amber-300 border-amber-500/30",
+                        iconBg: "text-amber-400 bg-amber-500/10 border-amber-500/20"
+                    };
+                }
+
+                // Calculem el rang d'anys disponibles
+                const anysOrdenats = materia.anys.map(a => a.any).sort((a, b) => a - b);
+                const rangAnys = anysOrdenats.length > 1 
+                    ? `${anysOrdenats[0]}–${anysOrdenats[anysOrdenats.length - 1]}` 
+                    : `${anysOrdenats[0]}`;
 
                 const targeta = document.createElement('div');
-                targeta.className = "bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between hover:shadow-md cursor-pointer transition-all duration-200 hover:-translate-y-0.5";
+                targeta.className = "group glass-card rounded-2xl overflow-hidden flex flex-col justify-between cursor-pointer relative";
+                targeta.style.animationDelay = `${index * 60}ms`;
                 targeta.onclick = () => navegarAMateria(materia.id);
 
                 targeta.innerHTML = `
-                    <div class="p-5 text-left flex-grow">
-                        <span class="inline-block px-2.5 py-0.5 rounded text-[10px] font-semibold mb-2.5 ${colorBadge}">
-                            ${materia.branca}
-                        </span>
-                        <h4 class="text-xl font-bold text-gray-950 m-0">${materia.assignaturaNom}</h4>
-                        <p class="text-xs text-gray-500 mt-2 mb-0 leading-relaxed">${materia.descripcio}</p>
+                    <div class="p-6 text-left flex-grow">
+                        <div class="flex items-start justify-between gap-3 mb-4">
+                            <span class="inline-block px-2.5 py-1 rounded-md text-[11px] font-mono font-medium border ${estilsBranca.badge}">
+                                ${materia.branca}
+                            </span>
+                            <div class="w-9 h-9 rounded-xl border flex items-center justify-center ${estilsBranca.iconBg} group-hover:scale-110 transition-transform">
+                                <i class="fa-solid ${materia.icona || 'fa-book'} text-sm"></i>
+                            </div>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-white group-hover:text-cyan-300 transition-colors m-0 tracking-tight">
+                            ${materia.assignaturaNom}
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-400 mt-2.5 mb-0 leading-relaxed">
+                            ${materia.descripcio}
+                        </p>
                     </div>
-                    <div class="px-5 py-3.5 bg-gray-50 border-t border-gray-100 flex items-center justify-between text-xs font-semibold text-blue-600">
-                        <span>Veure els 10 anys de proves</span>
-                        <i class="fa-solid fa-chevron-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                    
+                    <div class="px-6 py-4 bg-slate-950/60 border-t border-white/5 flex items-center justify-between">
+                        <div class="flex items-center gap-2">
+                            <span class="font-mono text-xs text-slate-400 bg-white/5 px-2 py-0.5 rounded border border-white/5">
+                                ${rangAnys}
+                            </span>
+                            <span class="text-xs text-slate-500">(${materia.anys.length} conv.)</span>
+                        </div>
+                        <span class="inline-flex items-center gap-1.5 text-xs font-mono font-semibold text-cyan-400 group-hover:text-cyan-300">
+                            ACCEDIR
+                            <i class="fa-solid fa-arrow-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                        </span>
                     </div>
                 `;
                 graella.appendChild(targeta);
@@ -381,7 +616,7 @@
         }
 
         function filtrarMateries() {
-            const cerca = document.getElementById('search').value.toLowerCase();
+            const cerca = document.getElementById('search').value.toLowerCase().trim();
             const filtreBranca = document.getElementById('filtre-branca').value;
 
             const resultatsFiltrats = dadesMateries.filter(materia => {
@@ -399,82 +634,86 @@
 
         function netejarFiltres() {
             document.getElementById('search').value = '';
-            document.getElementById('filtre-branca').value = '';
-            filtrarMateries();
+            seleccionarBrancaRapida('');
         }
 
-
-        // --- VISTA 2: DISSENY DE PÀGINA DE MATÈRIA INDIVIDUAL ---
+        // --- VISTA 2: DETALL DE MATÈRIA INDIVIDUAL ---
         function mostrarDetallMateria(id) {
             const materia = dadesMateries.find(m => m.id === id);
             if (!materia) {
-                // Si no existeix la matèria, tornem a la home de seguretat
                 navegarAHome();
                 return;
             }
 
             document.getElementById('vista-cataleg').classList.add('hidden');
-            document.getElementById('vista-materia').classList.remove('hidden');
+            const vistaMateria = document.getElementById('vista-materia');
+            vistaMateria.classList.remove('hidden');
 
-            // Actualitzem capçalera de matèria
             document.getElementById('detall-titol').textContent = materia.assignaturaNom;
             document.getElementById('detall-branca').textContent = materia.branca;
             document.getElementById('detall-descripcio').textContent = materia.descripcio;
-            document.title = `${materia.assignaturaNom} - Recursos i Exàmens de Proves d'Accés`;
+            document.getElementById('detall-codi').textContent = `MOD // ${materia.id.toUpperCase()}`;
+            document.title = `${materia.assignaturaNom} // ARXIU.EXÀMENS`;
 
-            // Construïm els llistats dels 10 anys per a les 3 rutes
-            construirColumnaRuta('llista-pau', materia.anys, 'pau');
-            construirColumnaRuta('llista-m25', materia.anys, 'm25');
-            construirColumnaRuta('llista-gs', materia.anys, 'gs');
+            construirColumnaRuta('llista-pau', materia.anys, 'pau', 'cyan');
+            construirColumnaRuta('llista-m25', materia.anys, 'm25', 'indigo');
+            construirColumnaRuta('llista-gs', materia.anys, 'gs', 'emerald');
 
-            // Pugem dalt de tot de la pantalla
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // Dibuixa el llistat de fitxers de cada any per una ruta concreta
-        function construirColumnaRuta(elementId, anysArray, clauRuta) {
+        function construirColumnaRuta(elementId, anysArray, clauRuta, colorTema) {
             const llista = document.getElementById(elementId);
             llista.innerHTML = '';
 
-            // Generem els blocs de descàrrega ordenats per any
+            // Estils dinàmics segons el color de la columna
+            const estilsBotoExamen = {
+                cyan: "bg-cyan-500/15 text-cyan-300 border-cyan-500/40 hover:bg-cyan-500 hover:text-slate-950",
+                indigo: "bg-indigo-500/15 text-indigo-300 border-indigo-500/40 hover:bg-indigo-500 hover:text-white",
+                emerald: "bg-emerald-500/15 text-emerald-300 border-emerald-500/40 hover:bg-emerald-500 hover:text-slate-950"
+            };
+
             anysArray.forEach(anyDada => {
                 const dadesRuta = anyDada[clauRuta];
                 const fila = document.createElement('div');
-                fila.className = "flex items-center justify-between p-2.5 rounded-lg border border-gray-100 hover:bg-gray-50 transition-colors";
+                fila.className = "flex items-center justify-between p-3 rounded-xl bg-slate-900/60 border border-white/5 hover:border-white/15 hover:bg-slate-900 transition-all";
 
                 let accionsHTML = '';
 
                 if (dadesRuta) {
-                    // Botó examen (sempre hauria d'existir)
                     const botoExamen = dadesRuta.examen 
-                        ? `<a href="${dadesRuta.examen}" class="inline-flex items-center px-2.5 py-1 border border-blue-600 text-[11px] font-semibold rounded text-white bg-blue-600 hover:bg-blue-700 no-underline transition-colors" target="_blank">
-                               <i class="fa-solid fa-file-pdf mr-1"></i> Examen
+                        ? `<a href="${dadesRuta.examen}" class="inline-flex items-center px-2.5 py-1.5 border text-xs font-mono font-semibold rounded-lg no-underline transition-all ${estilsBotoExamen[colorTema]}" target="_blank" rel="noopener noreferrer" title="Descarregar enunciat PDF">
+                               <i class="fa-regular fa-file-pdf mr-1.5"></i>Examen
                            </a>`
-                        : `<span class="text-xs text-gray-400">Pendent</span>`;
+                        : `<span class="inline-flex items-center px-2.5 py-1.5 border border-white/5 text-xs font-mono rounded-lg text-slate-600 bg-slate-950/50 cursor-not-allowed">
+                               Pendent
+                           </span>`;
 
-                    // Botó solució
                     const botoSolucio = dadesRuta.solucio
-                        ? `<a href="${dadesRuta.solucio}" class="inline-flex items-center px-2.5 py-1 border border-emerald-500 text-[11px] font-semibold rounded text-emerald-700 bg-emerald-50 hover:bg-emerald-100 no-underline transition-colors" target="_blank">
-                               <i class="fa-solid fa-check mr-1 text-emerald-500"></i> Solució
+                        ? `<a href="${dadesRuta.solucio}" class="inline-flex items-center px-2.5 py-1.5 border border-white/15 text-xs font-mono font-medium rounded-lg text-slate-200 bg-white/5 hover:bg-white/15 hover:border-white/30 no-underline transition-all" target="_blank" rel="noopener noreferrer" title="Veure criteris de correcció">
+                               <i class="fa-solid fa-check text-emerald-400 mr-1.5"></i>Solució
                            </a>`
-                        : `<span class="inline-flex items-center px-2 py-1 border border-gray-200 text-[11px] font-medium rounded text-gray-400 bg-gray-50 cursor-not-allowed">
+                        : `<span class="inline-flex items-center px-2.5 py-1.5 border border-white/5 text-xs font-mono rounded-lg text-slate-600 bg-slate-950/50 cursor-not-allowed">
                                Pendent
                            </span>`;
 
                     accionsHTML = `
-                        <div class="flex items-center space-x-2">
+                        <div class="flex items-center gap-2">
                             ${botoExamen}
                             ${botoSolucio}
                         </div>
                     `;
                 } else {
-                    accionsHTML = `<span class="text-xs text-gray-400 italic">No convocat/Sense dades</span>`;
+                    accionsHTML = `<span class="text-xs font-mono text-slate-600 italic">Sense dades</span>`;
                 }
 
                 fila.innerHTML = `
-                    <span class="font-bold text-gray-800 text-sm bg-gray-100 px-2 py-0.5 rounded">
-                        ${anyDada.any}
-                    </span>
+                    <div class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-${colorTema}-400/70"></span>
+                        <span class="font-mono font-bold text-white text-sm tracking-wide">
+                            ${anyDada.any}
+                        </span>
+                    </div>
                     ${accionsHTML}
                 `;
                 llista.appendChild(fila);
