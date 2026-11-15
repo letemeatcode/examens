@@ -165,20 +165,20 @@
                     <!-- Camp de cerca -->
                     <div class="lg:col-span-7 relative group">
                         <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                            <i class="fa-solid fa-magnifying-glass text-slate-400 group-focus-within:text-cyan-400 transition-colors"></i>
+                            <i class="fa-solid fa-magnifying-glass text-slate-400 group-focus-within:text-cyan-400 transition-colors text-base"></i>
                         </div>
-                        <input type="text" id="search" placeholder="Cerca per matèria o temari (ex: Anglès, Àlgebra, Comentari...)" 
-                               class="block w-full pl-11 pr-4 py-3 border border-white/10 rounded-xl text-sm bg-slate-900/80 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-400 transition-all"
+                        <input type="text" id="search" placeholder="Cerca assignatura (ex: Anglès, Matemàtiques, Comentari...)" 
+                               class="block w-full pl-12 pr-4 py-3.5 border border-white/10 rounded-xl text-base bg-slate-900/80 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-400 transition-all"
                                onkeyup="filtrarMateries()">
                     </div>
                     
                     <!-- Filtre per branca -->
                     <div class="lg:col-span-5 relative">
-                        <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
-                            <i class="fa-solid fa-layer-group text-slate-400"></i>
+                        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                            <i class="fa-solid fa-layer-group text-slate-400 text-base"></i>
                         </div>
                         <select id="filtre-branca" onchange="filtrarMateries()"
-                                class="block w-full pl-10 pr-8 py-3 border border-white/10 rounded-xl text-sm bg-slate-900/80 text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-400 transition-all appearance-none cursor-pointer">
+                                class="block w-full pl-11 pr-9 py-3.5 border border-white/10 rounded-xl text-base bg-slate-900/80 text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-400 transition-all appearance-none cursor-pointer">
                             <option value="">Totes les Branques / Fases</option>
                             <option value="Fase Comuna">Fase Comuna (Obligatòria)</option>
                             <option value="Científica-Tecnològica">Científica-Tecnològica</option>
@@ -186,24 +186,24 @@
                             <option value="Socials i Jurídiques">Socials i Jurídiques</option>
                             <option value="Arts i Humanitats">Arts i Humanitats</option>
                         </select>
-                        <div class="absolute inset-y-0 right-0 pr-3.5 flex items-center pointer-events-none">
-                            <i class="fa-solid fa-chevron-down text-xs text-slate-400"></i>
+                        <div class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
+                            <i class="fa-solid fa-chevron-down text-sm text-slate-400"></i>
                         </div>
                     </div>
                 </div>
 
                 <!-- Píndoles ràpides de filtre -->
-                <div class="flex flex-wrap items-center gap-2 mt-4 pt-4 border-t border-white/5" id="filtres-rapids">
-                    <span class="text-xs text-slate-500 mr-1 font-mono">Accés directe:</span>
-                    <button onclick="seleccionarBrancaRapida('')" class="pill-filter active px-3 py-1 rounded-lg text-xs font-medium bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all cursor-pointer">Totes</button>
-                    <button onclick="seleccionarBrancaRapida('Fase Comuna')" class="pill-filter px-3 py-1 rounded-lg text-xs font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer">Fase Comuna</button>
-                    <button onclick="seleccionarBrancaRapida('Científica-Tecnològica')" class="pill-filter px-3 py-1 rounded-lg text-xs font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer">Científica-Tecnològica</button>
+                <div class="flex flex-wrap items-center gap-2.5 mt-4 pt-4 border-t border-white/5" id="filtres-rapids">
+                    <span class="text-sm text-slate-500 mr-1 font-mono">Accés directe:</span>
+                    <button onclick="seleccionarBrancaRapida('')" class="pill-filter active px-3.5 py-1.5 rounded-lg text-sm font-medium bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all cursor-pointer">Totes</button>
+                    <button onclick="seleccionarBrancaRapida('Fase Comuna')" class="pill-filter px-3.5 py-1.5 rounded-lg text-sm font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer">Fase Comuna</button>
+                    <button onclick="seleccionarBrancaRapida('Científica-Tecnològica')" class="pill-filter px-3.5 py-1.5 rounded-lg text-sm font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer">Científica-Tecnològica</button>
                 </div>
             </div>
 
             <!-- Barra d'estat i comptador -->
-            <div class="flex justify-between items-center mb-5 px-1">
-                <p id="comptador-resultats" class="text-xs sm:text-sm font-mono text-slate-400 m-0">
+            <div class="flex justify-between items-center mb-6 px-1">
+                <p id="comptador-resultats" class="text-sm sm:text-base font-mono text-slate-400 m-0">
                     Inicialitzant base de dades...
                 </p>
                 <div class="h-[1px] flex-grow bg-gradient-to-r from-white/10 to-transparent ml-4"></div>
@@ -246,18 +246,17 @@
 
                 <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative z-10">
                     <div class="text-left">
-                        <span id="detall-branca" class="inline-flex items-center px-3 py-1 rounded-md text-xs font-mono font-semibold mb-3 bg-cyan-500/10 text-cyan-300 border border-cyan-500/30">
+                        <span id="detall-branca" class="inline-flex items-center px-3.5 py-1 rounded-md text-sm font-mono font-semibold mb-3 bg-cyan-500/10 text-cyan-300 border border-cyan-500/30">
                             -
                         </span>
-                        <h2 id="detall-titol" class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight m-0">-</h2>
-                        <p id="detall-descripcio" class="text-sm sm:text-base text-slate-400 mt-3 mb-0 max-w-3xl leading-relaxed">-</p>
+                        <h2 id="detall-titol" class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight m-0">-</h2>
                     </div>
                     
                     <div class="flex items-start gap-3.5 bg-slate-950/70 p-4 rounded-xl border border-white/10 max-w-sm shrink-0">
-                        <div class="p-2 rounded-lg bg-cyan-500/10 text-cyan-400 mt-0.5">
-                            <i class="fa-solid fa-shield-halved"></i>
+                        <div class="p-2.5 rounded-lg bg-cyan-500/10 text-cyan-400 mt-0.5">
+                            <i class="fa-solid fa-shield-halved text-base"></i>
                         </div>
-                        <div class="text-xs text-slate-400 leading-relaxed">
+                        <div class="text-sm text-slate-400 leading-relaxed">
                             <strong class="text-slate-200 block mb-0.5">Documentació Verificada</strong>
                             Els PDF s'obren en una pestanya nova. Les solucions marcades com a <span class="text-slate-500 font-mono">PENDENT</span> s'afegiran properament.
                         </div>
@@ -272,17 +271,55 @@
                 <div class="glass-panel rounded-2xl p-5 flex flex-col border-t-2 border-t-cyan-500">
                     <div class="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
                         <div class="flex items-center gap-3 text-left">
-                            <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 flex items-center justify-center">
-                                <i class="fa-solid fa-graduation-cap text-base"></i>
+                            <div class="w-11 h-11 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 flex items-center justify-center">
+                                <i class="fa-solid fa-graduation-cap text-lg"></i>
                             </div>
                             <div>
-                                <h3 class="text-base font-bold text-white m-0">PAU / Selectivitat</h3>
-                                <p class="text-xs text-slate-400 m-0">Accés general batxillerat</p>
+                                <h3 class="text-lg font-bold text-white m-0">PAU / Selectivitat</h3>
+                                <p class="text-sm text-slate-400 m-0">Accés general batxillerat</p>
                             </div>
                         </div>
-                        <span class="font-mono text-[10px] px-2 py-0.5 rounded bg-cyan-950 text-cyan-400 border border-cyan-500/20">PAU</span>
+                        <span class="font-mono text-xs px-2.5 py-0.5 rounded bg-cyan-950 text-cyan-400 border border-cyan-500/20">PAU</span>
                     </div>
-                    <div id="llista-pau" class="space-y-2.5 flex-grow">
+                    <div id="llista-pau" class="space-y-3 flex-grow">
+                        <!-- Generat per JS -->
+                    </div>
+                </div>
+
+                <!-- Columna 2: Majors de 25 anys -->
+                <div class="glass-panel rounded-2xl p-5 flex flex-col border-t-2 border-t-indigo-500">
+                    <div class="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
+                        <div class="flex items-center gap-3 text-left">
+                            <div class="w-11 h-11 rounded-xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 flex items-center justify-center">
+                                <i class="fa-solid fa-user-astronaut text-lg"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white m-0">Majors de 25 anys</h3>
+                                <p class="text-sm text-slate-400 m-0">Prova d'accés específica</p>
+                            </div>
+                        </div>
+                        <span class="font-mono text-xs px-2.5 py-0.5 rounded bg-indigo-950 text-indigo-400 border border-indigo-500/20">M25</span>
+                    </div>
+                    <div id="llista-m25" class="space-y-3 flex-grow">
+                        <!-- Generat per JS -->
+                    </div>
+                </div>
+
+                <!-- Columna 3: Grau Superior -->
+                <div class="glass-panel rounded-2xl p-5 flex flex-col border-t-2 border-t-emerald-500">
+                    <div class="flex items-center justify-between pb-4 mb-4 border-b border-white/10">
+                        <div class="flex items-center gap-3 text-left">
+                            <div class="w-11 h-11 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center">
+                                <i class="fa-solid fa-microchip text-lg"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white m-0">Grau Superior</h3>
+                                <p class="text-sm text-slate-400 m-0">Cicles Formatius CFGS</p>
+                            </div>
+                        </div>
+                        <span class="font-mono text-xs px-2.5 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-500/20">CFGS</span>
+                    </div>
+                    <div id="llista-gs" class="space-y-3 flex-grow">
                         <!-- Generat per JS -->
                     </div>
                 </div>
@@ -511,9 +548,9 @@
             document.querySelectorAll('.pill-filter').forEach(btn => {
                 const esActiu = (branca === '' && btn.textContent.trim() === 'Totes') || btn.textContent.trim() === branca;
                 if (esActiu) {
-                    btn.className = "pill-filter active px-3 py-1 rounded-lg text-xs font-medium bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all cursor-pointer";
+                    btn.className = "pill-filter active px-3.5 py-1.5 rounded-lg text-sm font-medium bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all cursor-pointer";
                 } else {
-                    btn.className = "pill-filter px-3 py-1 rounded-lg text-xs font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer";
+                    btn.className = "pill-filter px-3.5 py-1.5 rounded-lg text-sm font-medium bg-slate-800/60 text-slate-400 border border-white/5 hover:border-white/20 hover:text-slate-200 transition-all cursor-pointer";
                 }
             });
 
@@ -580,34 +617,31 @@
                 targeta.onclick = () => navegarAMateria(materia.id);
 
                 targeta.innerHTML = `
-                    <div class="p-6 text-left flex-grow">
-                        <div class="flex items-start justify-between gap-3 mb-4">
-                            <span class="inline-block px-2.5 py-1 rounded-md text-[11px] font-mono font-medium border ${estilsBranca.badge}">
+                    <div class="p-7 text-left flex-grow flex flex-col justify-between">
+                        <div class="flex items-start justify-between gap-3 mb-5">
+                            <span class="inline-block px-3 py-1 rounded-md text-xs font-mono font-medium border ${estilsBranca.badge}">
                                 ${materia.branca}
                             </span>
-                            <div class="w-9 h-9 rounded-xl border flex items-center justify-center ${estilsBranca.iconBg} group-hover:scale-110 transition-transform">
-                                <i class="fa-solid ${materia.icona || 'fa-book'} text-sm"></i>
+                            <div class="w-11 h-11 rounded-xl border flex items-center justify-center ${estilsBranca.iconBg} group-hover:scale-110 transition-transform">
+                                <i class="fa-solid ${materia.icona || 'fa-book'} text-lg"></i>
                             </div>
                         </div>
                         
-                        <h3 class="text-xl font-bold text-white group-hover:text-cyan-300 transition-colors m-0 tracking-tight">
+                        <h3 class="text-2xl sm:text-3xl font-extrabold text-white group-hover:text-cyan-300 transition-colors m-0 tracking-tight">
                             ${materia.assignaturaNom}
                         </h3>
-                        <p class="text-xs sm:text-sm text-slate-400 mt-2.5 mb-0 leading-relaxed">
-                            ${materia.descripcio}
-                        </p>
                     </div>
                     
-                    <div class="px-6 py-4 bg-slate-950/60 border-t border-white/5 flex items-center justify-between">
+                    <div class="px-7 py-4 bg-slate-950/60 border-t border-white/5 flex items-center justify-between">
                         <div class="flex items-center gap-2">
-                            <span class="font-mono text-xs text-slate-400 bg-white/5 px-2 py-0.5 rounded border border-white/5">
+                            <span class="font-mono text-sm text-slate-300 bg-white/5 px-2.5 py-1 rounded border border-white/5">
                                 ${rangAnys}
                             </span>
-                            <span class="text-xs text-slate-500">(${materia.anys.length} conv.)</span>
+                            <span class="text-sm text-slate-500">(${materia.anys.length} conv.)</span>
                         </div>
-                        <span class="inline-flex items-center gap-1.5 text-xs font-mono font-semibold text-cyan-400 group-hover:text-cyan-300">
+                        <span class="inline-flex items-center gap-2 text-sm font-mono font-bold text-cyan-400 group-hover:text-cyan-300">
                             ACCEDIR
-                            <i class="fa-solid fa-arrow-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                            <i class="fa-solid fa-arrow-right text-xs transform group-hover:translate-x-1 transition-transform"></i>
                         </span>
                     </div>
                 `;
@@ -620,10 +654,7 @@
             const filtreBranca = document.getElementById('filtre-branca').value;
 
             const resultatsFiltrats = dadesMateries.filter(materia => {
-                const coincideixCerca = 
-                    materia.assignaturaNom.toLowerCase().includes(cerca) || 
-                    materia.descripcio.toLowerCase().includes(cerca);
-
+                const coincideixCerca = materia.assignaturaNom.toLowerCase().includes(cerca);
                 const coincideixBranca = filtreBranca === "" || materia.branca === filtreBranca;
 
                 return coincideixCerca && coincideixBranca;
@@ -651,7 +682,6 @@
 
             document.getElementById('detall-titol').textContent = materia.assignaturaNom;
             document.getElementById('detall-branca').textContent = materia.branca;
-            document.getElementById('detall-descripcio').textContent = materia.descripcio;
             document.getElementById('detall-codi').textContent = `MOD // ${materia.id.toUpperCase()}`;
             document.title = `${materia.assignaturaNom} // ARXIU.EXÀMENS`;
 
@@ -676,41 +706,41 @@
             anysArray.forEach(anyDada => {
                 const dadesRuta = anyDada[clauRuta];
                 const fila = document.createElement('div');
-                fila.className = "flex items-center justify-between p-3 rounded-xl bg-slate-900/60 border border-white/5 hover:border-white/15 hover:bg-slate-900 transition-all";
+                fila.className = "flex items-center justify-between p-3.5 rounded-xl bg-slate-900/60 border border-white/5 hover:border-white/15 hover:bg-slate-900 transition-all";
 
                 let accionsHTML = '';
 
                 if (dadesRuta) {
                     const botoExamen = dadesRuta.examen 
-                        ? `<a href="${dadesRuta.examen}" class="inline-flex items-center px-2.5 py-1.5 border text-xs font-mono font-semibold rounded-lg no-underline transition-all ${estilsBotoExamen[colorTema]}" target="_blank" rel="noopener noreferrer" title="Descarregar enunciat PDF">
+                        ? `<a href="${dadesRuta.examen}" class="inline-flex items-center px-3 py-2 border text-sm font-mono font-semibold rounded-lg no-underline transition-all ${estilsBotoExamen[colorTema]}" target="_blank" rel="noopener noreferrer" title="Descarregar enunciat PDF">
                                <i class="fa-regular fa-file-pdf mr-1.5"></i>Examen
                            </a>`
-                        : `<span class="inline-flex items-center px-2.5 py-1.5 border border-white/5 text-xs font-mono rounded-lg text-slate-600 bg-slate-950/50 cursor-not-allowed">
+                        : `<span class="inline-flex items-center px-3 py-2 border border-white/5 text-sm font-mono rounded-lg text-slate-600 bg-slate-950/50 cursor-not-allowed">
                                Pendent
                            </span>`;
 
                     const botoSolucio = dadesRuta.solucio
-                        ? `<a href="${dadesRuta.solucio}" class="inline-flex items-center px-2.5 py-1.5 border border-white/15 text-xs font-mono font-medium rounded-lg text-slate-200 bg-white/5 hover:bg-white/15 hover:border-white/30 no-underline transition-all" target="_blank" rel="noopener noreferrer" title="Veure criteris de correcció">
+                        ? `<a href="${dadesRuta.solucio}" class="inline-flex items-center px-3 py-2 border border-white/15 text-sm font-mono font-medium rounded-lg text-slate-200 bg-white/5 hover:bg-white/15 hover:border-white/30 no-underline transition-all" target="_blank" rel="noopener noreferrer" title="Veure criteris de correcció">
                                <i class="fa-solid fa-check text-emerald-400 mr-1.5"></i>Solució
                            </a>`
-                        : `<span class="inline-flex items-center px-2.5 py-1.5 border border-white/5 text-xs font-mono rounded-lg text-slate-600 bg-slate-950/50 cursor-not-allowed">
+                        : `<span class="inline-flex items-center px-3 py-2 border border-white/5 text-sm font-mono rounded-lg text-slate-600 bg-slate-950/50 cursor-not-allowed">
                                Pendent
                            </span>`;
 
                     accionsHTML = `
-                        <div class="flex items-center gap-2">
+                        <div class="flex items-center gap-2.5">
                             ${botoExamen}
                             ${botoSolucio}
                         </div>
                     `;
                 } else {
-                    accionsHTML = `<span class="text-xs font-mono text-slate-600 italic">Sense dades</span>`;
+                    accionsHTML = `<span class="text-sm font-mono text-slate-600 italic">Sense dades</span>`;
                 }
 
                 fila.innerHTML = `
-                    <div class="flex items-center gap-2">
-                        <span class="w-1.5 h-1.5 rounded-full bg-${colorTema}-400/70"></span>
-                        <span class="font-mono font-bold text-white text-sm tracking-wide">
+                    <div class="flex items-center gap-2.5">
+                        <span class="w-2 h-2 rounded-full bg-${colorTema}-400/70"></span>
+                        <span class="font-mono font-bold text-white text-base tracking-wide">
                             ${anyDada.any}
                         </span>
                     </div>
