@@ -209,92 +209,86 @@
     <!-- Peu de pàgina -->
     <footer class="border-t border-white/10 bg-[#050811]/90 py-6 mt-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-500">
-            <span>ARXIU.EXÀMENS // Cerca ràpida per assignatura i convocatòria</span>
+            <span>ARXIU.EXÀMENS // Enllaços directes a xelu.net</span>
             <span id="estat-dades-footer" class="text-cyan-500/80">Carregant catàleg...</span>
         </div>
     </footer>
 
-    <!-- Modal Visor de PDF / Previsualització (evita errors 404 quan s'obre des de l'entorn de prova) -->
-    <div id="modal-pdf" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
-        <div class="glass-panel rounded-2xl max-w-lg w-full p-6 border border-cyan-500/30 shadow-2xl animate-fade-up">
-            <div class="flex items-start justify-between gap-4 mb-4">
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
-                        <i class="fa-regular fa-file-pdf text-lg"></i>
-                    </div>
-                    <div>
-                        <h3 id="modal-pdf-titol" class="text-lg font-bold text-white m-0">Document PDF</h3>
-                        <p id="modal-pdf-subtitol" class="text-xs font-mono text-cyan-400 m-0">Convocatòria</p>
-                    </div>
-                </div>
-                <button onclick="tancarModalPdf()" class="text-slate-400 hover:text-white p-1.5 rounded-lg bg-white/5 border-0 cursor-pointer">
-                    <i class="fa-solid fa-xmark text-base"></i>
-                </button>
-            </div>
-            
-            <div class="p-4 rounded-xl bg-slate-950/90 border border-white/10 mb-5 space-y-2">
-                <p class="text-xs font-mono text-slate-400 m-0">Ruta de l'arxiu vinculat:</p>
-                <code id="modal-pdf-ruta" class="block text-xs text-cyan-300 bg-slate-900 p-2.5 rounded-lg border border-white/5 break-all"></code>
-                <p class="text-xs text-slate-400 pt-2 m-0 leading-relaxed">
-                    Estàs veient la <strong>previsualització interactiva</strong>. Quan col·loquis aquest <code class="text-slate-300">index.html</code> juntament amb <code class="text-slate-300">dades_generades.js</code> i la carpeta <code class="text-slate-300">pdf/</code> al teu servidor o GitHub Pages, aquest botó obrirà el PDF real directament.
-                </p>
-            </div>
-
-            <div class="flex justify-end gap-3">
-                <button onclick="tancarModalPdf()" class="px-4 py-2 rounded-xl text-sm font-semibold bg-slate-800 text-slate-200 hover:bg-slate-700 border border-white/10 cursor-pointer">
-                    Tancar
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- CÀRREGA DE L'ARXIU EXTERN DE DADES GENERAT (Per a GitHub Pages / Local) -->
+    <!-- CÀRREGA DEL TEU FITXER D'ENLLAÇOS DIRECTES A XELU.NET -->
+    <script src="dades_generades_2.js"></script>
     <script src="dades_generades.js"></script>
 
     <!-- SCRIPT D'INTERACCIÓ I FILTRES -->
     <script>
         let usantDadesMostra = false;
 
-        // Si no s'ha carregat dades_generades.js (ex: a la previsualització), carreguem un catàleg ampli de mostra
+        // Funció de sanejament per assegurar que tots els enllaços de xelu.net estan a la convocatòria correcta
+        function sanejarCatalegXelu(llista) {
+            return llista.map(materia => {
+                const anysSanejats = (materia.anys || []).map(conv => {
+                    const copia = {
+                        any: conv.any,
+                        pau: conv.pau ? { ...conv.pau } : null,
+                        m25: conv.m25 ? { ...conv.m25 } : null,
+                        gs: conv.gs ? { ...conv.gs } : null,
+                        ges: conv.ges ? { ...conv.ges } : null
+                    };
+
+                    // Si un enllaç del GES o Cicles s'havia colat dins de 'pau', el movem a la seva via real
+                    ['pau', 'm25', 'gs', 'ges'].forEach(via => {
+                        const bloc = copia[via];
+                        if (!bloc) return;
+                        const urlTest = (bloc.examen || bloc.solucio || '').toLowerCase();
+
+                        if (urlTest.includes('/ges-proves-d-acces-lliures') && via !== 'ges') {
+                            copia.ges = copia.ges || { examen: null, solucio: null };
+                            if (urlTest.includes('pauta-correccio') || urlTest.includes('solucio')) {
+                                copia.ges.solucio = bloc.examen || bloc.solucio;
+                            } else {
+                                copia.ges.examen = bloc.examen;
+                                if (bloc.solucio) copia.ges.solucio = bloc.solucio;
+                            }
+                            copia[via] = null;
+                        } else if ((urlTest.includes('cicles-formatius') || urlTest.includes('grau-superior')) && via !== 'gs') {
+                            copia.gs = copia.gs || { examen: null, solucio: null };
+                            copia.gs.examen = bloc.examen;
+                            copia.gs.solucio = bloc.solucio;
+                            copia[via] = null;
+                        }
+                    });
+
+                    return copia;
+                });
+
+                return { ...materia, anys: anysSanejats };
+            });
+        }
+
+        // Si encara no s'ha carregat cap .js extern (només a la vista prèvia), carreguem exemples reals de xelu.net
         if (typeof dadesMateries === 'undefined' || !Array.isArray(dadesMateries) || dadesMateries.length === 0) {
             usantDadesMostra = true;
             window.dadesMateries = [
                 {
-                    id: "matematiques",
-                    assignaturaNom: "Matemàtiques",
-                    icona: "fa-square-root-variable",
+                    id: "angles",
+                    assignaturaNom: "Anglès (Mostra xelu.net)",
+                    icona: "fa-language",
                     anys: [
                         {
-                            any: 2025,
-                            pau: { examen: "pdf/pau/matematiques/2025_juny_ex.pdf", solucio: "pdf/pau/matematiques/2025_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/matematiques/2025_ex.pdf", solucio: "pdf/pau25/matematiques/2025_sol.pdf" },
-                            gs: { examen: "pdf/gs/matematiques/2025_ex.pdf", solucio: "pdf/gs/matematiques/2025_sol.pdf" },
-                            ges: null
-                        },
-                        {
-                            any: 2024,
-                            pau: { examen: "pdf/pau/matematiques/2024_juny_ex.pdf", solucio: "pdf/pau/matematiques/2024_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/matematiques/2024_ex.pdf", solucio: null },
-                            gs: { examen: "pdf/gs/matematiques/2024_ex.pdf", solucio: "pdf/gs/matematiques/2024_sol.pdf" },
-                            ges: null
-                        }
-                    ]
-                },
-                {
-                    id: "matematiques-ccss",
-                    assignaturaNom: "Matemàtiques Aplicades a les Ciències Socials",
-                    icona: "fa-chart-line",
-                    anys: [
-                        {
-                            any: 2025,
-                            pau: { examen: "pdf/pau/mates_ccss/2025_juny_ex.pdf", solucio: "pdf/pau/mates_ccss/2025_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/mates_ccss/2025_ex.pdf", solucio: "pdf/pau25/mates_ccss/2025_sol.pdf" },
+                            any: 2026,
+                            pau: null,
+                            m25: {
+                                examen: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2026-general-angles-ordinari.pdf",
+                                solucio: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2026-general-angles-ordinari-solucio.pdf"
+                            },
                             gs: null,
                             ges: null
                         },
                         {
-                            any: 2024,
-                            pau: { examen: "pdf/pau/mates_ccss/2024_juny_ex.pdf", solucio: "pdf/pau/mates_ccss/2024_juny_sol.pdf" },
+                            any: 2025,
+                            pau: {
+                                examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-angles.pdf",
+                                solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-angles-solucio.pdf"
+                            },
                             m25: null,
                             gs: null,
                             ges: null
@@ -302,125 +296,35 @@
                     ]
                 },
                 {
-                    id: "angles",
-                    assignaturaNom: "Anglès",
-                    icona: "fa-language",
-                    anys: [
-                        {
-                            any: 2025,
-                            pau: { examen: "pdf/pau/angles/2025_juny_ex.pdf", solucio: "pdf/pau/angles/2025_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/angles/2025_ex.pdf", solucio: "pdf/pau25/angles/2025_sol.pdf" },
-                            gs: { examen: "pdf/gs/angles/2025_ex.pdf", solucio: "pdf/gs/angles/2025_sol.pdf" },
-                            ges: { examen: "pdf/ges/angles/2025_ex.pdf", solucio: "pdf/ges/angles/2025_sol.pdf" }
-                        },
-                        {
-                            any: 2024,
-                            pau: { examen: "pdf/pau/angles/2024_juny_ex.pdf", solucio: "pdf/pau/angles/2024_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/angles/2024_ex.pdf", solucio: null },
-                            gs: { examen: "pdf/gs/angles/2024_ex.pdf", solucio: null },
-                            ges: { examen: "pdf/ges/angles/2024_ex.pdf", solucio: "pdf/ges/angles/2024_sol.pdf" }
-                        }
-                    ]
-                },
-                {
-                    id: "catala",
-                    assignaturaNom: "Llengua Catalana i Literatura",
-                    icona: "fa-book-open",
-                    anys: [
-                        {
-                            any: 2025,
-                            pau: { examen: "pdf/pau/catala/2025_juny_ex.pdf", solucio: "pdf/pau/catala/2025_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/catala/2025_ex.pdf", solucio: "pdf/pau25/catala/2025_sol.pdf" },
-                            gs: { examen: "pdf/gs/catala/2025_ex.pdf", solucio: "pdf/gs/catala/2025_sol.pdf" },
-                            ges: { examen: "pdf/ges/catala/2025_ex.pdf", solucio: "pdf/ges/catala/2025_sol.pdf" }
-                        }
-                    ]
-                },
-                {
-                    id: "castella",
-                    assignaturaNom: "Llengua Castellana i Literatura",
-                    icona: "fa-feather-pointed",
-                    anys: [
-                        {
-                            any: 2025,
-                            pau: { examen: "pdf/pau/castella/2025_juny_ex.pdf", solucio: "pdf/pau/castella/2025_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/castella/2025_ex.pdf", solucio: "pdf/pau25/castella/2025_sol.pdf" },
-                            gs: { examen: "pdf/gs/castella/2025_ex.pdf", solucio: "pdf/gs/castella/2025_sol.pdf" },
-                            ges: { examen: "pdf/ges/castella/2025_ex.pdf", solucio: null }
-                        }
-                    ]
-                },
-                {
-                    id: "historia",
-                    assignaturaNom: "Història",
-                    icona: "fa-landmark",
-                    anys: [
-                        {
-                            any: 2025,
-                            pau: { examen: "pdf/pau/historia/2025_juny_ex.pdf", solucio: "pdf/pau/historia/2025_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/historia/2025_ex.pdf", solucio: "pdf/pau25/historia/2025_sol.pdf" },
-                            gs: null,
-                            ges: null
-                        }
-                    ]
-                },
-                {
-                    id: "historia-art",
-                    assignaturaNom: "Història de l'Art",
-                    icona: "fa-palette",
-                    anys: [
-                        {
-                            any: 2025,
-                            pau: { examen: "pdf/pau/historia_art/2025_juny_ex.pdf", solucio: "pdf/pau/historia_art/2025_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/historia_art/2025_ex.pdf", solucio: null },
-                            gs: null,
-                            ges: null
-                        }
-                    ]
-                },
-                {
-                    id: "fisica",
-                    assignaturaNom: "Física",
-                    icona: "fa-atom",
-                    anys: [
-                        {
-                            any: 2025,
-                            pau: { examen: "pdf/pau/fisica/2025_juny_ex.pdf", solucio: "pdf/pau/fisica/2025_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/fisica/2025_ex.pdf", solucio: "pdf/pau25/fisica/2025_sol.pdf" },
-                            gs: { examen: "pdf/gs/fisica/2025_ex.pdf", solucio: null },
-                            ges: null
-                        }
-                    ]
-                },
-                {
-                    id: "quimica",
-                    assignaturaNom: "Química",
-                    icona: "fa-flask",
-                    anys: [
-                        {
-                            any: 2025,
-                            pau: { examen: "pdf/pau/quimica/2025_juny_ex.pdf", solucio: "pdf/pau/quimica/2025_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/quimica/2025_ex.pdf", solucio: "pdf/pau25/quimica/2025_sol.pdf" },
-                            gs: { examen: "pdf/gs/quimica/2025_ex.pdf", solucio: "pdf/gs/quimica/2025_sol.pdf" },
-                            ges: null
-                        }
-                    ]
-                },
-                {
                     id: "biologia",
-                    assignaturaNom: "Biologia",
+                    assignaturaNom: "Biologia (Mostra xelu.net)",
                     icona: "fa-dna",
                     anys: [
                         {
+                            any: 2026,
+                            pau: null,
+                            m25: {
+                                examen: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2026-especifica-biologia-ordinari.pdf",
+                                solucio: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2026-especifica-biologia-ordinari-solucio.pdf"
+                            },
+                            gs: null,
+                            ges: null
+                        },
+                        {
                             any: 2025,
-                            pau: { examen: "pdf/pau/biologia/2025_juny_ex.pdf", solucio: "pdf/pau/biologia/2025_juny_sol.pdf" },
-                            m25: { examen: "pdf/pau25/biologia/2025_ex.pdf", solucio: "pdf/pau25/biologia/2025_sol.pdf" },
-                            gs: { examen: "pdf/gs/biologia/2025_ex.pdf", solucio: null },
+                            pau: {
+                                examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-biologia.pdf",
+                                solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-biologia-solucio.pdf"
+                            },
+                            m25: null,
+                            gs: null,
                             ges: null
                         }
                     ]
                 }
             ];
+        } else {
+            window.dadesMateries = sanejarCatalegXelu(dadesMateries);
         }
 
         // ESTAT DE L'APLICACIÓ
@@ -483,9 +387,18 @@
             try {
                 const footerEstat = document.getElementById('estat-dades-footer');
                 if (footerEstat) {
+                    const totalEnllacos = dadesMateries.reduce((acc, m) => {
+                        return acc + (m.anys || []).reduce((a2, c) => {
+                            return a2 + ['pau', 'm25', 'gs', 'ges'].reduce((a3, v) => {
+                                if (!c[v]) return a3;
+                                return a3 + (c[v].examen ? 1 : 0) + (c[v].solucio ? 1 : 0);
+                            }, 0);
+                        }, 0);
+                    }, 0);
+
                     footerEstat.textContent = usantDadesMostra 
-                        ? `Mode Previsualització (${dadesMateries.length} assignatures de mostra)` 
-                        : `Catàleg complet carregat (${dadesMateries.length} assignatures)`;
+                        ? `Mostra activa (col·loca dades_generades_2.js al costat d'aquest HTML)` 
+                        : `Connectat a xelu.net · ${dadesMateries.length} assignatures · ${totalEnllacos} PDFs directes`;
                 }
 
                 // Comprovem si hi ha un hash a la URL
@@ -505,9 +418,6 @@
                     if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
                         e.preventDefault();
                         document.getElementById('search').focus();
-                    }
-                    if (e.key === 'Escape') {
-                        tancarModalPdf();
                     }
                 });
             } catch (error) {
@@ -537,7 +447,6 @@
                 btnClear.classList.add('hidden');
             }
 
-            // Dividim en paraules perquè "mates socials" trobi "Matemàtiques Aplicades a les Ciències Socials"
             const paraulesCerca = cercaNorm.split(/\s+/).filter(Boolean);
 
             const filtrades = dadesMateries.filter(m => {
@@ -559,6 +468,7 @@
 
             filtrades.forEach(materia => {
                 const esActiva = materia.id === materiaSeleccionadaId;
+                const numAnys = (materia.anys || []).length;
                 const btn = document.createElement('button');
                 btn.type = "button";
                 btn.onclick = () => seleccionarMateria(materia.id);
@@ -569,6 +479,7 @@
                 btn.innerHTML = `
                     <i class="fa-solid ${materia.icona || 'fa-book'} ${esActiva ? 'text-slate-950' : 'text-cyan-400'}"></i>
                     <span>${materia.assignaturaNom}</span>
+                    <span class="text-[11px] font-mono px-1.5 py-0.5 rounded ${esActiva ? 'bg-slate-950/20 text-slate-950' : 'bg-white/5 text-slate-400'}">${numAnys}</span>
                 `;
                 contenidor.appendChild(btn);
             });
@@ -604,19 +515,52 @@
             renderitzarTaulerMateria();
         }
 
-        // --- GESTIÓ D'OBERTURA DE PDF (EVITA 404 A LA PREVISUALITZACIÓ) ---
-        function obrirDocumentPdf(event, urlPdf, titolDocument, subtitolConvocatoria) {
-            if (usantDadesMostra) {
-                event.preventDefault();
-                document.getElementById('modal-pdf-titol').textContent = titolDocument;
-                document.getElementById('modal-pdf-subtitol').textContent = subtitolConvocatoria;
-                document.getElementById('modal-pdf-ruta').textContent = urlPdf;
-                document.getElementById('modal-pdf').classList.remove('hidden');
-            }
-        }
+        // --- VERIFICACIÓ D'ENLLAÇOS EN DIRECTE CONTRA XELU.NET ---
+        async function verificarEnllacosAny(btnElement, contenidorAnyId) {
+            const contenidor = document.getElementById(contenidorAnyId);
+            if (!contenidor) return;
 
-        function tancarModalPdf() {
-            document.getElementById('modal-pdf').classList.add('hidden');
+            const enllacos = contenidor.querySelectorAll('a[data-xelu-url]');
+            if (enllacos.length === 0) return;
+
+            const textOriginal = btnElement.innerHTML;
+            btnElement.disabled = true;
+            btnElement.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Verificant...`;
+
+            for (const link of enllacos) {
+                const url = link.getAttribute('data-xelu-url');
+                const badge = link.querySelector('.estat-link-badge');
+                if (badge) {
+                    badge.classList.remove('hidden');
+                    badge.innerHTML = `<i class="fa-solid fa-circle-notch fa-spin text-xs"></i>`;
+                }
+
+                try {
+                    // Validem format de URL i fem comprovació de connectivitat
+                    const urlObj = new URL(url);
+                    if (urlObj.hostname !== 'www.xelu.net' && urlObj.hostname !== 'xelu.net') {
+                        throw new Error('Domini invàlid');
+                    }
+                    await fetch(url, { mode: 'no-cors', cache: 'no-store' });
+                    if (badge) {
+                        badge.className = "estat-link-badge inline-flex items-center text-emerald-400 ml-1";
+                        badge.title = "Enllaç verificat a xelu.net";
+                        badge.innerHTML = `<i class="fa-solid fa-circle-check text-xs"></i>`;
+                    }
+                } catch (err) {
+                    if (badge) {
+                        badge.className = "estat-link-badge inline-flex items-center text-rose-400 ml-1";
+                        badge.title = "No s'ha pogut contactar amb xelu.net";
+                        badge.innerHTML = `<i class="fa-solid fa-triangle-exclamation text-xs"></i>`;
+                    }
+                }
+            }
+
+            btnElement.disabled = false;
+            btnElement.innerHTML = `<i class="fa-solid fa-check text-emerald-400"></i> Verificat`;
+            setTimeout(() => {
+                btnElement.innerHTML = textOriginal;
+            }, 3000);
         }
 
         // --- RENDERITZACIÓ PER ANY DE TOTES LES CONVOCATÒRIES ACTIVES ---
@@ -638,17 +582,19 @@
             }
             avis.classList.add('hidden');
 
-            // Ordenem els anys de més recent a més antic
+            // Ordenem TOTS els anys de més recent a més antic
             const anysOrdenats = [...materia.anys].sort((a, b) => b.any - a.any);
             let anysRenderitzats = 0;
 
-            anysOrdenats.forEach(conv => {
-                // Comprovem si aquest any té com a mínim un examen en alguna de les vies actives
+            anysOrdenats.forEach((conv, indexAny) => {
+                // Comprovem si aquest any té com a mínim un examen o solució en alguna de les vies actives
                 const teDadesActives = llistaViesActives.some(clauVia => conv[clauVia] && (conv[clauVia].examen || conv[clauVia].solucio));
                 if (!teDadesActives) return;
 
                 anysRenderitzats++;
+                const blocId = `bloc-any-${conv.any}-${indexAny}`;
                 const blocAny = document.createElement('div');
+                blocAny.id = blocId;
                 blocAny.className = "rounded-2xl bg-slate-900/70 border border-white/10 p-5 sm:p-6 hover:border-white/20 transition-all";
 
                 // Construïm les columnes dels tipus d'examen que estan activats als interruptors
@@ -658,18 +604,21 @@
 
                     let botonsHtml = '';
                     if (dadesVia && (dadesVia.examen || dadesVia.solucio)) {
-                        const titolEx = `Examen · ${materia.assignaturaNom} (${conv.any})`;
-                        const titolSol = `Solució · ${materia.assignaturaNom} (${conv.any})`;
-
                         const btnExamen = dadesVia.examen
-                            ? `<a href="${dadesVia.examen}" target="_blank" rel="noopener noreferrer" onclick="obrirDocumentPdf(event, '${dadesVia.examen}', '${titolEx.replace(/'/g, "\\'")}', '${cfg.nom} · ${cfg.subtitol}')" class="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-sm font-bold border transition-all no-underline ${cfg.btnClass}">
-                                <i class="fa-regular fa-file-pdf"></i> Examen
+                            ? `<a href="${dadesVia.examen}" data-xelu-url="${dadesVia.examen}" target="_blank" rel="noopener noreferrer" title="Obrir PDF a xelu.net: ${dadesVia.examen}" class="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-sm font-bold border transition-all no-underline ${cfg.btnClass}">
+                                <i class="fa-regular fa-file-pdf"></i>
+                                <span>Examen</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px] opacity-75"></i>
+                                <span class="estat-link-badge hidden"></span>
                                </a>`
                             : `<span class="flex-1 inline-flex items-center justify-center px-3 py-2.5 rounded-lg text-xs font-mono text-slate-600 bg-slate-950/50 border border-white/5 cursor-not-allowed">Sense examen</span>`;
 
                         const btnSolucio = dadesVia.solucio
-                            ? `<a href="${dadesVia.solucio}" target="_blank" rel="noopener noreferrer" onclick="obrirDocumentPdf(event, '${dadesVia.solucio}', '${titolSol.replace(/'/g, "\\'")}', '${cfg.nom} · ${cfg.subtitol}')" class="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-sm font-bold bg-slate-800/90 text-slate-200 border border-white/15 hover:bg-white hover:text-slate-950 transition-all no-underline">
-                                <i class="fa-solid fa-check-double text-xs"></i> Solució
+                            ? `<a href="${dadesVia.solucio}" data-xelu-url="${dadesVia.solucio}" target="_blank" rel="noopener noreferrer" title="Obrir Solució a xelu.net: ${dadesVia.solucio}" class="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-sm font-bold bg-slate-800/90 text-slate-200 border border-white/15 hover:bg-white hover:text-slate-950 transition-all no-underline">
+                                <i class="fa-solid fa-check-double text-xs"></i>
+                                <span>Solució</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px] opacity-75"></i>
+                                <span class="estat-link-badge hidden"></span>
                                </a>`
                             : `<span class="flex-1 inline-flex items-center justify-center px-3 py-2.5 rounded-lg text-xs font-mono text-slate-600 bg-slate-950/50 border border-white/5 cursor-not-allowed">Sense solució</span>`;
 
@@ -702,11 +651,14 @@
                                     : 'grid-cols-1 sm:grid-cols-2 xl:grid-cols-4';
 
                 blocAny.innerHTML = `
-                    <div class="flex items-center gap-3 mb-4">
+                    <div class="flex items-center justify-between gap-3 mb-4">
                         <span class="px-3.5 py-1 rounded-lg bg-cyan-500/15 border border-cyan-500/30 font-mono text-xl font-extrabold text-cyan-300">
                             ${conv.any}
                         </span>
                         <div class="h-[1px] flex-grow bg-white/10"></div>
+                        <button type="button" onclick="verificarEnllacosAny(this, '${blocId}')" class="px-2.5 py-1 rounded-lg text-xs font-mono text-slate-400 hover:text-cyan-300 bg-white/5 hover:bg-white/10 border border-white/10 transition-all cursor-pointer flex items-center gap-1.5" title="Comprova que els enllaços d'aquest any responen a xelu.net">
+                            <i class="fa-solid fa-satellite-dish text-[10px]"></i> Verificar enllaços
+                        </button>
                     </div>
                     <div class="grid ${gridColsClass} gap-3.5">
                         ${columnesHtml}
