@@ -3,492 +3,365 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARXIU.EXÀMENS // Portal Oficial</title>
-    
-    <!-- Tailwind CSS via CDN -->
+    <title>Arxiu Oficial d'Exàmens — PAU, PAU +25, Grau Superior i GES</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script>
         tailwind.config = {
             darkMode: 'class',
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+                        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
                         mono: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        obsidian: '#060911',
+                        surface: '#0C1220',
+                        card: '#11192C',
                     }
                 }
             }
         }
     </script>
-    
-    <!-- FontAwesome per a les icones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-- Tipografies modernes: Plus Jakarta Sans + JetBrains Mono -->
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
     <style>
-        /* Fons futurista amb malla arquitectònica subtil */
         body {
-            background-color: #050811;
+            background-color: #060911;
+            color: #F8FAFC;
             background-image: 
-                radial-gradient(circle at 15% 0%, rgba(6, 182, 212, 0.14) 0%, transparent 42%),
-                radial-gradient(circle at 85% 10%, rgba(99, 102, 241, 0.14) 0%, transparent 42%),
-                linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
-            background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+                radial-gradient(circle at 15% 0%, rgba(6, 182, 212, 0.08) 0%, transparent 45%),
+                radial-gradient(circle at 85% 15%, rgba(99, 102, 241, 0.07) 0%, transparent 45%);
             background-attachment: fixed;
         }
+        /* Scrollbar refinat */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #060911; }
+        ::-webkit-scrollbar-thumb { background: #1E293B; border-radius: 9999px; }
+        ::-webkit-scrollbar-thumb:hover { background: #334155; }
 
-        /* Glassmorphism i il·luminació de vores */
-        .glass-panel {
-            background: rgba(13, 19, 35, 0.76);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border: 1px solid rgba(255, 255, 255, 0.09);
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+        .glass-header {
+            background: rgba(6, 9, 17, 0.82);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
         }
-
-        /* Animació suau d'entrada */
-        @keyframes fadeUp {
-            from { opacity: 0; transform: translateY(10px); }
+        .bento-panel {
+            background: linear-gradient(180deg, rgba(17, 25, 44, 0.72) 0%, rgba(12, 18, 32, 0.88) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.55);
+        }
+        .exam-row {
+            transition: transform 0.18s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.18s ease, background-color 0.18s ease;
+        }
+        .exam-row:hover {
+            transform: translateY(-2px);
+            border-color: rgba(34, 211, 238, 0.35);
+            background-color: rgba(30, 41, 59, 0.45);
+        }
+        @keyframes fadeSlideIn {
+            from { opacity: 0; transform: translateY(8px); }
             to { opacity: 1; transform: translateY(0); }
         }
-        .animate-fade-up {
-            animation: fadeUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        .animate-reveal {
+            animation: fadeSlideIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
-
-        /* Scrollbar personalitzada */
-        ::-webkit-scrollbar { width: 8px; height: 8px; }
-        ::-webkit-scrollbar-track { background: #050811; }
-        ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #334155; }
     </style>
 </head>
-<body class="text-slate-200 flex flex-col min-h-screen selection:bg-cyan-500/30 selection:text-cyan-200">
+<body class="min-h-screen flex flex-col antialiased selection:bg-cyan-500/30 selection:text-cyan-200">
 
-    <!-- Barra de Navegació / Capçalera Futurista -->
-    <header class="sticky top-0 z-40 border-b border-white/10 bg-[#050811]/85 backdrop-blur-xl">
-        <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+    <!-- BARRA DE NAVEGACIÓ SUPERIOR FIXA AMB FILTRES DE CONVOCATÒRIA -->
+    <header class="glass-header sticky top-0 z-50 border-b border-white/[0.08]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5">
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3.5">
                 
-                <!-- Identitat / Logo -->
-                <div class="flex items-center gap-3.5 cursor-pointer group" onclick="navegarAHome()">
-                    <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-cyan-500 to-indigo-600 p-[1px] shadow-lg shadow-cyan-500/20 group-hover:shadow-cyan-400/40 transition-all">
-                        <div class="w-full h-full bg-[#080d1a] rounded-[11px] flex items-center justify-center">
-                            <i class="fa-solid fa-atom text-cyan-400 text-lg group-hover:rotate-90 transition-transform duration-500"></i>
+                <!-- Identitat / Marca -->
+                <div class="flex items-center justify-between">
+                    <button type="button" onclick="reiniciarTot()" class="group flex items-center gap-3 text-left focus:outline-none">
+                        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-400 to-indigo-600 p-[1px] shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform">
+                            <div class="w-full h-full bg-obsidian rounded-[11px] flex items-center justify-center">
+                                <i class="fa-solid fa-layer-group text-cyan-400 text-base"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="text-left">
-                        <div class="flex items-center gap-2">
-                            <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight text-white m-0">
-                                ARXIU<span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400">.EXÀMENS</span>
-                            </h1>
-                            <span class="font-mono text-[10px] uppercase tracking-widest px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
-                                OFICIAL
-                            </span>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <span class="font-extrabold text-base sm:text-lg tracking-tight text-white">Exàmens<span class="text-cyan-400">.cat</span></span>
+                                <span class="hidden sm:inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-mono font-semibold uppercase tracking-wider bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">Arxiu Directe</span>
+                            </div>
+                            <p class="text-[11px] text-slate-400 font-medium">Catalunya & Madrid · Enunciats i Solucions PDF</p>
                         </div>
-                        <p class="text-xs text-slate-400 font-mono m-0">Repositori històric d'exàmens i solucions</p>
-                    </div>
+                    </button>
+
+                    <!-- Estat ràpid en mòbil -->
+                    <span id="badge-estat-mobil" class="lg:hidden text-[11px] font-mono px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/10">
+                        Carregant...
+                    </span>
                 </div>
 
-                <!-- Indicadors de Convocatòries -->
-                <div class="flex flex-wrap items-center gap-2 justify-center">
-                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-cyan-950/60 text-cyan-300 border border-cyan-500/30">
-                        <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span> PAU Cat
-                    </span>
-                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-rose-950/60 text-rose-300 border border-rose-500/30">
-                        <span class="w-1.5 h-1.5 rounded-full bg-rose-400"></span> PAU Madrid
-                    </span>
-                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-indigo-950/60 text-indigo-300 border border-indigo-500/30">
-                        <span class="w-1.5 h-1.5 rounded-full bg-indigo-400"></span> PAU +25
-                    </span>
-                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-950/60 text-emerald-300 border border-emerald-500/30">
-                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Grau Superior
-                    </span>
-                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-amber-950/60 text-amber-300 border border-amber-500/30">
-                        <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Proves Lliures GES
-                    </span>
-                </div>
+                <!-- Botons d'activació/desactivació de les 5 vies a l'encapçalament -->
+                <nav aria-label="Filtre de convocatòries" class="flex flex-wrap items-center gap-2">
+                    <span class="text-[11px] font-mono uppercase tracking-wider text-slate-500 mr-1 hidden xl:inline">Vies actives:</span>
+                    
+                    <button type="button" id="toggle-pau" onclick="toggleVia('pau')" class="via-pill px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer flex items-center gap-2">
+                        <span class="dot w-2 h-2 rounded-full"></span>
+                        <span>PAU Cat</span>
+                        <span class="count font-mono text-[10px] opacity-75">0</span>
+                    </button>
+
+                    <button type="button" id="toggle-madrid" onclick="toggleVia('madrid')" class="via-pill px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer flex items-center gap-2">
+                        <span class="dot w-2 h-2 rounded-full"></span>
+                        <span>PAU Madrid</span>
+                        <span class="count font-mono text-[10px] opacity-75">0</span>
+                    </button>
+
+                    <button type="button" id="toggle-m25" onclick="toggleVia('m25')" class="via-pill px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer flex items-center gap-2">
+                        <span class="dot w-2 h-2 rounded-full"></span>
+                        <span>PAU +25</span>
+                        <span class="count font-mono text-[10px] opacity-75">0</span>
+                    </button>
+
+                    <button type="button" id="toggle-gs" onclick="toggleVia('gs')" class="via-pill px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer flex items-center gap-2">
+                        <span class="dot w-2 h-2 rounded-full"></span>
+                        <span>Grau Superior</span>
+                        <span class="count font-mono text-[10px] opacity-75">0</span>
+                    </button>
+
+                    <button type="button" id="toggle-ges" onclick="toggleVia('ges')" class="via-pill px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer flex items-center gap-2">
+                        <span class="dot w-2 h-2 rounded-full"></span>
+                        <span>Proves GES</span>
+                        <span class="count font-mono text-[10px] opacity-75">0</span>
+                    </button>
+
+                    <button type="button" id="btn-activar-totes" onclick="activarTotesLesVies()" title="Reactivar totes les convocatòries" class="hidden px-2.5 py-1.5 rounded-xl text-[11px] font-mono font-semibold text-cyan-300 bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 transition-all cursor-pointer">
+                        <i class="fa-solid fa-rotate-left mr-1"></i>Totes
+                    </button>
+                </nav>
+
             </div>
         </div>
     </header>
 
-    <!-- Contingut Principal -->
-    <main class="flex-grow max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8 w-full space-y-8">
-        
-        <!-- PAS 1: CERCADOR D'ASSIGNATURES -->
-        <section class="glass-panel rounded-2xl p-6 sm:p-7 relative overflow-hidden animate-fade-up">
-            <div class="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-cyan-500/60 to-transparent"></div>
-            
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
-                <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2.5 m-0">
-                    <span class="w-7 h-7 rounded-lg bg-cyan-500/15 border border-cyan-500/30 text-cyan-400 text-xs font-mono flex items-center justify-center">01</span>
-                    <span>Cerca i Tria una Assignatura</span>
-                </h2>
-                <span class="text-xs font-mono text-slate-400 hidden sm:inline-flex items-center gap-1.5">
-                    Drecera: <kbd class="px-1.5 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded border border-slate-700">Ctrl</kbd> + <kbd class="px-1.5 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded border border-slate-700">K</kbd>
-                </span>
-            </div>
-            
-            <!-- Camp de text del cercador -->
-            <div class="relative group mb-5">
-                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                    <i class="fa-solid fa-magnifying-glass text-slate-400 group-focus-within:text-cyan-400 transition-colors text-lg"></i>
+    <!-- CONTINGUT PRINCIPAL -->
+    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6">
+
+        <!-- PAS 01: CERCADOR ULTRASENSIBLE I SELECTOR D'ASSIGNATURES -->
+        <section class="bento-panel rounded-3xl p-5 sm:p-7">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-5">
+                <div>
+                    <div class="inline-flex items-center gap-2 text-[11px] font-mono uppercase tracking-widest text-cyan-400 mb-1">
+                        <span class="px-1.5 py-0.5 rounded bg-cyan-500/15 border border-cyan-500/30">01</span>
+                        <span>Explora el catàleg</span>
+                    </div>
+                    <h1 class="text-xl sm:text-2xl font-extrabold text-white tracking-tight">Tria una assignatura o cerca per paraula clau</h1>
                 </div>
-                <input type="text" id="search" placeholder="Escriu per filtrar assignatures semblants (ex: Mate, Anglès, Història, Llengua...)" 
-                       class="block w-full pl-12 pr-12 py-4 border border-white/15 rounded-xl text-base sm:text-lg bg-slate-950/80 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 focus:border-cyan-400 transition-all"
-                       oninput="filtrarSelectorsMateries()">
-                <button id="btn-clear-search" onclick="netejarCerca()" class="hidden absolute inset-y-0 right-0 pr-4 flex items-center text-slate-400 hover:text-white cursor-pointer bg-transparent border-0" title="Netejar cerca">
-                    <i class="fa-solid fa-xmark text-lg"></i>
+
+                <!-- Barra de cerca instantània -->
+                <div class="relative w-full md:w-96">
+                    <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+                        <i class="fa-solid fa-magnifying-glass text-slate-400 text-sm"></i>
+                    </div>
+                    <input 
+                        type="text" 
+                        id="search" 
+                        autocomplete="off"
+                        spellcheck="false"
+                        placeholder="Ex: Mat, CCSS, Física, Història, GES..." 
+                        class="w-full pl-10 pr-16 py-2.5 bg-obsidian/90 border border-white/15 rounded-2xl text-sm text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all"
+                    >
+                    <div class="absolute inset-y-0 right-2 flex items-center gap-1">
+                        <button type="button" id="btn-clear-search" onclick="netejarCerca()" class="hidden p-1.5 text-slate-400 hover:text-white transition-colors cursor-pointer" title="Esborrar cerca">
+                            <i class="fa-solid fa-xmark text-sm"></i>
+                        </button>
+                        <kbd class="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono text-slate-500 bg-white/5 border border-white/10 rounded">/</kbd>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subbarra informativa del selector -->
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+                <span id="comptador-materies-selector" class="font-medium">Carregant assignatures...</span>
+                <span class="hidden sm:inline font-mono text-[11px] text-slate-500">El número indica els anys disponibles</span>
+            </div>
+
+            <!-- Graella / Llista de píndoles d'assignatures -->
+            <div id="llista-selectors-materies" class="flex flex-wrap gap-2 max-h-52 overflow-y-auto pr-1">
+                <!-- S'omple dinàmicament via JS -->
+            </div>
+        </section>
+
+        <!-- PAS 02: TAULER D'EXÀMENS I SOLUCIONS DE L'ASSIGNATURA SELECCIONADA -->
+        <section id="panell-resultats" class="bento-panel rounded-3xl p-5 sm:p-7">
+            
+            <!-- Capçalera de l'assignatura activa + Filtre d'any -->
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-6 mb-6 border-b border-white/[0.08]">
+                <div class="flex items-start sm:items-center gap-4">
+                    <div id="icona-materia-activa" class="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-cyan-500/10 border border-cyan-500/25 flex items-center justify-center text-cyan-400 text-xl sm:text-2xl shrink-0">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <div>
+                        <div class="inline-flex items-center gap-2 text-[11px] font-mono uppercase tracking-widest text-cyan-400 mb-1">
+                            <span class="px-1.5 py-0.5 rounded bg-cyan-500/15 border border-cyan-500/30">02</span>
+                            <span>Repositori de convocatòries</span>
+                        </div>
+                        <h2 id="materia-activa-titol" class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+                            Carregant...
+                        </h2>
+                        <p id="subtitol-materia-resum" class="text-xs sm:text-sm text-slate-400 mt-1">
+                            Preparant l'índex d'anys i convocatòries...
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Selector ràpid d'any -->
+                <div class="flex flex-wrap items-center gap-2">
+                    <label for="filtre-any" class="text-xs font-mono text-slate-400">Any:</label>
+                    <select id="filtre-any" onchange="canviarFiltreAny(this.value)" class="bg-obsidian border border-white/15 text-white text-xs sm:text-sm font-mono font-semibold rounded-xl px-3.5 py-2 focus:outline-none focus:border-cyan-400 cursor-pointer">
+                        <option value="tots">Tots els anys</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Avís quan no hi ha exàmens visibles amb els filtres actuals -->
+            <div id="avis-sense-examens" class="hidden py-14 px-4 text-center rounded-2xl bg-obsidian/60 border border-dashed border-white/10">
+                <div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/25 text-amber-400 flex items-center justify-center mx-auto mb-3 text-lg">
+                    <i class="fa-solid fa-filter-circle-xmark"></i>
+                </div>
+                <h3 class="text-base sm:text-lg font-bold text-white mb-1">Cap examen visible amb els filtres actuals</h3>
+                <p class="text-xs sm:text-sm text-slate-400 max-w-md mx-auto mb-4">
+                    Aquesta assignatura no té proves publicades a les vies que tens activades a la barra superior, o bé l'any seleccionat no té convocatòries.
+                </p>
+                <button type="button" onclick="activarTotesLesVies()" class="px-4 py-2 rounded-xl text-xs font-bold bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition-colors cursor-pointer">
+                    Mostrar totes les convocatòries disponibles
                 </button>
             </div>
 
-            <!-- Llista d'assignatures coincidents perquè l'usuari en triï una -->
-            <div>
-                <div class="flex items-center justify-between mb-3">
-                    <span class="text-xs font-mono uppercase tracking-wider text-slate-400" id="comptador-materies-selector">Assignatures disponibles:</span>
-                </div>
-                <div id="llista-selectors-materies" class="flex flex-wrap gap-2.5 max-h-52 overflow-y-auto pr-1">
-                    <!-- Botons generats dinàmicament -->
-                </div>
-            </div>
-        </section>
-
-        <!-- PAS 2: TAULER D'EXÀMENS DE L'ASSIGNATURA TRIADA -->
-        <section class="glass-panel rounded-2xl p-6 sm:p-8 relative overflow-hidden animate-fade-up">
-            <div class="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-indigo-500/60 to-transparent"></div>
-
-            <!-- Capçalera de la matèria + Interruptors de convocatòria -->
-            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-6 mb-7 border-b border-white/10">
-                <div>
-                    <div class="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-cyan-400 mb-1.5">
-                        <span class="w-5 h-5 rounded bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-[10px]">02</span>
-                        <span>Assignatura seleccionada</span>
-                    </div>
-                    <h2 id="materia-activa-titol" class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight m-0">
-                        Carregant...
-                    </h2>
-                </div>
-
-                <!-- Botons Interruptor (Activar / Desactivar convocatòries) -->
-                <div class="flex flex-col sm:items-end gap-2">
-                    <span class="text-xs font-mono text-slate-400">Activa o desactiva les convocatòries:</span>
-                    <div class="flex flex-wrap items-center gap-2">
-                        <button id="toggle-pau" onclick="toggleVia('pau')" class="px-3 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-cyan-500/20 text-cyan-300 border-cyan-400 shadow-sm shadow-cyan-500/20">
-                            <i class="fa-solid fa-circle-check text-cyan-400"></i>
-                            <span>PAU Cat</span>
-                        </button>
-                        <button id="toggle-madrid" onclick="toggleVia('madrid')" class="px-3 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-rose-500/20 text-rose-300 border-rose-400 shadow-sm shadow-rose-500/20">
-                            <i class="fa-solid fa-circle-check text-rose-400"></i>
-                            <span>PAU Madrid</span>
-                        </button>
-                        <button id="toggle-m25" onclick="toggleVia('m25')" class="px-3 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-indigo-500/20 text-indigo-300 border-indigo-400 shadow-sm shadow-indigo-500/20">
-                            <i class="fa-solid fa-circle-check text-indigo-400"></i>
-                            <span>PAU +25</span>
-                        </button>
-                        <button id="toggle-gs" onclick="toggleVia('gs')" class="px-3 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-emerald-500/20 text-emerald-300 border-emerald-400 shadow-sm shadow-emerald-500/20">
-                            <i class="fa-solid fa-circle-check text-emerald-400"></i>
-                            <span>Grau Superior</span>
-                        </button>
-                        <button id="toggle-ges" onclick="toggleVia('ges')" class="px-3 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-amber-500/20 text-amber-300 border-amber-400 shadow-sm shadow-amber-500/20">
-                            <i class="fa-solid fa-circle-check text-amber-400"></i>
-                            <span>Proves Lliures GES</span>
-                        </button>
-                    </div>
-                </div>
+            <!-- Contenidor d'anys i targetes d'exàmens -->
+            <div id="contenidor-anys-examens" class="space-y-6">
+                <!-- S'omple dinàmicament -->
             </div>
 
-            <!-- Llista d'Anys i Exàmens -->
-            <div id="contenidor-anys-examens" class="space-y-5">
-                <!-- Targetes d'anys generades per JS -->
-            </div>
-
-            <!-- Avís quan no hi ha convocatòries actives o exàmens -->
-            <div id="avis-sense-examens" class="hidden text-center py-12 px-4 rounded-2xl bg-slate-950/60 border border-white/10">
-                <i class="fa-solid fa-filter-circle-xmark text-3xl text-slate-500 mb-3"></i>
-                <h3 class="text-lg font-bold text-white mb-1">Cap examen visible amb els filtres actuals</h3>
-                <p class="text-sm text-slate-400 max-w-md mx-auto">Activa com a mínim una convocatòria (PAU, PAU +25, Grau Superior o GES) als botons superiors per veure'n els exàmens disponibles.</p>
-            </div>
         </section>
     </main>
 
-    <!-- Peu de pàgina -->
-    <footer class="border-t border-white/10 bg-[#050811]/90 py-6 mt-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-500">
-            <span>ARXIU.EXÀMENS // Enllaços directes a Selecat, Selemadrid i Xelu</span>
-            <span id="estat-dades-footer" class="text-cyan-500/80">Carregant catàleg...</span>
+    <!-- TOAST DE NOTIFICACIÓ (Per còpia d'enllaços sense alert) -->
+    <div id="toast-notificacio" class="fixed bottom-5 right-5 z-50 pointer-events-none opacity-0 translate-y-3 transition-all duration-200">
+        <div class="px-4 py-3 rounded-2xl bg-slate-900/95 border border-cyan-500/40 shadow-2xl flex items-center gap-2.5 text-xs font-semibold text-white">
+            <i class="fa-solid fa-circle-check text-cyan-400 text-sm"></i>
+            <span id="toast-missatge">Enllaç copiat al porta-retalls</span>
+        </div>
+    </div>
+
+    <!-- PEU DE PÀGINA -->
+    <footer class="border-t border-white/[0.07] mt-12 py-6 bg-obsidian/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
+            <div class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span>Portal d'Accés Directe a Exàmens Oficials (PAU, PAU +25, Grau Superior i GES)</span>
+            </div>
+            <div id="estat-dades-footer" class="font-mono text-slate-400">
+                Inicialitzant base de dades...
+            </div>
         </div>
     </footer>
 
-    <!-- CÀRREGA DEL TEU FITXER D'ENLLAÇOS DIRECTES A XELU.NET -->
-    <script src="dades_generades_2.js"></script>
-    <script src="dades_generades.js"></script>
+    <!-- CÀRREGA SEGURA DEL FITXER GENERAT PER PYTHON -->
+    <script src="dades_generades_2.js" onerror="window.__errorCarregaDades = true;"></script>
 
-    <!-- SCRIPT D'INTERACCIÓ I FILTRES -->
     <script>
-        let usantDadesMostra = false;
+        // =========================================================================
+        // 1. CONFIGURACIÓ DE VIES I DICCIONARI NORMALITZADOR D'ASSIGNATURES
+        // =========================================================================
+        const CONFIG_VIES = {
+            pau: {
+                nom: "PAU Catalunya",
+                nomCurt: "PAU Cat",
+                dotClass: "bg-cyan-400",
+                activeClass: "bg-cyan-500/15 text-cyan-200 border-cyan-400/50 shadow-sm shadow-cyan-500/10",
+                badgeClass: "bg-cyan-500/15 text-cyan-300 border-cyan-500/30"
+            },
+            madrid: {
+                nom: "PAU / EvAU Madrid",
+                nomCurt: "PAU Madrid",
+                dotClass: "bg-indigo-400",
+                activeClass: "bg-indigo-500/15 text-indigo-200 border-indigo-400/50 shadow-sm shadow-indigo-500/10",
+                badgeClass: "bg-indigo-500/15 text-indigo-300 border-indigo-500/30"
+            },
+            m25: {
+                nom: "Majors de 25 anys",
+                nomCurt: "PAU +25",
+                dotClass: "bg-amber-400",
+                activeClass: "bg-amber-500/15 text-amber-200 border-amber-400/50 shadow-sm shadow-amber-500/10",
+                badgeClass: "bg-amber-500/15 text-amber-300 border-amber-500/30"
+            },
+            gs: {
+                nom: "Accés a Grau Superior",
+                nomCurt: "Grau Superior",
+                dotClass: "bg-emerald-400",
+                activeClass: "bg-emerald-500/15 text-emerald-200 border-emerald-400/50 shadow-sm shadow-emerald-500/10",
+                badgeClass: "bg-emerald-500/15 text-emerald-300 border-emerald-500/30"
+            },
+            ges: {
+                nom: "Proves Lliures GES",
+                nomCurt: "Proves GES",
+                dotClass: "bg-rose-400",
+                activeClass: "bg-rose-500/15 text-rose-200 border-rose-400/50 shadow-sm shadow-rose-500/10",
+                badgeClass: "bg-rose-500/15 text-rose-300 border-rose-500/30"
+            }
+        };
 
-        // Diccionari de normalització ordenat d'assignatures més específiques a més genèriques
-        const DICCIONARI_MATERIES = [
-            { clau: "matematiques aplicades", nom: "Matemàtiques Aplicades a les Ciències Socials", icona: "fa-chart-line" },
-            { clau: "matematicas aplicadas", nom: "Matemàtiques Aplicades a les Ciències Socials", icona: "fa-chart-line" },
-            { clau: "matematiques ccss", nom: "Matemàtiques Aplicades a les Ciències Socials", icona: "fa-chart-line" },
-            { clau: "matematicas ccss", nom: "Matemàtiques Aplicades a les Ciències Socials", icona: "fa-chart-line" },
-            { clau: "matematiques", nom: "Matemàtiques", icona: "fa-square-root-variable" },
-            { clau: "matematicas", nom: "Matemàtiques", icona: "fa-square-root-variable" },
-            { clau: "matematica", nom: "Matemàtiques", icona: "fa-square-root-variable" },
-            { clau: "literatura catalana", nom: "Literatura Catalana", icona: "fa-book" },
-            { clau: "literatura castellana", nom: "Literatura Castellana", icona: "fa-book" },
-            { clau: "literatura dramatica", nom: "Literatura Dramàtica", icona: "fa-masks-theater" },
-            { clau: "llengua catalana", nom: "Llengua Catalana i Literatura", icona: "fa-book-open" },
-            { clau: "catala", nom: "Llengua Catalana i Literatura", icona: "fa-book-open" },
-            { clau: "llengua castellana", nom: "Llengua Castellana i Literatura", icona: "fa-feather-pointed" },
-            { clau: "lengua castellana", nom: "Llengua Castellana i Literatura", icona: "fa-feather-pointed" },
-            { clau: "castella", nom: "Llengua Castellana i Literatura", icona: "fa-feather-pointed" },
-            { clau: "angles", nom: "Anglès", icona: "fa-language" },
-            { clau: "ingles", nom: "Anglès", icona: "fa-language" },
-            { clau: "frances", nom: "Francès", icona: "fa-language" },
-            { clau: "alemany", nom: "Alemany", icona: "fa-language" },
-            { clau: "aleman", nom: "Alemany", icona: "fa-language" },
-            { clau: "italia", nom: "Italià", icona: "fa-language" },
-            { clau: "italiano", nom: "Italià", icona: "fa-language" },
-            { clau: "historia de la filosofia", nom: "Història de la Filosofia", icona: "fa-brain" },
-            { clau: "filosofia", nom: "Història de la Filosofia", icona: "fa-brain" },
-            { clau: "historia de l art", nom: "Història de l'Art", icona: "fa-palette" },
-            { clau: "historia del arte", nom: "Història de l'Art", icona: "fa-palette" },
-            { clau: "historia de la musica", nom: "Història de la Música i de la Dansa", icona: "fa-music" },
-            { clau: "historia de espana", nom: "Història d'Espanya", icona: "fa-landmark" },
-            { clau: "historia", nom: "Història", icona: "fa-landmark" },
-            { clau: "biologia", nom: "Biologia", icona: "fa-dna" },
-            { clau: "quimica", nom: "Química", icona: "fa-flask" },
-            { clau: "fisica", nom: "Física", icona: "fa-atom" },
-            { clau: "economia de l empresa", nom: "Economia de l'Empresa", icona: "fa-briefcase" },
-            { clau: "economia de la empresa", nom: "Economia de l'Empresa", icona: "fa-briefcase" },
-            { clau: "empresa y diseno", nom: "Empresa i Disseny de Models de Negoci", icona: "fa-briefcase" },
-            { clau: "funcionament de l empresa", nom: "Funcionament de l'Empresa", icona: "fa-briefcase" },
-            { clau: "fonaments d administracio", nom: "Fonaments d'Administració i Gestió", icona: "fa-briefcase" },
-            { clau: "economia", nom: "Economia", icona: "fa-coins" },
-            { clau: "geografia", nom: "Geografia", icona: "fa-earth-europe" },
-            { clau: "dibuix tecnic", nom: "Dibuix Tècnic", icona: "fa-compass-drafting" },
-            { clau: "dibujo tecnico", nom: "Dibuix Tècnic", icona: "fa-compass-drafting" },
-            { clau: "dibuix artistic", nom: "Dibuix Artístic", icona: "fa-paintbrush" },
-            { clau: "dibujo artistico", nom: "Dibuix Artístic", icona: "fa-paintbrush" },
-            { clau: "tecniques d expressio", nom: "Tècniques d'Expressió Graficoplàstica", icona: "fa-palette" },
-            { clau: "tecnologia industrial", nom: "Tecnologia i Enginyeria", icona: "fa-gears" },
-            { clau: "tecnologia", nom: "Tecnologia i Enginyeria", icona: "fa-gears" },
-            { clau: "ciencies de la terra", nom: "Ciències de la Terra i del Medi Ambient", icona: "fa-leaf" },
-            { clau: "ciencias de la tierra", nom: "Ciències de la Terra i del Medi Ambient", icona: "fa-leaf" },
-            { clau: "ciencies generals", nom: "Ciències Generals", icona: "fa-microscope" },
-            { clau: "ciencias generales", nom: "Ciències Generals", icona: "fa-microscope" },
-            { clau: "electrotecnia", nom: "Electrotècnia", icona: "fa-bolt" },
-            { clau: "llati", nom: "Llatí", icona: "fa-scroll" },
-            { clau: "latin", nom: "Llatí", icona: "fa-scroll" },
-            { clau: "grec", nom: "Grec", icona: "fa-columns" },
-            { clau: "griego", nom: "Grec", icona: "fa-columns" },
-            { clau: "disseny", nom: "Disseny", icona: "fa-pen-nib" },
-            { clau: "diseno", nom: "Disseny", icona: "fa-pen-nib" },
-            { clau: "fonaments de les arts", nom: "Fonaments Artístics", icona: "fa-masks-theater" },
-            { clau: "fonaments artistics", nom: "Fonaments Artístics", icona: "fa-masks-theater" },
-            { clau: "fundamentos", nom: "Fonaments Artístics", icona: "fa-masks-theater" },
-            { clau: "cultura audiovisual", nom: "Cultura Audiovisual", icona: "fa-film" },
-            { clau: "arts esceniques", nom: "Arts Escèniques", icona: "fa-masks-theater" },
-            { clau: "artes escenicas", nom: "Arts Escèniques", icona: "fa-masks-theater" },
-            { clau: "analisi musical", nom: "Anàlisi Musical", icona: "fa-music" },
-            { clau: "analisis musical", nom: "Anàlisi Musical", icona: "fa-music" },
-            { clau: "geologia", nom: "Geologia i Ciències Ambientals", icona: "fa-mountain" },
-            { clau: "cientificotecnologic", nom: "Àmbit Cientificotecnològic (GES)", icona: "fa-microscope" },
-            { clau: "ambit cientific", nom: "Àmbit Cientificotecnològic (GES)", icona: "fa-microscope" },
-            { clau: "ambit social", nom: "Àmbit Social (GES)", icona: "fa-globe" },
-            { clau: "ambit comunicacio", nom: "Àmbit de Comunicació (GES)", icona: "fa-comments" },
-            { clau: "comunicacio", nom: "Comunicació (GES / Cicles)", icona: "fa-comments" },
-            { clau: "psicologia", nom: "Psicologia", icona: "fa-head-side-virus" },
-            { clau: "sociologia", nom: "Sociologia", icona: "fa-users" }
+        const CLAUS_VIES = ["pau", "madrid", "m25", "gs", "ges"];
+
+        // Ordenat de més específic a més genèric per evitar falsos positius (Català + Castellà unificats)
+        const REGLES_MATERIES = [
+            { claus: ["matematiques aplicades", "matematicas aplicadas", "ciencies socials", "ciencias sociales", "ccss"], nom: "Matemàtiques Aplicades a les Ciències Socials", icona: "fa-chart-line", aliases: "mat mate matematicas aplicadas ciencias sociales ccss" },
+            { claus: ["matematiques", "matematicas", "matematica"], nom: "Matemàtiques", icona: "fa-square-root-variable", aliases: "mat mate matematicas cientifiques" },
+            { claus: ["llengua catalana", "lengua catalana", "catala", "catalan"], nom: "Llengua Catalana i Literatura", icona: "fa-book-open", aliases: "cat catala catalan lengua literatura" },
+            { claus: ["llengua castellana", "lengua castellana", "castella", "castellano"], nom: "Llengua Castellana i Literatura", icona: "fa-feather-pointed", aliases: "cast castella castellano lengua literatura" },
+            { claus: ["angles", "ingles"], nom: "Anglès", icona: "fa-language", aliases: "eng english ingles idiomes idiomas" },
+            { claus: ["frances"], nom: "Francès", icona: "fa-language", aliases: "fra francais frances idiomes idiomas" },
+            { claus: ["alemany", "aleman"], nom: "Alemany", icona: "fa-language", aliases: "ale deutsch aleman idiomes idiomas" },
+            { claus: ["italia", "italiano"], nom: "Italià", icona: "fa-language", aliases: "ita italiano idiomes idiomas" },
+            { claus: ["historia de la filosofia", "filosofia"], nom: "Història de la Filosofia", icona: "fa-brain", aliases: "filo filosofia historia de la filosofia" },
+            { claus: ["historia de l art", "historia del arte"], nom: "Història de l'Art", icona: "fa-palette", aliases: "art arte historia del arte" },
+            { claus: ["historia de espana", "historia d espanya"], nom: "Història d'Espanya", icona: "fa-landmark", aliases: "hist espanya espana historia de espana" },
+            { claus: ["historia"], nom: "Història", icona: "fa-landmark", aliases: "hist historia" },
+            { claus: ["biologia"], nom: "Biologia", icona: "fa-dna", aliases: "bio biologia ciencies ciencias" },
+            { claus: ["quimica"], nom: "Química", icona: "fa-flask", aliases: "quim quimica ciencies ciencias" },
+            { claus: ["fisica"], nom: "Física", icona: "fa-atom", aliases: "fis fisica ciencies ciencias" },
+            { claus: ["empresa i disseny", "empresa y diseno", "modelos de negocio"], nom: "Empresa i Disseny de Models de Negoci", icona: "fa-briefcase", aliases: "eco empresa negoci negocio diseno" },
+            { claus: ["economia de l empresa", "economia de la empresa", "funcionament de l empresa"], nom: "Economia de l'Empresa", icona: "fa-briefcase", aliases: "eco empresa economia de la empresa" },
+            { claus: ["economia"], nom: "Economia", icona: "fa-coins", aliases: "eco economia" },
+            { claus: ["geografia"], nom: "Geografia", icona: "fa-earth-europe", aliases: "geo geografia" },
+            { claus: ["dibuix tecnic", "dibujo tecnico"], nom: "Dibuix Tècnic", icona: "fa-compass-drafting", aliases: "dt dibuix dibujo tecnico" },
+            { claus: ["dibuix artistic", "dibujo artistico"], nom: "Dibuix Artístic", icona: "fa-paintbrush", aliases: "dibuix dibujo artistico" },
+            { claus: ["tecnologia", "ingenieria", "enginyeria"], nom: "Tecnologia i Enginyeria", icona: "fa-gears", aliases: "tecno tecnologia enginyeria ingenieria industrial" },
+            { claus: ["ciencies de la terra", "ciencias de la tierra"], nom: "Ciències de la Terra i del Medi Ambient", icona: "fa-leaf", aliases: "ctma medi ambient medio ambiente ciencias de la tierra" },
+            { claus: ["ciencies generals", "ciencias generales"], nom: "Ciències Generals", icona: "fa-microscope", aliases: "ciencies ciencias generales" },
+            { claus: ["geologia"], nom: "Geologia i Ciències Ambientals", icona: "fa-mountain", aliases: "geo geologia ambientales" },
+            { claus: ["electrotecnia"], nom: "Electrotècnia", icona: "fa-bolt", aliases: "electro electrotecnia" },
+            { claus: ["llati", "latin"], nom: "Llatí", icona: "fa-scroll", aliases: "lletres letras latin llati" },
+            { claus: ["grec", "griego"], nom: "Grec", icona: "fa-columns", aliases: "lletres letras griego grec" },
+            { claus: ["disseny", "diseno"], nom: "Disseny", icona: "fa-pen-nib", aliases: "arts artes diseno disseny" },
+            { claus: ["fonaments", "fundamentos"], nom: "Fonaments Artístics", icona: "fa-masks-theater", aliases: "arts artes fundamentos del arte" },
+            { claus: ["cultura audiovisual"], nom: "Cultura Audiovisual", icona: "fa-film", aliases: "arts artes audiovisual" },
+            { claus: ["arts esceniques", "artes escenicas"], nom: "Arts Escèniques", icona: "fa-masks-theater", aliases: "teatre teatro arts artes escenicas" },
+            { claus: ["analisi musical", "analisis musical", "musica"], nom: "Anàlisi Musical", icona: "fa-music", aliases: "musica analisis musical" },
+            { claus: ["literatura"], nom: "Literatura", icona: "fa-book", aliases: "lletres letras literatura" },
+            { claus: ["cientificotecnologic", "ambit cientific", "ambito cientifico"], nom: "Àmbit Cientificotecnològic (GES)", icona: "fa-microscope", aliases: "ges ciencies ciencias cientifico tecnologico" },
+            { claus: ["ambit social", "ambito social"], nom: "Àmbit Social (GES)", icona: "fa-globe", aliases: "ges socials sociales ambito social" },
+            { claus: ["comunicacio", "comunicacion"], nom: "Àmbit de Comunicació (GES)", icona: "fa-comments", aliases: "ges llengua lengua comunicacion" },
+            { claus: ["psicologia"], nom: "Psicologia", icona: "fa-head-side-virus", aliases: "psico psicologia" },
+            { claus: ["sociologia"], nom: "Sociologia", icona: "fa-users", aliases: "socio sociologia" }
         ];
 
-        // Deduïm el nom real i net d'una matèria respectant sempre el nom classificat pel generador
-        function deduirMateriaReal(nomBrut, urlExemple) {
-            const netNomBrut = normalitzarText(nomBrut || "");
-            // 1. Primer comprovem el nom que ja ve del catàleg (per evitar falsos positius a la URL)
-            for (const entrada of DICCIONARI_MATERIES) {
-                if (netNomBrut.includes(entrada.clau)) {
-                    return { nom: entrada.nom, icona: entrada.icona };
-                }
-            }
-
-            // 2. Si el nom brut no estava al diccionari, mirem la combinació amb la URL
-            const textCombinat = normalitzarText(`${nomBrut || ""} ${urlExemple || ""}`)
-                .replace(/https?:\/\/[^\s]+\//g, ' ')
-                .replace(/\.pdf/g, ' ')
-                .replace(/[-_]/g, ' ');
-
-            for (const entrada of DICCIONARI_MATERIES) {
-                if (textCombinat.includes(entrada.clau)) {
-                    return { nom: entrada.nom, icona: entrada.icona };
-                }
-            }
-
-            // 3. Si no és al diccionari, netegem paraules brossa (mesos, convocatòries, fases...)
-            const paraulesBrossa = new Set([
-                "gener", "febrer", "marc", "abril", "maig", "juny", "juliol", "agost", "setembre", "octubre", "novembre", "desembre",
-                "ordinari", "ordinaria", "extraordinari", "extraordinaria", "convocatoria", "serie", "model", "exemple",
-                "general", "especifica", "comu", "comuna", "com", "part", "fase", "bloc", "opcio", "a", "b",
-                "pau", "ges", "cfgs", "cfgm", "m25", "m45", "proves", "prova", "acces", "lliures", "lliure",
-                "solucio", "solucions", "pauta", "correccio", "criteris", "examen", "examens", "pdf", "materials"
-            ]);
-
-            const net = normalitzarText(nomBrut || "")
-                .replace(/\b20\d{2}\b/g, '')
-                .replace(/[^a-z\s]/g, ' ')
-                .split(/\s+/)
-                .filter(p => p.length > 1 && !paraulesBrossa.has(p))
-                .join(' ')
-                .trim();
-
-            if (!net) return { nom: "Altres Proves", icona: "fa-folder-open" };
-
-            const capitalitzat = net.charAt(0).toUpperCase() + net.slice(1);
-            return { nom: capitalitzat, icona: "fa-book" };
-        }
-
-        // Funció de sanejament i fusió: agrupa totes les assignatures duplicades/brutes sota el seu nom oficial real
-        function sanejarCatalegXelu(llista) {
-            const mapaMateries = new Map();
-
-            llista.forEach(materia => {
-                (materia.anys || []).forEach(conv => {
-                    ['pau', 'madrid', 'm25', 'gs', 'ges'].forEach(viaOriginal => {
-                        const bloc = conv[viaOriginal];
-                        if (!bloc) return;
-
-                        // Normalitzem sempre a array d'ítems tant si ve en format nou (array) com antic (objecte)
-                        const items = Array.isArray(bloc) ? bloc : [bloc];
-
-                        items.forEach(it => {
-                            if (!it || (!it.examen && !it.solucio)) return;
-
-                            const urlRef = (it.examen || it.solucio || '').toLowerCase();
-
-                            // Detectem la via real segons el domini o ruta (evitant falsos positius)
-                            let viaReal = viaOriginal;
-                            if (urlRef.includes('selemadrid')) {
-                                viaReal = 'madrid';
-                            } else if (urlRef.includes('selecat.cat/cicles') || urlRef.includes('cicles-formatius') || urlRef.includes('grau-superior')) {
-                                viaReal = 'gs';
-                            } else if (urlRef.includes('ges-proves-d-acces-lliures') || urlRef.includes('/ges-')) {
-                                viaReal = 'ges';
-                            } else if (urlRef.includes('majors-de-25') || urlRef.includes('m25')) {
-                                viaReal = 'm25';
-                            } else if (urlRef.includes('selecat.cat') || urlRef.includes('pau-proves-d-acces')) {
-                                viaReal = 'pau';
-                            }
-
-                            // Deduïm el nom real de la matèria mirant la URL i el nom original
-                            const infoMat = deduirMateriaReal(materia.assignaturaNom, urlRef);
-                            const idNet = normalitzarText(infoMat.nom).replace(/[^a-z0-9]+/g, '-');
-
-                            if (!mapaMateries.has(idNet)) {
-                                mapaMateries.set(idNet, {
-                                    id: idNet,
-                                    assignaturaNom: infoMat.nom,
-                                    icona: infoMat.icona,
-                                    anysMap: new Map()
-                                });
-                            }
-
-                            const matDesti = mapaMateries.get(idNet);
-                            const anyNum = parseInt(conv.any, 10) || 2025;
-
-                            if (!matDesti.anysMap.has(anyNum)) {
-                                matDesti.anysMap.set(anyNum, {
-                                    any: anyNum,
-                                    pau: [],
-                                    madrid: [],
-                                    m25: [],
-                                    gs: [],
-                                    ges: []
-                                });
-                            }
-
-                            const destiAny = matDesti.anysMap.get(anyNum);
-                            const etiqueta = it.etiqueta || "Convocatòria";
-                            let ex = it.examen || null;
-                            let sol = it.solucio || null;
-
-                            if (ex && (ex.toLowerCase().includes('pauta') || ex.toLowerCase().includes('solucio') || ex.toLowerCase().includes('solucion') || ex.toLowerCase().includes('correccio') || ex.toLowerCase().includes('correccion'))) {
-                                sol = sol || ex;
-                                ex = null;
-                            }
-
-                            // Evitem duplicar exactament la mateixa URL dins del mateix any i via
-                            const jaExisteix = destiAny[viaReal].some(x => x.examen === ex && x.solucio === sol);
-                            if (!jaExisteix) {
-                                destiAny[viaReal].push({ etiqueta, examen: ex, solucio: sol });
-                            }
-                        });
-                    });
-                });
-            });
-
-            // Convertim el mapa en array ordenat alfabèticament
-            return Array.from(mapaMateries.values())
-                .map(m => ({
-                    id: m.id,
-                    assignaturaNom: m.assignaturaNom,
-                    icona: m.icona,
-                    anys: Array.from(m.anysMap.values()).sort((a, b) => b.any - a.any)
-                }))
-                .sort((a, b) => a.assignaturaNom.localeCompare(b.assignaturaNom, 'ca'));
-        }
-
-        // Si encara no s'ha carregat cap .js extern (només a la vista prèvia), carreguem exemples reals de xelu.net
-        if (typeof dadesMateries === 'undefined' || !Array.isArray(dadesMateries) || dadesMateries.length === 0) {
-            usantDadesMostra = true;
-            window.dadesMateries = [
-                {
-                    id: "matematiques",
-                    assignaturaNom: "Matemàtiques",
-                    icona: "fa-square-root-variable",
-                    anys: [
-                        {
-                            any: 2025,
-                            pau: {
-                                examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques.pdf",
-                                solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-solucio.pdf"
-                            },
-                            m25: {
-                                examen: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2025-especifica-matematiques-ordinari.pdf",
-                                solucio: null
-                            },
-                            gs: null,
-                            ges: null
-                        }
-                    ]
-                },
-                {
-                    id: "matematiques-ccss",
-                    assignaturaNom: "Matemàtiques Aplicades a les Ciències Socials",
-                    icona: "fa-chart-line",
-                    anys: [
-                        {
-                            any: 2025,
-                            pau: {
-                                examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-ccss.pdf",
-                                solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-ccss-solucio.pdf"
-                            },
-                            m25: null,
-                            gs: null,
-                            ges: null
-                        }
-                    ]
-                }
-            ];
-        } else {
-            window.dadesMateries = sanejarCatalegXelu(dadesMateries);
-        }
-
-        // ESTAT DE L'APLICACIÓ
-        let materiaSeleccionadaId = dadesMateries.length > 0 ? dadesMateries[0].id : null;
+        // =========================================================================
+        // 2. ESTAT GLOBAL DE L'APLICACIÓ
+        // =========================================================================
+        let catalegNet = [];
+        let usantDadesMostra = false;
+        let materiaSeleccionadaId = null;
+        let anySeleccionat = "tots";
         let viesActives = {
             pau: true,
             madrid: true,
@@ -497,158 +370,337 @@
             ges: true
         };
 
-        // Configuració visual de cada tipus d'examen
-        const configVies = {
-            pau: {
-                nom: "PAU Catalunya",
-                subtitol: "Selecat",
-                badgeClass: "bg-cyan-500/15 text-cyan-300 border-cyan-500/40",
-                btnClass: "bg-cyan-500/20 text-cyan-300 border-cyan-500/50 hover:bg-cyan-500 hover:text-slate-950",
-                toggleOn: "bg-cyan-500/20 text-cyan-300 border-cyan-400 shadow-sm shadow-cyan-500/20",
-                iconColor: "text-cyan-400"
-            },
-            madrid: {
-                nom: "PAU Madrid",
-                subtitol: "Selemadrid",
-                badgeClass: "bg-rose-500/15 text-rose-300 border-rose-500/40",
-                btnClass: "bg-rose-500/20 text-rose-300 border-rose-500/50 hover:bg-rose-500 hover:text-white",
-                toggleOn: "bg-rose-500/20 text-rose-300 border-rose-400 shadow-sm shadow-rose-500/20",
-                iconColor: "text-rose-400"
-            },
-            m25: {
-                nom: "PAU +25",
-                subtitol: "Majors de 25",
-                badgeClass: "bg-indigo-500/15 text-indigo-300 border-indigo-500/40",
-                btnClass: "bg-indigo-500/20 text-indigo-300 border-indigo-500/50 hover:bg-indigo-500 hover:text-white",
-                toggleOn: "bg-indigo-500/20 text-indigo-300 border-indigo-400 shadow-sm shadow-indigo-500/20",
-                iconColor: "text-indigo-400"
-            },
-            gs: {
-                nom: "Grau Superior",
-                subtitol: "Selecat Cicles",
-                badgeClass: "bg-emerald-500/15 text-emerald-300 border-emerald-500/40",
-                btnClass: "bg-emerald-500/20 text-emerald-300 border-emerald-500/50 hover:bg-emerald-500 hover:text-slate-950",
-                toggleOn: "bg-emerald-500/20 text-emerald-300 border-emerald-400 shadow-sm shadow-emerald-500/20",
-                iconColor: "text-emerald-400"
-            },
-            ges: {
-                nom: "Proves Lliures GES",
-                subtitol: "Graduat ESO",
-                badgeClass: "bg-amber-500/15 text-amber-300 border-amber-500/40",
-                btnClass: "bg-amber-500/20 text-amber-300 border-amber-500/50 hover:bg-amber-500 hover:text-slate-950",
-                toggleOn: "bg-amber-500/20 text-amber-300 border-amber-400 shadow-sm shadow-amber-500/20",
-                iconColor: "text-amber-400"
-            }
-        };
-
-        // Funció per normalitzar text (elimina accents i majúscules per cercar per semblança)
-        function normalitzarText(text) {
-            return (text || "")
+        // =========================================================================
+        // 3. UTILITATS DE NORMALITZACIÓ I SANEJAMENT DE DADES
+        // =========================================================================
+        function normalitzarText(str) {
+            return (str || "")
                 .toString()
                 .normalize("NFD")
                 .replace(/[\u0300-\u036f]/g, "")
                 .toLowerCase()
+                .replace(/[^a-z0-9\s]/g, " ")
+                .replace(/\s+/g, " ")
                 .trim();
         }
 
-        // INICIALITZACIÓ
-        document.addEventListener('DOMContentLoaded', () => {
-            try {
-                const footerEstat = document.getElementById('estat-dades-footer');
-                if (footerEstat) {
-                    const totalEnllacos = dadesMateries.reduce((acc, m) => {
-                        return acc + (m.anys || []).reduce((a2, c) => {
-                            return a2 + ['pau', 'madrid', 'm25', 'gs', 'ges'].reduce((a3, v) => {
-                                const llista = Array.isArray(c[v]) ? c[v] : (c[v] ? [c[v]] : []);
-                                return a3 + llista.reduce((a4, item) => a4 + (item.examen ? 1 : 0) + (item.solucio ? 1 : 0), 0);
-                            }, 0);
-                        }, 0);
-                    }, 0);
-
-                    footerEstat.textContent = usantDadesMostra 
-                        ? `Mostra activa (executa descarregar_examens.py per generar dades_generades_2.js)` 
-                        : `Connectat · ${dadesMateries.length} assignatures · ${totalEnllacos} PDFs directes`;
+        function resoldreMateriaNormalitzada(nomBrut, urlMostra = "") {
+            const textAvaluar = normalitzarText(`${nomBrut} ${decodeURIComponent(urlMostra || "")}`);
+            for (const regla of REGLES_MATERIES) {
+                if (regla.claus.some(c => textAvaluar.includes(c))) {
+                    return {
+                        id: normalitzarText(regla.nom).replace(/\s+/g, "-"),
+                        nom: regla.nom,
+                        icona: regla.icona,
+                        aliases: regla.aliases
+                    };
                 }
-
-                // Comprovem si hi ha un hash a la URL
-                const ruta = window.location.hash;
-                if (ruta.startsWith('#/materia/')) {
-                    const idUrl = ruta.replace('#/materia/', '');
-                    if (dadesMateries.some(m => m.id === idUrl)) {
-                        materiaSeleccionadaId = idUrl;
-                    }
-                }
-
-                filtrarSelectorsMateries();
-                renderitzarTaulerMateria();
-
-                // Drecera Ctrl+K / Cmd+K
-                document.addEventListener('keydown', (e) => {
-                    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
-                        e.preventDefault();
-                        document.getElementById('search').focus();
-                    }
-                });
-            } catch (error) {
-                console.error("Error d'inicialització:", error);
             }
-        });
+            const nomNet = (nomBrut || "Altres Assignatures").trim();
+            return {
+                id: normalitzarText(nomNet).replace(/\s+/g, "-") || "altres",
+                nom: nomNet,
+                icona: "fa-book",
+                aliases: ""
+            };
+        }
 
-        function navegarAHome() {
-            document.getElementById('search').value = '';
+        function deduirViaReal(viaOriginal, urlPdf) {
+            const u = (urlPdf || "").toLowerCase();
+            if (u.includes("ges-proves")) return "ges";
+            if (u.includes("majors-de-25")) return "m25";
+            if (u.includes("cicles-formatius") || u.includes("grau-superior") || u.includes("selecat.cat/cicles")) return "gs";
+            if (u.includes("selemadrid.es")) return "madrid";
+            if (u.includes("pau-proves") || u.includes("selecat.cat")) return "pau";
+            return CLAUS_VIES.includes(viaOriginal) ? viaOriginal : "pau";
+        }
+
+        function processarCataleg(dadesRaw) {
+            const mapa = new Map();
+
+            (dadesRaw || []).forEach(mat => {
+                if (!mat || !Array.isArray(mat.anys)) return;
+
+                mat.anys.forEach(blocAny => {
+                    const numAny = parseInt(blocAny.any, 10);
+                    if (!numAny || isNaN(numAny)) return;
+
+                    CLAUS_VIES.forEach(viaOrig => {
+                        const rawItems = blocAny[viaOrig];
+                        const llista = Array.isArray(rawItems) ? rawItems : (rawItems ? [rawItems] : []);
+
+                        llista.forEach(item => {
+                            if (!item || (!item.examen && !item.solucio)) return;
+                            const urlRef = item.examen || item.solucio || "";
+                            const viaFinal = deduirViaReal(viaOrig, urlRef);
+                            const infoMat = resoldreMateriaNormalitzada(mat.assignaturaNom, urlRef);
+
+                            if (!mapa.has(infoMat.id)) {
+                                mapa.set(infoMat.id, {
+                                    id: infoMat.id,
+                                    assignaturaNom: infoMat.nom,
+                                    icona: mat.icona || infoMat.icona,
+                                    aliases: infoMat.aliases,
+                                    anysMap: new Map()
+                                });
+                            }
+
+                            const refMat = mapa.get(infoMat.id);
+                            if (!refMat.anysMap.has(numAny)) {
+                                refMat.anysMap.set(numAny, {
+                                    any: numAny,
+                                    pau: [], madrid: [], m25: [], gs: [], ges: []
+                                });
+                            }
+
+                            const refAny = refMat.anysMap.get(numAny);
+                            const etiquetaNet = (item.etiqueta || "Convocatòria").trim();
+
+                            // Evitem duplicats exactes d'URL
+                            const jaExisteix = refAny[viaFinal].some(x =>
+                                (item.examen && x.examen === item.examen) ||
+                                (item.solucio && x.solucio === item.solucio)
+                            );
+
+                            if (!jaExisteix) {
+                                // Intentem fusionar examen + solució de la mateixa etiqueta si estaven separats
+                                const candidatFusio = refAny[viaFinal].find(x =>
+                                    x.etiqueta === etiquetaNet &&
+                                    ((item.examen && !x.examen) || (item.solucio && !x.solucio))
+                                );
+                                if (candidatFusio) {
+                                    if (item.examen) candidatFusio.examen = item.examen;
+                                    if (item.solucio) candidatFusio.solucio = item.solucio;
+                                } else {
+                                    refAny[viaFinal].push({
+                                        etiqueta: etiquetaNet,
+                                        examen: item.examen || null,
+                                        solucio: item.solucio || null
+                                    });
+                                }
+                            }
+                        });
+                    });
+                });
+            });
+
+            return Array.from(mapa.values())
+                .map(m => ({
+                    id: m.id,
+                    assignaturaNom: m.assignaturaNom,
+                    icona: m.icona,
+                    aliases: m.aliases,
+                    anys: Array.from(m.anysMap.values()).sort((a, b) => b.any - a.any)
+                }))
+                .filter(m => m.anys.length > 0)
+                .sort((a, b) => a.assignaturaNom.localeCompare(b.assignaturaNom, "ca"));
+        }
+
+        function obtenirDadesMostra() {
+            return [
+                {
+                    assignaturaNom: "Matemàtiques",
+                    icona: "fa-square-root-variable",
+                    anys: [
+                        {
+                            any: 2025,
+                            pau: [{ etiqueta: "Juny · Ordinària", examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques.pdf", solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-solucio.pdf" }],
+                            madrid: [{ etiqueta: "Ordinària", examen: "https://www.selemadrid.es/", solucio: null }],
+                            m25: [{ etiqueta: "Ordinària", examen: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2025-especifica-matematiques-ordinari.pdf", solucio: null }],
+                            gs: [{ etiqueta: "Convocatòria Única", examen: "https://www.xelu.net/pdf/materials/proves-d-acces-a-cicles-formatius-de-grau-superior-28/2025-gs-matematiques.pdf", solucio: null }],
+                            ges: []
+                        },
+                        {
+                            any: 2024,
+                            pau: [{ etiqueta: "Juny · Sèrie 1", examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-matematiques.pdf", solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-matematiques-solucio.pdf" }],
+                            madrid: [], m25: [], gs: [], ges: []
+                        }
+                    ]
+                },
+                {
+                    assignaturaNom: "Matemàtiques Aplicades a les Ciències Socials",
+                    icona: "fa-chart-line",
+                    anys: [
+                        {
+                            any: 2025,
+                            pau: [{ etiqueta: "Juny · Ordinària", examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-ccss.pdf", solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-ccss-solucio.pdf" }],
+                            madrid: [], m25: [], gs: [], ges: []
+                        }
+                    ]
+                },
+                {
+                    assignaturaNom: "Àmbit Cientificotecnològic (GES)",
+                    icona: "fa-microscope",
+                    anys: [
+                        {
+                            any: 2025,
+                            pau: [], madrid: [], m25: [], gs: [],
+                            ges: [{ etiqueta: "Convocatòria 1", examen: "https://www.xelu.net/pdf/materials/ges-proves-d-acces-lliures-26/2025-ges-cientificotecnologic.pdf", solucio: null }]
+                        }
+                    ]
+                }
+            ];
+        }
+
+        // =========================================================================
+        // 4. INTERACCIÓ DELS INTERRUPTORS SUPERIORS (VIES)
+        // =========================================================================
+        function toggleVia(clauVia) {
+            if (!CONFIG_VIES[clauVia]) return;
+            viesActives[clauVia] = !viesActives[clauVia];
+            anySeleccionat = "tots";
+            actualitzarEstatVisualVies();
             filtrarSelectorsMateries();
-            if (dadesMateries.length > 0) {
-                seleccionarMateria(dadesMateries[0].id);
+            renderitzarTaulerMateria();
+        }
+
+        function activarTotesLesVies() {
+            CLAUS_VIES.forEach(v => viesActives[v] = true);
+            anySeleccionat = "tots";
+            actualitzarEstatVisualVies();
+            filtrarSelectorsMateries();
+            renderitzarTaulerMateria();
+        }
+
+        function actualitzarEstatVisualVies() {
+            const materia = catalegNet.find(m => m.id === materiaSeleccionadaId);
+            const comptadorsMateria = { pau: 0, madrid: 0, m25: 0, gs: 0, ges: 0 };
+
+            if (materia) {
+                materia.anys.forEach(a => {
+                    CLAUS_VIES.forEach(v => {
+                        comptadorsMateria[v] += (a[v] || []).length;
+                    });
+                });
+            }
+
+            let algunaDesactivada = false;
+
+            CLAUS_VIES.forEach(v => {
+                const btn = document.getElementById(`toggle-${v}`);
+                if (!btn) return;
+
+                const cfg = CONFIG_VIES[v];
+                const activa = viesActives[v];
+                if (!activa) algunaDesactivada = true;
+
+                const totalEnMateria = comptadorsMateria[v];
+                const countSpan = btn.querySelector(".count");
+                const dotSpan = btn.querySelector(".dot");
+
+                if (countSpan) countSpan.textContent = totalEnMateria;
+
+                if (activa) {
+                    btn.className = `via-pill px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer flex items-center gap-2 ${cfg.activeClass} ${totalEnMateria === 0 ? "opacity-55" : ""}`;
+                    if (dotSpan) dotSpan.className = `dot w-2 h-2 rounded-full ${cfg.dotClass}`;
+                } else {
+                    btn.className = "via-pill px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all cursor-pointer flex items-center gap-2 bg-obsidian/70 text-slate-500 border-white/10 hover:border-white/25 hover:text-slate-300";
+                    if (dotSpan) dotSpan.className = "dot w-2 h-2 rounded-full bg-slate-600";
+                }
+            });
+
+            const btnTotes = document.getElementById("btn-activar-totes");
+            if (btnTotes) {
+                btnTotes.classList.toggle("hidden", !algunaDesactivada);
             }
         }
 
-        // --- FILTRAT PER SEMBLANÇA SENSE AUTO-SALTAR ---
-        function filtrarSelectorsMateries() {
-            const input = document.getElementById('search');
-            const cercaNorm = normalitzarText(input.value);
-            const btnClear = document.getElementById('btn-clear-search');
-            const contenidor = document.getElementById('llista-selectors-materies');
-            const comptador = document.getElementById('comptador-materies-selector');
+        // =========================================================================
+        // 5. CERCADOR ULTRASENSIBLE I SELECTOR D'ASSIGNATURES
+        // =========================================================================
+        function obtenirTextCercable(materia) {
+            const nomsVies = [];
+            materia.anys.forEach(a => {
+                CLAUS_VIES.forEach(v => {
+                    if ((a[v] || []).length > 0 && !nomsVies.includes(CONFIG_VIES[v].nom)) {
+                        nomsVies.push(CONFIG_VIES[v].nom, v);
+                    }
+                });
+            });
+            return normalitzarText(`${materia.assignaturaNom} ${materia.aliases || ""} ${nomsVies.join(" ")}`);
+        }
 
-            if (input.value.trim().length > 0) {
-                btnClear.classList.remove('hidden');
-            } else {
-                btnClear.classList.add('hidden');
+        function filtrarSelectorsMateries() {
+            const input = document.getElementById("search");
+            const btnClear = document.getElementById("btn-clear-search");
+            const contenidor = document.getElementById("llista-selectors-materies");
+            const comptador = document.getElementById("comptador-materies-selector");
+
+            const valorBrut = input ? input.value : "";
+            const cercaNorm = normalitzarText(valorBrut);
+
+            if (btnClear) {
+                btnClear.classList.toggle("hidden", valorBrut.trim().length === 0);
             }
 
-            const paraulesCerca = cercaNorm.split(/\s+/).filter(Boolean);
+            const paraules = cercaNorm.split(/\s+/).filter(Boolean);
 
-            const filtrades = dadesMateries.filter(m => {
-                if (paraulesCerca.length === 0) return true;
-                const nomNorm = normalitzarText(m.assignaturaNom);
-                return paraulesCerca.every(paraula => nomNorm.includes(paraula));
+            const filtrades = catalegNet.filter(m => {
+                if (paraules.length === 0) return true;
+                const textBase = obtenirTextCercable(m);
+                const textSenseEspais = textBase.replace(/\s+/g, "");
+
+                return paraules.every(p => {
+                    if (textBase.includes(p) || textSenseEspais.includes(p)) return true;
+                    // Tolerància a 1 error tipogràfic en paraules de 4+ lletres
+                    if (p.length >= 4) {
+                        return textBase.split(" ").some(mot => {
+                            if (Math.abs(mot.length - p.length) > 1) return false;
+                            let difs = 0;
+                            const len = Math.min(mot.length, p.length);
+                            for (let i = 0; i < len; i++) {
+                                if (mot[i] !== p[i]) difs++;
+                            }
+                            return difs <= 1;
+                        });
+                    }
+                    return false;
+                });
             });
 
-            comptador.textContent = paraulesCerca.length > 0 
-                ? `Assignatures semblants trobades (${filtrades.length}) — Fes clic per triar-ne una:`
-                : `Totes les assignatures disponibles (${filtrades.length}):`;
-            
-            contenidor.innerHTML = '';
+            // Si l'assignatura activa ha quedat fora de la cerca, saltem automàticament a la primera coincidència
+            if (filtrades.length > 0 && !filtrades.some(m => m.id === materiaSeleccionadaId)) {
+                materiaSeleccionadaId = filtrades[0].id;
+                anySeleccionat = "tots";
+            }
+
+            if (comptador) {
+                comptador.textContent = paraules.length > 0
+                    ? `${filtrades.length} ${filtrades.length === 1 ? "assignatura trobada" : "assignatures trobades"}`
+                    : `${filtrades.length} assignatures disponibles al catàleg`;
+            }
+
+            if (!contenidor) return;
+            contenidor.innerHTML = "";
 
             if (filtrades.length === 0) {
-                contenidor.innerHTML = `<span class="text-sm text-rose-400 font-mono py-2">Cap assignatura s'assembla a "${input.value}"</span>`;
+                contenidor.innerHTML = `
+                    <div class="w-full py-4 px-4 rounded-2xl bg-rose-500/10 border border-rose-500/25 text-xs sm:text-sm text-rose-300 flex items-center justify-between">
+                        <span>No s'ha trobat cap assignatura per a <strong>"${valorBrut}"</strong>.</span>
+                        <button type="button" onclick="netejarCerca()" class="underline font-bold hover:text-white cursor-pointer">Netejar cerca</button>
+                    </div>
+                `;
                 return;
             }
 
-            filtrades.forEach(materia => {
-                const esActiva = materia.id === materiaSeleccionadaId;
-                const numAnys = (materia.anys || []).length;
-                const btn = document.createElement('button');
+            filtrades.forEach(mat => {
+                const esActiva = mat.id === materiaSeleccionadaId;
+                // Comptem quants anys tenen exàmens en les vies actualment activades
+                const anysAmbDades = mat.anys.filter(a =>
+                    CLAUS_VIES.some(v => viesActives[v] && (a[v] || []).length > 0)
+                ).length;
+
+                const btn = document.createElement("button");
                 btn.type = "button";
-                btn.onclick = () => seleccionarMateria(materia.id);
+                btn.onclick = () => seleccionarMateria(mat.id);
                 btn.className = esActiva
-                    ? "px-4 py-2.5 rounded-xl text-sm sm:text-base font-bold bg-cyan-500 text-slate-950 border border-cyan-300 shadow-lg shadow-cyan-500/25 transition-all cursor-pointer flex items-center gap-2"
-                    : "px-4 py-2.5 rounded-xl text-sm sm:text-base font-semibold bg-slate-900/90 text-slate-300 border border-white/10 hover:border-cyan-400/50 hover:text-white transition-all cursor-pointer flex items-center gap-2";
+                    ? "px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold bg-cyan-400 text-slate-950 border border-cyan-300 shadow-lg shadow-cyan-500/20 transition-all cursor-pointer flex items-center gap-2"
+                    : `px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-obsidian/80 text-slate-300 border border-white/10 hover:border-cyan-400/45 hover:text-white transition-all cursor-pointer flex items-center gap-2 ${anysAmbDades === 0 ? "opacity-50" : ""}`;
 
                 btn.innerHTML = `
-                    <i class="fa-solid ${materia.icona || 'fa-book'} ${esActiva ? 'text-slate-950' : 'text-cyan-400'}"></i>
-                    <span>${materia.assignaturaNom}</span>
-                    <span class="text-[11px] font-mono px-1.5 py-0.5 rounded ${esActiva ? 'bg-slate-950/20 text-slate-950' : 'bg-white/5 text-slate-400'}">${numAnys}</span>
+                    <i class="fa-solid ${mat.icona || "fa-book"} ${esActiva ? "text-slate-950" : "text-cyan-400"} text-xs"></i>
+                    <span>${mat.assignaturaNom}</span>
+                    <span class="font-mono text-[10px] px-1.5 py-0.5 rounded-md ${esActiva ? "bg-slate-950/20 text-slate-950 font-bold" : "bg-white/5 text-slate-400"}">${anysAmbDades}</span>
                 `;
                 contenidor.appendChild(btn);
             });
@@ -656,235 +708,299 @@
 
         function seleccionarMateria(id) {
             materiaSeleccionadaId = id;
-            try { window.location.hash = `#/materia/${id}`; } catch (e) {}
+            anySeleccionat = "tots";
+            window.history.replaceState(null, "", `#/materia/${id}`);
+            actualitzarEstatVisualVies();
             filtrarSelectorsMateries();
             renderitzarTaulerMateria();
         }
 
         function netejarCerca() {
-            document.getElementById('search').value = '';
-            filtrarSelectorsMateries();
-            document.getElementById('search').focus();
-        }
-
-        // --- INTERRUPTORS (TOGGLES) PER ACTIVAR / DESACTIVAR CONVOCATÒRIES ---
-        function actualitzarVisibilitatToggles(materia) {
-            const totesVies = ['pau', 'madrid', 'm25', 'gs', 'ges'];
-            totesVies.forEach(clauVia => {
-                const btn = document.getElementById(`toggle-${clauVia}`);
-                if (!btn) return;
-
-                // Comprovem si aquesta assignatura té com a mínim 1 examen/solució en aquesta categoria
-                const teExemplesEnVia = (materia.anys || []).some(conv => {
-                    const llista = Array.isArray(conv[clauVia]) ? conv[clauVia] : (conv[clauVia] ? [conv[clauVia]] : []);
-                    return llista.some(item => item && (item.examen || item.solucio));
-                });
-
-                if (teExemplesEnVia) {
-                    btn.classList.remove('hidden');
-                } else {
-                    btn.classList.add('hidden');
-                }
-            });
-        }
-
-        function toggleVia(clauVia) {
-            viesActives[clauVia] = !viesActives[clauVia];
-            const btn = document.getElementById(`toggle-${clauVia}`);
-            const cfg = configVies[clauVia];
-
-            if (viesActives[clauVia]) {
-                btn.className = `px-3.5 py-2 rounded-xl text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 ${cfg.toggleOn}`;
-                btn.querySelector('i').className = `fa-solid fa-circle-check ${cfg.iconColor}`;
-            } else {
-                btn.className = `px-3.5 py-2 rounded-xl text-sm font-semibold border transition-all cursor-pointer flex items-center gap-2 bg-slate-900/60 text-slate-500 border-white/10 hover:border-white/25`;
-                btn.querySelector('i').className = `fa-regular fa-circle text-slate-600`;
+            const input = document.getElementById("search");
+            if (input) {
+                input.value = "";
+                input.focus();
             }
-
+            filtrarSelectorsMateries();
+            actualitzarEstatVisualVies();
             renderitzarTaulerMateria();
         }
 
-        // --- VERIFICACIÓ D'ENLLAÇOS EN DIRECTE CONTRA XELU.NET ---
-        async function verificarEnllacosAny(btnElement, contenidorAnyId) {
-            const contenidor = document.getElementById(contenidorAnyId);
-            if (!contenidor) return;
-
-            const enllacos = contenidor.querySelectorAll('a[data-xelu-url]');
-            if (enllacos.length === 0) return;
-
-            const textOriginal = btnElement.innerHTML;
-            btnElement.disabled = true;
-            btnElement.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Verificant...`;
-
-            for (const link of enllacos) {
-                const url = link.getAttribute('data-xelu-url');
-                const badge = link.querySelector('.estat-link-badge');
-                if (badge) {
-                    badge.classList.remove('hidden');
-                    badge.innerHTML = `<i class="fa-solid fa-circle-notch fa-spin text-xs"></i>`;
-                }
-
-                try {
-                    // Validem format de URL i fem comprovació de connectivitat
-                    const urlObj = new URL(url);
-                    if (!urlObj.hostname.includes('xelu.net') && !urlObj.hostname.includes('selecat.cat') && !urlObj.hostname.includes('selemadrid.es')) {
-                        throw new Error('Domini invàlid');
-                    }
-                    await fetch(url, { mode: 'no-cors', cache: 'no-store' });
-                    if (badge) {
-                        badge.className = "estat-link-badge inline-flex items-center text-emerald-400 ml-1";
-                        badge.title = "Enllaç verificat";
-                        badge.innerHTML = `<i class="fa-solid fa-circle-check text-xs"></i>`;
-                    }
-                } catch (err) {
-                    if (badge) {
-                        badge.className = "estat-link-badge inline-flex items-center text-rose-400 ml-1";
-                        badge.title = "No s'ha pogut contactar amb xelu.net";
-                        badge.innerHTML = `<i class="fa-solid fa-triangle-exclamation text-xs"></i>`;
-                    }
-                }
+        function reiniciarTot() {
+            const input = document.getElementById("search");
+            if (input) input.value = "";
+            CLAUS_VIES.forEach(v => viesActives[v] = true);
+            anySeleccionat = "tots";
+            if (catalegNet.length > 0) {
+                materiaSeleccionadaId = catalegNet[0].id;
             }
-
-            btnElement.disabled = false;
-            btnElement.innerHTML = `<i class="fa-solid fa-check text-emerald-400"></i> Verificat`;
-            setTimeout(() => {
-                btnElement.innerHTML = textOriginal;
-            }, 3000);
+            actualitzarEstatVisualVies();
+            filtrarSelectorsMateries();
+            renderitzarTaulerMateria();
         }
 
-        // --- RENDERITZACIÓ PER ANY DE TOTES LES CONVOCATÒRIES ACTIVES ---
-        function renderitzarTaulerMateria() {
-            const materia = dadesMateries.find(m => m.id === materiaSeleccionadaId);
-            const contenidor = document.getElementById('contenidor-anys-examens');
-            const avis = document.getElementById('avis-sense-examens');
+        function canviarFiltreAny(nouAny) {
+            anySeleccionat = nouAny;
+            renderitzarTaulerMateria(false);
+        }
 
-            if (!materia) return;
+        // =========================================================================
+        // 6. RENDERITZACIÓ DEL TAULER D'EXÀMENS PER ANY I CONVOCATÒRIA
+        // =========================================================================
+        function renderitzarTaulerMateria(reconstruirSelectorAnys = true) {
+            const materia = catalegNet.find(m => m.id === materiaSeleccionadaId);
+            const titolEl = document.getElementById("materia-activa-titol");
+            const subtitolEl = document.getElementById("subtitol-materia-resum");
+            const iconaEl = document.getElementById("icona-materia-activa");
+            const contenidor = document.getElementById("contenidor-anys-examens");
+            const avis = document.getElementById("avis-sense-examens");
+            const selectAny = document.getElementById("filtre-any");
 
-            document.getElementById('materia-activa-titol').textContent = materia.assignaturaNom;
-            actualitzarVisibilitatToggles(materia);
+            if (!materia || !contenidor) return;
 
-            // Només mostrem les vies actives que REALMENT tenen exàmens en aquesta assignatura
-            const llistaViesActives = ['pau', 'madrid', 'm25', 'gs', 'ges'].filter(v => {
-                if (!viesActives[v]) return false;
-                return (materia.anys || []).some(conv => {
-                    const llista = Array.isArray(conv[v]) ? conv[v] : (conv[v] ? [conv[v]] : []);
-                    return llista.some(item => item && (item.examen || item.solucio));
+            if (titolEl) titolEl.textContent = materia.assignaturaNom;
+            if (iconaEl) iconaEl.innerHTML = `<i class="fa-solid ${materia.icona || "fa-book-open"}"></i>`;
+
+            // Calculem quins anys tenen almenys 1 examen en les vies actives
+            const anysFiltratsPerVia = materia.anys.filter(blocAny =>
+                CLAUS_VIES.some(v => viesActives[v] && (blocAny[v] || []).length > 0)
+            );
+
+            if (reconstruirSelectorAnys && selectAny) {
+                selectAny.innerHTML = `<option value="tots">Tots els anys (${anysFiltratsPerVia.length})</option>`;
+                anysFiltratsPerVia.forEach(a => {
+                    const opt = document.createElement("option");
+                    opt.value = String(a.any);
+                    opt.textContent = `Any ${a.any}`;
+                    selectAny.appendChild(opt);
+                });
+                selectAny.value = anySeleccionat;
+            }
+
+            const anysAMostrar = anySeleccionat === "tots"
+                ? anysFiltratsPerVia
+                : anysFiltratsPerVia.filter(a => String(a.any) === String(anySeleccionat));
+
+            // Resum estadístic de l'assignatura
+            let totalConvocatories = 0;
+            let totalPdfs = 0;
+            anysAMostrar.forEach(a => {
+                CLAUS_VIES.forEach(v => {
+                    if (!viesActives[v]) return;
+                    const items = a[v] || [];
+                    totalConvocatories += items.length;
+                    items.forEach(it => {
+                        if (it.examen) totalPdfs++;
+                        if (it.solucio) totalPdfs++;
+                    });
                 });
             });
-            contenidor.innerHTML = '';
 
-            if (llistaViesActives.length === 0 || !materia.anys || materia.anys.length === 0) {
-                avis.classList.remove('hidden');
+            if (subtitolEl) {
+                subtitolEl.textContent = anysAMostrar.length > 0
+                    ? `${anysAMostrar.length} ${anysAMostrar.length === 1 ? "any disponible" : "anys disponibles"} · ${totalConvocatories} convocatòries · ${totalPdfs} documents PDF`
+                    : "Sense convocatòries visibles amb la selecció actual";
+            }
+
+            contenidor.innerHTML = "";
+
+            if (anysAMostrar.length === 0) {
+                if (avis) avis.classList.remove("hidden");
                 return;
             }
-            avis.classList.add('hidden');
+            if (avis) avis.classList.add("hidden");
 
-            // Ordenem TOTS els anys de més recent a més antic
-            const anysOrdenats = [...materia.anys].sort((a, b) => b.any - a.any);
-            let anysRenderitzats = 0;
+            anysAMostrar.forEach((blocAny, idx) => {
+                const targetaAny = document.createElement("article");
+                targetaAny.className = "animate-reveal rounded-2xl bg-obsidian/70 border border-white/[0.08] overflow-hidden";
+                targetaAny.style.animationDelay = `${Math.min(idx * 35, 250)}ms`;
 
-            anysOrdenats.forEach((conv, indexAny) => {
-                // Comprovem si aquest any té com a mínim un examen o solució en alguna de les vies actives
-                const teDadesActives = llistaViesActives.some(clauVia => {
-                    const llista = Array.isArray(conv[clauVia]) ? conv[clauVia] : (conv[clauVia] ? [conv[clauVia]] : []);
-                    return llista.some(item => item && (item.examen || item.solucio));
+                // Recollim totes les entrades visibles d'aquest any
+                const entradesAny = [];
+                CLAUS_VIES.forEach(v => {
+                    if (!viesActives[v]) return;
+                    (blocAny[v] || []).forEach(item => {
+                        entradesAny.push({ via: v, ...item });
+                    });
                 });
-                if (!teDadesActives) return;
 
-                anysRenderitzats++;
-                const blocId = `bloc-any-${conv.any}-${indexAny}`;
-                const blocAny = document.createElement('div');
-                blocAny.id = blocId;
-                blocAny.className = "rounded-2xl bg-slate-900/70 border border-white/10 p-5 sm:p-6 hover:border-white/20 transition-all";
+                // Etiquetes resum de les vies presents en aquest any
+                const viesPresents = [...new Set(entradesAny.map(e => e.via))];
+                const badgesViesHtml = viesPresents.map(v => {
+                    const cfg = CONFIG_VIES[v];
+                    return `<span class="px-2.5 py-0.5 rounded-lg text-[11px] font-bold border ${cfg.badgeClass}">${cfg.nomCurt}</span>`;
+                }).join("");
 
-                // Construïm les columnes dels tipus d'examen que estan activats als interruptors
-                const columnesHtml = llistaViesActives.map(clauVia => {
-                    const cfg = configVies[clauVia];
-                    const llistaItems = Array.isArray(conv[clauVia]) ? conv[clauVia] : (conv[clauVia] ? [conv[clauVia]] : []);
-                    const itemsValids = llistaItems.filter(it => it && (it.examen || it.solucio));
+                const filesHtml = entradesAny.map(entrada => {
+                    const cfg = CONFIG_VIES[entrada.via];
+                    const urlPrincipal = entrada.examen || entrada.solucio;
 
-                    let botonsHtml = '';
-                    if (itemsValids.length > 0) {
-                        botonsHtml = `<div class="space-y-2.5 mt-3.5">` + itemsValids.map(dadesVia => {
-                            const btnExamen = dadesVia.examen
-                                ? `<a href="${dadesVia.examen}" data-xelu-url="${dadesVia.examen}" target="_blank" rel="noopener noreferrer" title="Obrir PDF: ${dadesVia.examen}" class="flex-1 inline-flex items-center justify-center gap-1.5 px-2.5 py-2 rounded-lg text-xs sm:text-sm font-bold border transition-all no-underline ${cfg.btnClass}">
-                                    <i class="fa-regular fa-file-pdf"></i>
-                                    <span>Examen</span>
-                                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] opacity-75"></i>
-                                    <span class="estat-link-badge hidden"></span>
-                                   </a>`
-                                : `<span class="flex-1 inline-flex items-center justify-center px-2.5 py-2 rounded-lg text-xs font-mono text-slate-600 bg-slate-950/50 border border-white/5 cursor-not-allowed">Sense examen</span>`;
+                    const btnExamen = entrada.examen
+                        ? `<a href="${entrada.examen}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold bg-cyan-500 text-slate-950 hover:bg-cyan-400 shadow-sm shadow-cyan-500/20 transition-all">
+                               <i class="fa-regular fa-file-pdf text-sm"></i>
+                               <span>Examen</span>
+                           </a>`
+                        : `<span class="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl text-xs font-mono text-slate-600 bg-white/[0.02] border border-white/5 cursor-not-allowed">
+                               Sense enunciat
+                           </span>`;
 
-                            const btnSolucio = dadesVia.solucio
-                                ? `<a href="${dadesVia.solucio}" data-xelu-url="${dadesVia.solucio}" target="_blank" rel="noopener noreferrer" title="Obrir Solució: ${dadesVia.solucio}" class="flex-1 inline-flex items-center justify-center gap-1.5 px-2.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-slate-800/90 text-slate-200 border border-white/15 hover:bg-white hover:text-slate-950 transition-all no-underline">
-                                    <i class="fa-solid fa-check-double text-xs"></i>
-                                    <span>Solució</span>
-                                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] opacity-75"></i>
-                                    <span class="estat-link-badge hidden"></span>
-                                   </a>`
-                                : `<span class="flex-1 inline-flex items-center justify-center px-2.5 py-2 rounded-lg text-xs font-mono text-slate-600 bg-slate-950/50 border border-white/5 cursor-not-allowed">Sense solució</span>`;
-
-                            return `
-                                <div class="p-2.5 rounded-lg bg-slate-900/90 border border-white/5">
-                                    <div class="text-[11px] font-mono text-slate-400 mb-1.5 flex items-center justify-between">
-                                        <span>${dadesVia.etiqueta || 'Convocatòria'}</span>
-                                    </div>
-                                    <div class="flex items-center gap-2">
-                                        ${btnExamen}
-                                        ${btnSolucio}
-                                    </div>
-                                </div>
-                            `;
-                        }).join('') + `</div>`;
-                    } else {
-                        botonsHtml = `
-                            <div class="mt-3.5 py-2.5 px-3 rounded-lg bg-slate-950/40 border border-white/5 text-center">
-                                <span class="text-xs font-mono text-slate-600">No disponible aquest any</span>
-                            </div>
-                        `;
-                    }
+                    const btnSolucio = entrada.solucio
+                        ? `<a href="${entrada.solucio}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold bg-emerald-500/15 text-emerald-300 border border-emerald-500/35 hover:bg-emerald-500/25 transition-all">
+                               <i class="fa-solid fa-check-double text-xs"></i>
+                               <span>Solució / Pautes</span>
+                           </a>`
+                        : `<span class="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl text-xs font-mono text-slate-600 bg-white/[0.02] border border-white/5 cursor-not-allowed">
+                               Sense pautes
+                           </span>`;
 
                     return `
-                        <div class="p-4 rounded-xl bg-slate-950/75 border border-white/10 flex flex-col justify-between">
-                            <div class="flex items-center justify-between gap-2">
-                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-bold border ${cfg.badgeClass}">
-                                    ${cfg.nom}
+                        <div class="exam-row flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 sm:px-5 rounded-xl bg-surface/80 border border-white/[0.06]">
+                            <div class="flex flex-wrap items-center gap-2.5">
+                                <span class="px-2.5 py-1 rounded-lg text-[11px] font-bold border ${cfg.badgeClass}">
+                                    ${cfg.nomCurt}
                                 </span>
-                                <span class="text-xs font-mono text-slate-500">${cfg.subtitol}</span>
+                                <span class="text-sm font-semibold text-slate-100">
+                                    ${entrada.etiqueta}
+                                </span>
                             </div>
-                            ${botonsHtml}
+
+                            <div class="flex flex-wrap items-center gap-2">
+                                ${btnExamen}
+                                ${btnSolucio}
+                                <button type="button" onclick="copiarEnllac('${urlPrincipal.replace(/'/g, "\\'")}')" title="Copiar enllaç directe del PDF" class="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-white/10 border border-transparent hover:border-white/10 transition-all cursor-pointer">
+                                    <i class="fa-solid fa-link text-xs"></i>
+                                </button>
+                            </div>
                         </div>
                     `;
-                }).join('');
+                }).join("");
 
-                // Ajustem el grid segons quants tipus d'examen hi hagi activats
-                const gridColsClass = llistaViesActives.length === 1 ? 'grid-cols-1'
-                                    : llistaViesActives.length === 2 ? 'grid-cols-1 md:grid-cols-2'
-                                    : llistaViesActives.length === 3 ? 'grid-cols-1 md:grid-cols-3'
-                                    : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5';
-
-                blocAny.innerHTML = `
-                    <div class="flex items-center justify-between gap-3 mb-4">
-                        <span class="px-3.5 py-1 rounded-lg bg-cyan-500/15 border border-cyan-500/30 font-mono text-xl font-extrabold text-cyan-300">
-                            ${conv.any}
-                        </span>
-                        <div class="h-[1px] flex-grow bg-white/10"></div>
-                        <button type="button" onclick="verificarEnllacosAny(this, '${blocId}')" class="px-2.5 py-1 rounded-lg text-xs font-mono text-slate-400 hover:text-cyan-300 bg-white/5 hover:bg-white/10 border border-white/10 transition-all cursor-pointer flex items-center gap-1.5" title="Comprova que els enllaços d'aquest any responen a xelu.net">
-                            <i class="fa-solid fa-satellite-dish text-[10px]"></i> Verificar enllaços
-                        </button>
+                targetaAny.innerHTML = `
+                    <div class="px-5 py-3.5 bg-white/[0.03] border-b border-white/[0.07] flex flex-wrap items-center justify-between gap-3">
+                        <div class="flex items-center gap-3">
+                            <span class="font-mono text-xl sm:text-2xl font-extrabold text-white tracking-tight">${blocAny.any}</span>
+                            <span class="text-xs font-mono text-slate-500">${entradesAny.length} ${entradesAny.length === 1 ? "convocatòria" : "convocatòries"}</span>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-1.5">
+                            ${badgesViesHtml}
+                        </div>
                     </div>
-                    <div class="grid ${gridColsClass} gap-3.5">
-                        ${columnesHtml}
+                    <div class="p-3.5 sm:p-4 space-y-2.5">
+                        ${filesHtml}
                     </div>
                 `;
 
-                contenidor.appendChild(blocAny);
+                contenidor.appendChild(targetaAny);
             });
-
-            if (anysRenderitzats === 0) {
-                avis.classList.remove('hidden');
-            }
         }
+
+        function copiarEnllac(url) {
+            const temp = document.createElement("textarea");
+            temp.value = url;
+            document.body.appendChild(temp);
+            temp.select();
+            try {
+                document.execCommand("copy");
+                mostrarToast("Enllaç del PDF copiat al porta-retalls");
+            } catch (e) {
+                mostrarToast("No s'ha pogut copiar l'enllaç");
+            }
+            document.body.removeChild(temp);
+        }
+
+        let timerToast = null;
+        function mostrarToast(missatge) {
+            const toast = document.getElementById("toast-notificacio");
+            const msgEl = document.getElementById("toast-missatge");
+            if (!toast || !msgEl) return;
+
+            msgEl.textContent = missatge;
+            toast.classList.remove("opacity-0", "translate-y-3");
+            clearTimeout(timerToast);
+            timerToast = setTimeout(() => {
+                toast.classList.add("opacity-0", "translate-y-3");
+            }, 2400);
+        }
+
+        // =========================================================================
+        // 7. INICIALITZACIÓ SEGURA I DRECERES DE TECLAT
+        // =========================================================================
+        document.addEventListener("DOMContentLoaded", () => {
+            try {
+                // Carreguem dadesMateries si existeix, o fallback de mostra si no s'ha generat encara
+                let fontDades = null;
+                if (typeof dadesMateries !== "undefined" && Array.isArray(dadesMateries) && dadesMateries.length > 0) {
+                    fontDades = dadesMateries;
+                    usantDadesMostra = false;
+                } else {
+                    fontDades = obtenirDadesMostra();
+                    usantDadesMostra = true;
+                }
+
+                catalegNet = processarCataleg(fontDades);
+
+                // Si després de processar queda buit, assegurem les dades de mostra
+                if (catalegNet.length === 0) {
+                    catalegNet = processarCataleg(obtenirDadesMostra());
+                    usantDadesMostra = true;
+                }
+
+                // Calculem estadístiques globals per al peu de pàgina
+                let totalPdfsGlobals = 0;
+                catalegNet.forEach(m => m.anys.forEach(a => CLAUS_VIES.forEach(v => {
+                    (a[v] || []).forEach(it => {
+                        if (it.examen) totalPdfsGlobals++;
+                        if (it.solucio) totalPdfsGlobals++;
+                    });
+                })));
+
+                const footerEstat = document.getElementById("estat-dades-footer");
+                const badgeMobil = document.getElementById("badge-estat-mobil");
+                const textEstat = usantDadesMostra
+                    ? `Mode mostra (${totalPdfsGlobals} PDFs) · Executa descarregar_examens.py`
+                    : `${catalegNet.length} assignatures · ${totalPdfsGlobals} PDFs connectats`;
+
+                if (footerEstat) footerEstat.textContent = textEstat;
+                if (badgeMobil) badgeMobil.textContent = usantDadesMostra ? "Mostra" : `${totalPdfsGlobals} PDFs`;
+
+                // Assignatura inicial (des de hash URL o la primera alfabèticament)
+                materiaSeleccionadaId = catalegNet[0].id;
+                const hash = window.location.hash;
+                if (hash.startsWith("#/materia/")) {
+                    const idHash = hash.replace("#/materia/", "");
+                    if (catalegNet.some(m => m.id === idHash)) {
+                        materiaSeleccionadaId = idHash;
+                    }
+                }
+
+                // Event listener del cercador
+                const inputSearch = document.getElementById("search");
+                if (inputSearch) {
+                    inputSearch.addEventListener("input", () => {
+                        filtrarSelectorsMateries();
+                        actualitzarEstatVisualVies();
+                        renderitzarTaulerMateria();
+                    });
+                }
+
+                // Drecera de teclat "/" per anar directe al cercador
+                document.addEventListener("keydown", (e) => {
+                    if (e.key === "/" && document.activeElement !== inputSearch) {
+                        e.preventDefault();
+                        if (inputSearch) inputSearch.focus();
+                    } else if (e.key === "Escape" && document.activeElement === inputSearch) {
+                        netejarCerca();
+                    }
+                });
+
+                actualitzarEstatVisualVies();
+                filtrarSelectorsMateries();
+                renderitzarTaulerMateria();
+
+            } catch (error) {
+                console.error("Error crític inicialitzant el portal:", error);
+            }
+        });
     </script>
 </body>
 </html>

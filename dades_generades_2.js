@@ -25,7 +25,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -44,7 +55,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -63,7 +85,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -82,7 +115,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -101,7 +145,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -120,7 +175,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -139,7 +205,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -158,7 +235,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -177,7 +265,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -196,7 +295,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -215,7 +325,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -234,7 +355,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -253,7 +385,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -267,6 +410,253 @@ const dadesMateries = [
             "solucio": null
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-alemany-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-alemany.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-alemany-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
@@ -304,7 +694,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -329,7 +730,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -354,7 +766,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -379,7 +802,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -404,7 +838,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -429,7 +874,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -454,7 +910,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -479,7 +946,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -504,7 +982,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -529,7 +1018,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -554,7 +1054,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -579,7 +1090,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -604,7 +1126,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -634,7 +1167,18 @@ const dadesMateries = [
       },
       {
         "any": 2012,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -653,7 +1197,18 @@ const dadesMateries = [
       },
       {
         "any": 2011,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -667,7 +1222,18 @@ const dadesMateries = [
       },
       {
         "any": 2010,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -681,7 +1247,18 @@ const dadesMateries = [
       },
       {
         "any": 2009,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -695,7 +1272,18 @@ const dadesMateries = [
       },
       {
         "any": 2008,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-angles-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -706,6 +1294,469 @@ const dadesMateries = [
             "solucio": null
           }
         ]
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-angles-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-angles-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-angles-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-angles-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-angles-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-angles-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-angles-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-angles-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-angles.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-angles-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "analisi-musical",
+    "assignaturaNom": "Anàlisi Musical",
+    "icona": "fa-music",
+    "anys": [
+      {
+        "any": 2025,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2024,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2023,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2022,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2021,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2020,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2019,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2018,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2017,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2016,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2015,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2014,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2013,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-analisi-musical-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-analisi-musical.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-analisi-musical-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
       }
     ]
   },
@@ -735,7 +1786,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -754,7 +1816,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -773,7 +1846,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -792,7 +1876,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -811,7 +1906,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -830,7 +1936,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -849,7 +1966,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -868,7 +1996,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -887,7 +2026,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -906,7 +2056,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -925,7 +2086,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -944,7 +2116,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -963,7 +2146,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -977,6 +2171,1179 @@ const dadesMateries = [
             "solucio": "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2013-especifica-biologia-suplent-solucio.pdf"
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-biologia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-biologia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-biologia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "ciencies-de-la-terra-i-del-medi-ambient",
+    "assignaturaNom": "Ciències de la Terra i del Medi Ambient",
+    "icona": "fa-leaf",
+    "anys": [
+      {
+        "any": 2023,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2022,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2021,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2020,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2019,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2018,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2017,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2016,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2015,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2014,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2013,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": null
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-ciencies-de-la-terra-i-del-medi-ambient-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "cultura-audiovisual",
+    "assignaturaNom": "Cultura Audiovisual",
+    "icona": "fa-film",
+    "anys": [
+      {
+        "any": 2023,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2022,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2021,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2020,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2019,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2018,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2017,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2016,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2015,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2014,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2013,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-cultura-audiovisual-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-cultura-audiovisual.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-cultura-audiovisual-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
@@ -1008,7 +3375,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1027,7 +3405,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1046,7 +3435,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1065,7 +3465,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1084,7 +3495,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1103,7 +3525,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1122,7 +3555,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1141,7 +3585,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1160,7 +3615,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1179,7 +3645,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1198,7 +3675,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1217,7 +3705,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1236,7 +3735,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1250,6 +3760,754 @@ const dadesMateries = [
             "solucio": "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2013-especifica-dibuix-tecnic-suplent-solucio.pdf"
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-dibuix-tecnic-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-dibuix-tecnic.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-dibuix-tecnic-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "disseny",
+    "assignaturaNom": "Disseny",
+    "icona": "fa-pen-nib",
+    "anys": [
+      {
+        "any": 2025,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2024,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2023,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2022,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2021,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2020,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2019,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2018,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2017,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2016,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2015,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2014,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2013,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-disseny-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-disseny.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-disseny-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
@@ -1326,7 +4584,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1345,7 +4614,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1364,7 +4644,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1383,7 +4674,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1402,7 +4704,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1421,7 +4734,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1440,7 +4764,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1459,7 +4794,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1478,7 +4824,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1497,7 +4854,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1516,7 +4884,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1530,6 +4909,875 @@ const dadesMateries = [
             "solucio": "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2013-especifica-economia-de-l-empresa-suplent-solucio.pdf"
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": null
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-economia-de-l-empresa-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-economia-de-l-empresa.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-economia-de-l-empresa-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "electrotecnia",
+    "assignaturaNom": "Electrotècnia",
+    "icona": "fa-bolt",
+    "anys": [
+      {
+        "any": 2023,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2022,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2021,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2020,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2019,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2018,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2017,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2016,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2015,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2014,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2013,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-electrotecnia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-electrotecnia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-electrotecnia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "fonaments-artistics",
+    "assignaturaNom": "Fonaments Artístics",
+    "icona": "fa-masks-theater",
+    "anys": [
+      {
+        "any": 2025,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-fonaments-de-les-arts-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-fonaments-de-les-arts-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2024,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-fonaments-de-les-arts-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-fonaments-de-les-arts-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2023,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-fonaments-de-les-arts-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-fonaments-de-les-arts-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2022,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-fonaments-de-les-arts-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-fonaments-de-les-arts-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2021,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-fonaments-de-les-arts-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-fonaments-de-les-arts-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2020,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-fonaments-de-les-arts-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-fonaments-de-les-arts-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2019,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-fonaments-de-les-arts-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-fonaments-de-les-arts-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2018,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-fonaments-de-les-arts-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-fonaments-de-les-arts.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-fonaments-de-les-arts-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
@@ -1567,7 +5815,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1592,7 +5851,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1617,7 +5887,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1642,7 +5923,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1667,7 +5959,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1686,7 +5989,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1711,7 +6025,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1736,7 +6061,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1761,7 +6097,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1786,7 +6133,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -1800,7 +6158,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1825,7 +6194,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1850,7 +6230,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1880,7 +6271,18 @@ const dadesMateries = [
       },
       {
         "any": 2012,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-frances-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -1896,6 +6298,279 @@ const dadesMateries = [
             "solucio": null
           }
         ]
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-frances-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-frances.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-frances-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "funcionament-de-l-empresa",
+    "assignaturaNom": "Funcionament de l'Empresa",
+    "icona": "fa-briefcase",
+    "anys": [
+      {
+        "any": 2025,
+        "pau": [
+          {
+            "etiqueta": "Juny · Model",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-funcionament-de-l-empresa-i-disseny-de-models-de-negoci.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-funcionament-de-l-empresa-i-disseny-de-models-de-negoci-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre · Model",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-funcionament-de-l-empresa-i-disseny-de-models-de-negoci.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-funcionament-de-l-empresa-i-disseny-de-models-de-negoci-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2024,
+        "pau": [
+          {
+            "etiqueta": "Juny · Model",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-funcionament-de-l-empresa-i-disseny-de-models-de-negoci.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-funcionament-de-l-empresa-i-disseny-de-models-de-negoci-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre · Model",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-funcionament-de-l-empresa-i-disseny-de-models-de-negoci.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-funcionament-de-l-empresa-i-disseny-de-models-de-negoci-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
       }
     ]
   },
@@ -1925,7 +6600,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1944,7 +6630,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1963,7 +6660,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -1982,7 +6690,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2001,7 +6720,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2020,7 +6750,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2039,7 +6780,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2058,7 +6810,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2077,7 +6840,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2096,7 +6870,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2115,7 +6900,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2134,7 +6930,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2153,7 +6960,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2167,6 +6985,253 @@ const dadesMateries = [
             "solucio": "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2013-especifica-fisica-suplent-solucio.pdf"
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-fisica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-fisica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-fisica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
@@ -2198,7 +7263,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2217,7 +7293,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2236,7 +7323,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2255,7 +7353,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2274,7 +7383,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2293,7 +7413,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2312,7 +7443,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2331,7 +7473,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2350,7 +7503,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2369,7 +7533,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2388,7 +7563,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2407,7 +7593,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2426,7 +7623,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2440,6 +7648,780 @@ const dadesMateries = [
             "solucio": "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2013-especifica-geografia-suplent-solucio.pdf"
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-geografia.pdf",
+            "solucio": null
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-geografia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-geografia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-geografia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "geologia-i-ciencies-ambientals",
+    "assignaturaNom": "Geologia i Ciències Ambientals",
+    "icona": "fa-mountain",
+    "anys": [
+      {
+        "any": 2025,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-geologia-i-ciencies-ambientals.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-geologia-i-ciencies-ambientals-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-geologia-i-ciencies-ambientals.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-geologia-i-ciencies-ambientals-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2024,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-geologia-i-ciencies-ambientals.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-geologia-i-ciencies-ambientals-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-geologia-i-ciencies-ambientals.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-geologia-i-ciencies-ambientals-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "grec",
+    "assignaturaNom": "Grec",
+    "icona": "fa-columns",
+    "anys": [
+      {
+        "any": 2025,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2024,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2023,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2022,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2021,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2020,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2019,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2018,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2017,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2016,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2015,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2014,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2013,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-grec-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-grec.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-grec-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
@@ -2481,7 +8463,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2500,7 +8493,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2519,7 +8523,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2538,7 +8553,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2557,7 +8583,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2576,7 +8613,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2595,7 +8643,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2614,7 +8673,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2633,7 +8703,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2652,7 +8733,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2671,7 +8763,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2690,7 +8793,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2709,7 +8823,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-historia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2725,6 +8850,234 @@ const dadesMateries = [
         ],
         "gs": [],
         "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-historia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-historia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-historia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
       }
     ]
   },
@@ -2735,7 +9088,18 @@ const dadesMateries = [
     "anys": [
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2754,7 +9118,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2773,7 +9148,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2792,7 +9178,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2811,7 +9208,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2830,7 +9238,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2849,7 +9268,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2868,7 +9298,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2887,7 +9328,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2906,7 +9358,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2925,7 +9388,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2944,7 +9418,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2963,7 +9448,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -2977,6 +9473,234 @@ const dadesMateries = [
             "solucio": null
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-historia-de-l-art-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-historia-de-l-art.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-historia-de-l-art-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
@@ -3008,7 +9732,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3027,7 +9762,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3046,7 +9792,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3065,7 +9822,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3084,7 +9852,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3103,7 +9882,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3122,7 +9912,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3141,7 +9942,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3160,7 +9972,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3179,7 +10002,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3198,7 +10032,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3217,7 +10062,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3236,7 +10092,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3250,6 +10117,253 @@ const dadesMateries = [
             "solucio": "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2013-especifica-filosofia-suplent-solucio.pdf"
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": null
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": null
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-historia-de-la-filosofia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-historia-de-la-filosofia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-historia-de-la-filosofia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
@@ -3281,7 +10395,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3300,7 +10425,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3319,7 +10455,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3338,7 +10485,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3357,7 +10515,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3376,7 +10545,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3395,7 +10575,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3414,7 +10605,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3433,7 +10635,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3452,7 +10665,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3471,7 +10695,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3490,7 +10725,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3509,7 +10755,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-italia-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3523,6 +10780,253 @@ const dadesMateries = [
             "solucio": "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2013-general-italia-suplent-solucio.pdf"
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-italia.pdf",
+            "solucio": null
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-italia-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-italia.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-italia-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
@@ -3802,6 +11306,507 @@ const dadesMateries = [
     ]
   },
   {
+    "id": "llati",
+    "assignaturaNom": "Llatí",
+    "icona": "fa-scroll",
+    "anys": [
+      {
+        "any": 2025,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2024,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2023,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2022,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2021,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2020,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2019,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2018,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2017,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2016,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2015,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2014,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2013,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-llati-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-llati.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-llati-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
     "id": "llengua-castellana-i-literatura",
     "assignaturaNom": "Llengua Castellana i Literatura",
     "icona": "fa-feather-pointed",
@@ -3833,7 +11838,28 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3858,7 +11884,28 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3883,7 +11930,28 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3908,7 +11976,28 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3933,7 +12022,28 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3958,7 +12068,28 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -3983,7 +12114,28 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4008,7 +12160,28 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4033,7 +12206,28 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4058,7 +12252,28 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4083,7 +12298,28 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4108,7 +12344,28 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4133,7 +12390,28 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4163,7 +12441,28 @@ const dadesMateries = [
       },
       {
         "any": 2012,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -4182,7 +12481,28 @@ const dadesMateries = [
       },
       {
         "any": 2011,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -4196,7 +12516,28 @@ const dadesMateries = [
       },
       {
         "any": 2010,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -4207,6 +12548,296 @@ const dadesMateries = [
             "solucio": null
           }
         ]
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-llengua-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-llengua-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-literatura-castellana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-literatura-castellana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-literatura-castellana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
       }
     ]
   },
@@ -4242,7 +12873,28 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4267,7 +12919,28 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4292,7 +12965,28 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4317,7 +13011,28 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4342,7 +13057,28 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4367,7 +13103,28 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4392,7 +13149,28 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4417,7 +13195,28 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4442,7 +13241,28 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4467,7 +13287,28 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4492,7 +13333,28 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4517,7 +13379,28 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4542,7 +13425,28 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4572,7 +13476,28 @@ const dadesMateries = [
       },
       {
         "any": 2012,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -4591,7 +13516,28 @@ const dadesMateries = [
       },
       {
         "any": 2011,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -4610,7 +13556,28 @@ const dadesMateries = [
       },
       {
         "any": 2010,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -4624,7 +13591,28 @@ const dadesMateries = [
       },
       {
         "any": 2009,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -4638,7 +13626,28 @@ const dadesMateries = [
       },
       {
         "any": 2008,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [],
         "gs": [],
@@ -4649,6 +13658,238 @@ const dadesMateries = [
             "solucio": null
           }
         ]
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-llengua-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-llengua-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-literatura-catalana-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-literatura-catalana.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-literatura-catalana-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
       }
     ]
   },
@@ -4678,7 +13919,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4697,7 +13949,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4716,7 +13979,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4735,7 +14009,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4754,7 +14039,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4773,7 +14069,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4792,7 +14099,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4811,7 +14129,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4830,7 +14159,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4849,7 +14189,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4868,7 +14219,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4887,7 +14249,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4906,7 +14279,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4920,6 +14304,754 @@ const dadesMateries = [
             "solucio": "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2013-especifica-matematiques-suplent-solucio.pdf"
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-matematiques-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-matematiques.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-matematiques-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "matematiques-aplicades-a-les-ciencies-socials",
+    "assignaturaNom": "Matemàtiques Aplicades a les Ciències Socials",
+    "icona": "fa-chart-line",
+    "anys": [
+      {
+        "any": 2025,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2024,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2023,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2022,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2021,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2020,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2019,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2018,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2017,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2016,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2015,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2014,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2013,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-matematiques-aplicades-a-les-ciencies-socials.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-matematiques-aplicades-a-les-ciencies-socials-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
@@ -4951,7 +15083,18 @@ const dadesMateries = [
       },
       {
         "any": 2025,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4970,7 +15113,18 @@ const dadesMateries = [
       },
       {
         "any": 2024,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -4989,7 +15143,18 @@ const dadesMateries = [
       },
       {
         "any": 2023,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5008,7 +15173,18 @@ const dadesMateries = [
       },
       {
         "any": 2022,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5027,7 +15203,18 @@ const dadesMateries = [
       },
       {
         "any": 2021,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5046,7 +15233,18 @@ const dadesMateries = [
       },
       {
         "any": 2020,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5065,7 +15263,18 @@ const dadesMateries = [
       },
       {
         "any": 2019,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5084,7 +15293,18 @@ const dadesMateries = [
       },
       {
         "any": 2018,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5103,7 +15323,18 @@ const dadesMateries = [
       },
       {
         "any": 2017,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5122,7 +15353,18 @@ const dadesMateries = [
       },
       {
         "any": 2016,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5141,7 +15383,18 @@ const dadesMateries = [
       },
       {
         "any": 2015,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5160,7 +15413,18 @@ const dadesMateries = [
       },
       {
         "any": 2014,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5179,7 +15443,18 @@ const dadesMateries = [
       },
       {
         "any": 2013,
-        "pau": [],
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
         "madrid": [],
         "m25": [
           {
@@ -5193,6 +15468,754 @@ const dadesMateries = [
             "solucio": "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2013-especifica-quimica-suplent-solucio.pdf"
           }
         ],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-quimica-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-quimica.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-quimica-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      }
+    ]
+  },
+  {
+    "id": "tecnologia-i-enginyeria",
+    "assignaturaNom": "Tecnologia i Enginyeria",
+    "icona": "fa-gears",
+    "anys": [
+      {
+        "any": 2025,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2024,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2024-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2023,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2023-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2022,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2022-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2021,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2021-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2020,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2020-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2019,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2019-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2018,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2018-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2017,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2017-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2016,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2016-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2015,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2015-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2014,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2014-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2013,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2013-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2012,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2012-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2011,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2011-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2010,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2010-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2009,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2009-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2008,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2008-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2007,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2007-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2006,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2006-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2005,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2005-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2004,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2004-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2003,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2003-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2002,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2002-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2001,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2001-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
+        "gs": [],
+        "ges": []
+      },
+      {
+        "any": 2000,
+        "pau": [
+          {
+            "etiqueta": "Juny",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-juny-tecnologia-industrial-solucio.pdf"
+          },
+          {
+            "etiqueta": "Setembre",
+            "examen": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-tecnologia-industrial.pdf",
+            "solucio": "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2000-pau-setembre-tecnologia-industrial-solucio.pdf"
+          }
+        ],
+        "madrid": [],
+        "m25": [],
         "gs": [],
         "ges": []
       }
