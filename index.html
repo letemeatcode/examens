@@ -95,7 +95,10 @@
                 <!-- Indicadors de Convocatòries -->
                 <div class="flex flex-wrap items-center gap-2 justify-center">
                     <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-cyan-950/60 text-cyan-300 border border-cyan-500/30">
-                        <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span> PAU
+                        <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span> PAU Cat
+                    </span>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-rose-950/60 text-rose-300 border border-rose-500/30">
+                        <span class="w-1.5 h-1.5 rounded-full bg-rose-400"></span> PAU Madrid
                     </span>
                     <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-indigo-950/60 text-indigo-300 border border-indigo-500/30">
                         <span class="w-1.5 h-1.5 rounded-full bg-indigo-400"></span> PAU +25
@@ -171,20 +174,24 @@
                 <!-- Botons Interruptor (Activar / Desactivar convocatòries) -->
                 <div class="flex flex-col sm:items-end gap-2">
                     <span class="text-xs font-mono text-slate-400">Activa o desactiva les convocatòries:</span>
-                    <div class="flex flex-wrap items-center gap-2.5">
-                        <button id="toggle-pau" onclick="toggleVia('pau')" class="px-3.5 py-2 rounded-xl text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-cyan-500/20 text-cyan-300 border-cyan-400 shadow-sm shadow-cyan-500/20">
+                    <div class="flex flex-wrap items-center gap-2">
+                        <button id="toggle-pau" onclick="toggleVia('pau')" class="px-3 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-cyan-500/20 text-cyan-300 border-cyan-400 shadow-sm shadow-cyan-500/20">
                             <i class="fa-solid fa-circle-check text-cyan-400"></i>
-                            <span>PAU</span>
+                            <span>PAU Cat</span>
                         </button>
-                        <button id="toggle-m25" onclick="toggleVia('m25')" class="px-3.5 py-2 rounded-xl text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-indigo-500/20 text-indigo-300 border-indigo-400 shadow-sm shadow-indigo-500/20">
+                        <button id="toggle-madrid" onclick="toggleVia('madrid')" class="px-3 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-rose-500/20 text-rose-300 border-rose-400 shadow-sm shadow-rose-500/20">
+                            <i class="fa-solid fa-circle-check text-rose-400"></i>
+                            <span>PAU Madrid</span>
+                        </button>
+                        <button id="toggle-m25" onclick="toggleVia('m25')" class="px-3 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-indigo-500/20 text-indigo-300 border-indigo-400 shadow-sm shadow-indigo-500/20">
                             <i class="fa-solid fa-circle-check text-indigo-400"></i>
                             <span>PAU +25</span>
                         </button>
-                        <button id="toggle-gs" onclick="toggleVia('gs')" class="px-3.5 py-2 rounded-xl text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-emerald-500/20 text-emerald-300 border-emerald-400 shadow-sm shadow-emerald-500/20">
+                        <button id="toggle-gs" onclick="toggleVia('gs')" class="px-3 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-emerald-500/20 text-emerald-300 border-emerald-400 shadow-sm shadow-emerald-500/20">
                             <i class="fa-solid fa-circle-check text-emerald-400"></i>
                             <span>Grau Superior</span>
                         </button>
-                        <button id="toggle-ges" onclick="toggleVia('ges')" class="px-3.5 py-2 rounded-xl text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-amber-500/20 text-amber-300 border-amber-400 shadow-sm shadow-amber-500/20">
+                        <button id="toggle-ges" onclick="toggleVia('ges')" class="px-3 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all cursor-pointer flex items-center gap-2 bg-amber-500/20 text-amber-300 border-amber-400 shadow-sm shadow-amber-500/20">
                             <i class="fa-solid fa-circle-check text-amber-400"></i>
                             <span>Proves Lliures GES</span>
                         </button>
@@ -209,7 +216,7 @@
     <!-- Peu de pàgina -->
     <footer class="border-t border-white/10 bg-[#050811]/90 py-6 mt-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-500">
-            <span>ARXIU.EXÀMENS // Enllaços directes a xelu.net</span>
+            <span>ARXIU.EXÀMENS // Enllaços directes a Selecat, Selemadrid i Xelu</span>
             <span id="estat-dades-footer" class="text-cyan-500/80">Carregant catàleg...</span>
         </div>
     </footer>
@@ -222,46 +229,216 @@
     <script>
         let usantDadesMostra = false;
 
-        // Funció de sanejament per assegurar que tots els enllaços de xelu.net estan a la convocatòria correcta
+        // Diccionari de normalització ordenat d'assignatures més específiques a més genèriques
+        const DICCIONARI_MATERIES = [
+            { clau: "matematiques aplicades", nom: "Matemàtiques Aplicades a les Ciències Socials", icona: "fa-chart-line" },
+            { clau: "matematicas aplicadas", nom: "Matemàtiques Aplicades a les Ciències Socials", icona: "fa-chart-line" },
+            { clau: "matematiques ccss", nom: "Matemàtiques Aplicades a les Ciències Socials", icona: "fa-chart-line" },
+            { clau: "matematicas ccss", nom: "Matemàtiques Aplicades a les Ciències Socials", icona: "fa-chart-line" },
+            { clau: "matematiques", nom: "Matemàtiques", icona: "fa-square-root-variable" },
+            { clau: "matematicas", nom: "Matemàtiques", icona: "fa-square-root-variable" },
+            { clau: "matematica", nom: "Matemàtiques", icona: "fa-square-root-variable" },
+            { clau: "literatura catalana", nom: "Literatura Catalana", icona: "fa-book" },
+            { clau: "literatura castellana", nom: "Literatura Castellana", icona: "fa-book" },
+            { clau: "literatura dramatica", nom: "Literatura Dramàtica", icona: "fa-masks-theater" },
+            { clau: "llengua catalana", nom: "Llengua Catalana i Literatura", icona: "fa-book-open" },
+            { clau: "catala", nom: "Llengua Catalana i Literatura", icona: "fa-book-open" },
+            { clau: "llengua castellana", nom: "Llengua Castellana i Literatura", icona: "fa-feather-pointed" },
+            { clau: "lengua castellana", nom: "Llengua Castellana i Literatura", icona: "fa-feather-pointed" },
+            { clau: "castella", nom: "Llengua Castellana i Literatura", icona: "fa-feather-pointed" },
+            { clau: "angles", nom: "Anglès", icona: "fa-language" },
+            { clau: "ingles", nom: "Anglès", icona: "fa-language" },
+            { clau: "frances", nom: "Francès", icona: "fa-language" },
+            { clau: "alemany", nom: "Alemany", icona: "fa-language" },
+            { clau: "aleman", nom: "Alemany", icona: "fa-language" },
+            { clau: "italia", nom: "Italià", icona: "fa-language" },
+            { clau: "italiano", nom: "Italià", icona: "fa-language" },
+            { clau: "historia de la filosofia", nom: "Història de la Filosofia", icona: "fa-brain" },
+            { clau: "filosofia", nom: "Història de la Filosofia", icona: "fa-brain" },
+            { clau: "historia de l art", nom: "Història de l'Art", icona: "fa-palette" },
+            { clau: "historia del arte", nom: "Història de l'Art", icona: "fa-palette" },
+            { clau: "historia de la musica", nom: "Història de la Música i de la Dansa", icona: "fa-music" },
+            { clau: "historia de espana", nom: "Història d'Espanya", icona: "fa-landmark" },
+            { clau: "historia", nom: "Història", icona: "fa-landmark" },
+            { clau: "biologia", nom: "Biologia", icona: "fa-dna" },
+            { clau: "quimica", nom: "Química", icona: "fa-flask" },
+            { clau: "fisica", nom: "Física", icona: "fa-atom" },
+            { clau: "economia de l empresa", nom: "Economia de l'Empresa", icona: "fa-briefcase" },
+            { clau: "economia de la empresa", nom: "Economia de l'Empresa", icona: "fa-briefcase" },
+            { clau: "empresa y diseno", nom: "Empresa i Disseny de Models de Negoci", icona: "fa-briefcase" },
+            { clau: "funcionament de l empresa", nom: "Funcionament de l'Empresa", icona: "fa-briefcase" },
+            { clau: "fonaments d administracio", nom: "Fonaments d'Administració i Gestió", icona: "fa-briefcase" },
+            { clau: "economia", nom: "Economia", icona: "fa-coins" },
+            { clau: "geografia", nom: "Geografia", icona: "fa-earth-europe" },
+            { clau: "dibuix tecnic", nom: "Dibuix Tècnic", icona: "fa-compass-drafting" },
+            { clau: "dibujo tecnico", nom: "Dibuix Tècnic", icona: "fa-compass-drafting" },
+            { clau: "dibuix artistic", nom: "Dibuix Artístic", icona: "fa-paintbrush" },
+            { clau: "dibujo artistico", nom: "Dibuix Artístic", icona: "fa-paintbrush" },
+            { clau: "tecniques d expressio", nom: "Tècniques d'Expressió Graficoplàstica", icona: "fa-palette" },
+            { clau: "tecnologia industrial", nom: "Tecnologia i Enginyeria", icona: "fa-gears" },
+            { clau: "tecnologia", nom: "Tecnologia i Enginyeria", icona: "fa-gears" },
+            { clau: "ciencies de la terra", nom: "Ciències de la Terra i del Medi Ambient", icona: "fa-leaf" },
+            { clau: "ciencias de la tierra", nom: "Ciències de la Terra i del Medi Ambient", icona: "fa-leaf" },
+            { clau: "ciencies generals", nom: "Ciències Generals", icona: "fa-microscope" },
+            { clau: "ciencias generales", nom: "Ciències Generals", icona: "fa-microscope" },
+            { clau: "electrotecnia", nom: "Electrotècnia", icona: "fa-bolt" },
+            { clau: "llati", nom: "Llatí", icona: "fa-scroll" },
+            { clau: "latin", nom: "Llatí", icona: "fa-scroll" },
+            { clau: "grec", nom: "Grec", icona: "fa-columns" },
+            { clau: "griego", nom: "Grec", icona: "fa-columns" },
+            { clau: "disseny", nom: "Disseny", icona: "fa-pen-nib" },
+            { clau: "diseno", nom: "Disseny", icona: "fa-pen-nib" },
+            { clau: "fonaments de les arts", nom: "Fonaments Artístics", icona: "fa-masks-theater" },
+            { clau: "fonaments artistics", nom: "Fonaments Artístics", icona: "fa-masks-theater" },
+            { clau: "fundamentos", nom: "Fonaments Artístics", icona: "fa-masks-theater" },
+            { clau: "cultura audiovisual", nom: "Cultura Audiovisual", icona: "fa-film" },
+            { clau: "arts esceniques", nom: "Arts Escèniques", icona: "fa-masks-theater" },
+            { clau: "artes escenicas", nom: "Arts Escèniques", icona: "fa-masks-theater" },
+            { clau: "analisi musical", nom: "Anàlisi Musical", icona: "fa-music" },
+            { clau: "analisis musical", nom: "Anàlisi Musical", icona: "fa-music" },
+            { clau: "geologia", nom: "Geologia i Ciències Ambientals", icona: "fa-mountain" },
+            { clau: "cientificotecnologic", nom: "Àmbit Cientificotecnològic (GES)", icona: "fa-microscope" },
+            { clau: "ambit cientific", nom: "Àmbit Cientificotecnològic (GES)", icona: "fa-microscope" },
+            { clau: "ambit social", nom: "Àmbit Social (GES)", icona: "fa-globe" },
+            { clau: "ambit comunicacio", nom: "Àmbit de Comunicació (GES)", icona: "fa-comments" },
+            { clau: "comunicacio", nom: "Comunicació (GES / Cicles)", icona: "fa-comments" },
+            { clau: "psicologia", nom: "Psicologia", icona: "fa-head-side-virus" },
+            { clau: "sociologia", nom: "Sociologia", icona: "fa-users" }
+        ];
+
+        // Deduïm el nom real i net d'una matèria respectant sempre el nom classificat pel generador
+        function deduirMateriaReal(nomBrut, urlExemple) {
+            const netNomBrut = normalitzarText(nomBrut || "");
+            // 1. Primer comprovem el nom que ja ve del catàleg (per evitar falsos positius a la URL)
+            for (const entrada of DICCIONARI_MATERIES) {
+                if (netNomBrut.includes(entrada.clau)) {
+                    return { nom: entrada.nom, icona: entrada.icona };
+                }
+            }
+
+            // 2. Si el nom brut no estava al diccionari, mirem la combinació amb la URL
+            const textCombinat = normalitzarText(`${nomBrut || ""} ${urlExemple || ""}`)
+                .replace(/https?:\/\/[^\s]+\//g, ' ')
+                .replace(/\.pdf/g, ' ')
+                .replace(/[-_]/g, ' ');
+
+            for (const entrada of DICCIONARI_MATERIES) {
+                if (textCombinat.includes(entrada.clau)) {
+                    return { nom: entrada.nom, icona: entrada.icona };
+                }
+            }
+
+            // 3. Si no és al diccionari, netegem paraules brossa (mesos, convocatòries, fases...)
+            const paraulesBrossa = new Set([
+                "gener", "febrer", "marc", "abril", "maig", "juny", "juliol", "agost", "setembre", "octubre", "novembre", "desembre",
+                "ordinari", "ordinaria", "extraordinari", "extraordinaria", "convocatoria", "serie", "model", "exemple",
+                "general", "especifica", "comu", "comuna", "com", "part", "fase", "bloc", "opcio", "a", "b",
+                "pau", "ges", "cfgs", "cfgm", "m25", "m45", "proves", "prova", "acces", "lliures", "lliure",
+                "solucio", "solucions", "pauta", "correccio", "criteris", "examen", "examens", "pdf", "materials"
+            ]);
+
+            const net = normalitzarText(nomBrut || "")
+                .replace(/\b20\d{2}\b/g, '')
+                .replace(/[^a-z\s]/g, ' ')
+                .split(/\s+/)
+                .filter(p => p.length > 1 && !paraulesBrossa.has(p))
+                .join(' ')
+                .trim();
+
+            if (!net) return { nom: "Altres Proves", icona: "fa-folder-open" };
+
+            const capitalitzat = net.charAt(0).toUpperCase() + net.slice(1);
+            return { nom: capitalitzat, icona: "fa-book" };
+        }
+
+        // Funció de sanejament i fusió: agrupa totes les assignatures duplicades/brutes sota el seu nom oficial real
         function sanejarCatalegXelu(llista) {
-            return llista.map(materia => {
-                const anysSanejats = (materia.anys || []).map(conv => {
-                    const copia = {
-                        any: conv.any,
-                        pau: conv.pau ? { ...conv.pau } : null,
-                        m25: conv.m25 ? { ...conv.m25 } : null,
-                        gs: conv.gs ? { ...conv.gs } : null,
-                        ges: conv.ges ? { ...conv.ges } : null
-                    };
+            const mapaMateries = new Map();
 
-                    // Si un enllaç del GES o Cicles s'havia colat dins de 'pau', el movem a la seva via real
-                    ['pau', 'm25', 'gs', 'ges'].forEach(via => {
-                        const bloc = copia[via];
+            llista.forEach(materia => {
+                (materia.anys || []).forEach(conv => {
+                    ['pau', 'madrid', 'm25', 'gs', 'ges'].forEach(viaOriginal => {
+                        const bloc = conv[viaOriginal];
                         if (!bloc) return;
-                        const urlTest = (bloc.examen || bloc.solucio || '').toLowerCase();
 
-                        if (urlTest.includes('/ges-proves-d-acces-lliures') && via !== 'ges') {
-                            copia.ges = copia.ges || { examen: null, solucio: null };
-                            if (urlTest.includes('pauta-correccio') || urlTest.includes('solucio')) {
-                                copia.ges.solucio = bloc.examen || bloc.solucio;
-                            } else {
-                                copia.ges.examen = bloc.examen;
-                                if (bloc.solucio) copia.ges.solucio = bloc.solucio;
+                        // Normalitzem sempre a array d'ítems tant si ve en format nou (array) com antic (objecte)
+                        const items = Array.isArray(bloc) ? bloc : [bloc];
+
+                        items.forEach(it => {
+                            if (!it || (!it.examen && !it.solucio)) return;
+
+                            const urlRef = (it.examen || it.solucio || '').toLowerCase();
+
+                            // Detectem la via real segons el domini o ruta (evitant falsos positius)
+                            let viaReal = viaOriginal;
+                            if (urlRef.includes('selemadrid')) {
+                                viaReal = 'madrid';
+                            } else if (urlRef.includes('selecat.cat/cicles') || urlRef.includes('cicles-formatius') || urlRef.includes('grau-superior')) {
+                                viaReal = 'gs';
+                            } else if (urlRef.includes('ges-proves-d-acces-lliures') || urlRef.includes('/ges-')) {
+                                viaReal = 'ges';
+                            } else if (urlRef.includes('majors-de-25') || urlRef.includes('m25')) {
+                                viaReal = 'm25';
+                            } else if (urlRef.includes('selecat.cat') || urlRef.includes('pau-proves-d-acces')) {
+                                viaReal = 'pau';
                             }
-                            copia[via] = null;
-                        } else if ((urlTest.includes('cicles-formatius') || urlTest.includes('grau-superior')) && via !== 'gs') {
-                            copia.gs = copia.gs || { examen: null, solucio: null };
-                            copia.gs.examen = bloc.examen;
-                            copia.gs.solucio = bloc.solucio;
-                            copia[via] = null;
-                        }
+
+                            // Deduïm el nom real de la matèria mirant la URL i el nom original
+                            const infoMat = deduirMateriaReal(materia.assignaturaNom, urlRef);
+                            const idNet = normalitzarText(infoMat.nom).replace(/[^a-z0-9]+/g, '-');
+
+                            if (!mapaMateries.has(idNet)) {
+                                mapaMateries.set(idNet, {
+                                    id: idNet,
+                                    assignaturaNom: infoMat.nom,
+                                    icona: infoMat.icona,
+                                    anysMap: new Map()
+                                });
+                            }
+
+                            const matDesti = mapaMateries.get(idNet);
+                            const anyNum = parseInt(conv.any, 10) || 2025;
+
+                            if (!matDesti.anysMap.has(anyNum)) {
+                                matDesti.anysMap.set(anyNum, {
+                                    any: anyNum,
+                                    pau: [],
+                                    madrid: [],
+                                    m25: [],
+                                    gs: [],
+                                    ges: []
+                                });
+                            }
+
+                            const destiAny = matDesti.anysMap.get(anyNum);
+                            const etiqueta = it.etiqueta || "Convocatòria";
+                            let ex = it.examen || null;
+                            let sol = it.solucio || null;
+
+                            if (ex && (ex.toLowerCase().includes('pauta') || ex.toLowerCase().includes('solucio') || ex.toLowerCase().includes('solucion') || ex.toLowerCase().includes('correccio') || ex.toLowerCase().includes('correccion'))) {
+                                sol = sol || ex;
+                                ex = null;
+                            }
+
+                            // Evitem duplicar exactament la mateixa URL dins del mateix any i via
+                            const jaExisteix = destiAny[viaReal].some(x => x.examen === ex && x.solucio === sol);
+                            if (!jaExisteix) {
+                                destiAny[viaReal].push({ etiqueta, examen: ex, solucio: sol });
+                            }
+                        });
                     });
-
-                    return copia;
                 });
-
-                return { ...materia, anys: anysSanejats };
             });
+
+            // Convertim el mapa en array ordenat alfabèticament
+            return Array.from(mapaMateries.values())
+                .map(m => ({
+                    id: m.id,
+                    assignaturaNom: m.assignaturaNom,
+                    icona: m.icona,
+                    anys: Array.from(m.anysMap.values()).sort((a, b) => b.any - a.any)
+                }))
+                .sort((a, b) => a.assignaturaNom.localeCompare(b.assignaturaNom, 'ca'));
         }
 
         // Si encara no s'ha carregat cap .js extern (només a la vista prèvia), carreguem exemples reals de xelu.net
@@ -269,52 +446,35 @@
             usantDadesMostra = true;
             window.dadesMateries = [
                 {
-                    id: "angles",
-                    assignaturaNom: "Anglès (Mostra xelu.net)",
-                    icona: "fa-language",
+                    id: "matematiques",
+                    assignaturaNom: "Matemàtiques",
+                    icona: "fa-square-root-variable",
                     anys: [
-                        {
-                            any: 2026,
-                            pau: null,
-                            m25: {
-                                examen: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2026-general-angles-ordinari.pdf",
-                                solucio: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2026-general-angles-ordinari-solucio.pdf"
-                            },
-                            gs: null,
-                            ges: null
-                        },
                         {
                             any: 2025,
                             pau: {
-                                examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-angles.pdf",
-                                solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-angles-solucio.pdf"
+                                examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques.pdf",
+                                solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-solucio.pdf"
                             },
-                            m25: null,
+                            m25: {
+                                examen: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2025-especifica-matematiques-ordinari.pdf",
+                                solucio: null
+                            },
                             gs: null,
                             ges: null
                         }
                     ]
                 },
                 {
-                    id: "biologia",
-                    assignaturaNom: "Biologia (Mostra xelu.net)",
-                    icona: "fa-dna",
+                    id: "matematiques-ccss",
+                    assignaturaNom: "Matemàtiques Aplicades a les Ciències Socials",
+                    icona: "fa-chart-line",
                     anys: [
-                        {
-                            any: 2026,
-                            pau: null,
-                            m25: {
-                                examen: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2026-especifica-biologia-ordinari.pdf",
-                                solucio: "https://www.xelu.net/pdf/materials/examens-de-les-proves-d-acces-per-a-majors-de-25-anys-a-la-universitat-27/2026-especifica-biologia-ordinari-solucio.pdf"
-                            },
-                            gs: null,
-                            ges: null
-                        },
                         {
                             any: 2025,
                             pau: {
-                                examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-biologia.pdf",
-                                solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-setembre-biologia-solucio.pdf"
+                                examen: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-ccss.pdf",
+                                solucio: "https://www.xelu.net/pdf/materials/pau-proves-d-acces-a-la-universitat-29/2025-pau-juny-matematiques-ccss-solucio.pdf"
                             },
                             m25: null,
                             gs: null,
@@ -331,6 +491,7 @@
         let materiaSeleccionadaId = dadesMateries.length > 0 ? dadesMateries[0].id : null;
         let viesActives = {
             pau: true,
+            madrid: true,
             m25: true,
             gs: true,
             ges: true
@@ -339,12 +500,20 @@
         // Configuració visual de cada tipus d'examen
         const configVies = {
             pau: {
-                nom: "PAU",
-                subtitol: "Selectivitat",
+                nom: "PAU Catalunya",
+                subtitol: "Selecat",
                 badgeClass: "bg-cyan-500/15 text-cyan-300 border-cyan-500/40",
                 btnClass: "bg-cyan-500/20 text-cyan-300 border-cyan-500/50 hover:bg-cyan-500 hover:text-slate-950",
                 toggleOn: "bg-cyan-500/20 text-cyan-300 border-cyan-400 shadow-sm shadow-cyan-500/20",
                 iconColor: "text-cyan-400"
+            },
+            madrid: {
+                nom: "PAU Madrid",
+                subtitol: "Selemadrid",
+                badgeClass: "bg-rose-500/15 text-rose-300 border-rose-500/40",
+                btnClass: "bg-rose-500/20 text-rose-300 border-rose-500/50 hover:bg-rose-500 hover:text-white",
+                toggleOn: "bg-rose-500/20 text-rose-300 border-rose-400 shadow-sm shadow-rose-500/20",
+                iconColor: "text-rose-400"
             },
             m25: {
                 nom: "PAU +25",
@@ -356,7 +525,7 @@
             },
             gs: {
                 nom: "Grau Superior",
-                subtitol: "CFGS",
+                subtitol: "Selecat Cicles",
                 badgeClass: "bg-emerald-500/15 text-emerald-300 border-emerald-500/40",
                 btnClass: "bg-emerald-500/20 text-emerald-300 border-emerald-500/50 hover:bg-emerald-500 hover:text-slate-950",
                 toggleOn: "bg-emerald-500/20 text-emerald-300 border-emerald-400 shadow-sm shadow-emerald-500/20",
@@ -389,16 +558,16 @@
                 if (footerEstat) {
                     const totalEnllacos = dadesMateries.reduce((acc, m) => {
                         return acc + (m.anys || []).reduce((a2, c) => {
-                            return a2 + ['pau', 'm25', 'gs', 'ges'].reduce((a3, v) => {
-                                if (!c[v]) return a3;
-                                return a3 + (c[v].examen ? 1 : 0) + (c[v].solucio ? 1 : 0);
+                            return a2 + ['pau', 'madrid', 'm25', 'gs', 'ges'].reduce((a3, v) => {
+                                const llista = Array.isArray(c[v]) ? c[v] : (c[v] ? [c[v]] : []);
+                                return a3 + llista.reduce((a4, item) => a4 + (item.examen ? 1 : 0) + (item.solucio ? 1 : 0), 0);
                             }, 0);
                         }, 0);
                     }, 0);
 
                     footerEstat.textContent = usantDadesMostra 
-                        ? `Mostra activa (col·loca dades_generades_2.js al costat d'aquest HTML)` 
-                        : `Connectat a xelu.net · ${dadesMateries.length} assignatures · ${totalEnllacos} PDFs directes`;
+                        ? `Mostra activa (executa descarregar_examens.py per generar dades_generades_2.js)` 
+                        : `Connectat · ${dadesMateries.length} assignatures · ${totalEnllacos} PDFs directes`;
                 }
 
                 // Comprovem si hi ha un hash a la URL
@@ -499,6 +668,26 @@
         }
 
         // --- INTERRUPTORS (TOGGLES) PER ACTIVAR / DESACTIVAR CONVOCATÒRIES ---
+        function actualitzarVisibilitatToggles(materia) {
+            const totesVies = ['pau', 'madrid', 'm25', 'gs', 'ges'];
+            totesVies.forEach(clauVia => {
+                const btn = document.getElementById(`toggle-${clauVia}`);
+                if (!btn) return;
+
+                // Comprovem si aquesta assignatura té com a mínim 1 examen/solució en aquesta categoria
+                const teExemplesEnVia = (materia.anys || []).some(conv => {
+                    const llista = Array.isArray(conv[clauVia]) ? conv[clauVia] : (conv[clauVia] ? [conv[clauVia]] : []);
+                    return llista.some(item => item && (item.examen || item.solucio));
+                });
+
+                if (teExemplesEnVia) {
+                    btn.classList.remove('hidden');
+                } else {
+                    btn.classList.add('hidden');
+                }
+            });
+        }
+
         function toggleVia(clauVia) {
             viesActives[clauVia] = !viesActives[clauVia];
             const btn = document.getElementById(`toggle-${clauVia}`);
@@ -538,13 +727,13 @@
                 try {
                     // Validem format de URL i fem comprovació de connectivitat
                     const urlObj = new URL(url);
-                    if (urlObj.hostname !== 'www.xelu.net' && urlObj.hostname !== 'xelu.net') {
+                    if (!urlObj.hostname.includes('xelu.net') && !urlObj.hostname.includes('selecat.cat') && !urlObj.hostname.includes('selemadrid.es')) {
                         throw new Error('Domini invàlid');
                     }
                     await fetch(url, { mode: 'no-cors', cache: 'no-store' });
                     if (badge) {
                         badge.className = "estat-link-badge inline-flex items-center text-emerald-400 ml-1";
-                        badge.title = "Enllaç verificat a xelu.net";
+                        badge.title = "Enllaç verificat";
                         badge.innerHTML = `<i class="fa-solid fa-circle-check text-xs"></i>`;
                     }
                 } catch (err) {
@@ -572,8 +761,16 @@
             if (!materia) return;
 
             document.getElementById('materia-activa-titol').textContent = materia.assignaturaNom;
+            actualitzarVisibilitatToggles(materia);
 
-            const llistaViesActives = ['pau', 'm25', 'gs', 'ges'].filter(v => viesActives[v]);
+            // Només mostrem les vies actives que REALMENT tenen exàmens en aquesta assignatura
+            const llistaViesActives = ['pau', 'madrid', 'm25', 'gs', 'ges'].filter(v => {
+                if (!viesActives[v]) return false;
+                return (materia.anys || []).some(conv => {
+                    const llista = Array.isArray(conv[v]) ? conv[v] : (conv[v] ? [conv[v]] : []);
+                    return llista.some(item => item && (item.examen || item.solucio));
+                });
+            });
             contenidor.innerHTML = '';
 
             if (llistaViesActives.length === 0 || !materia.anys || materia.anys.length === 0) {
@@ -588,7 +785,10 @@
 
             anysOrdenats.forEach((conv, indexAny) => {
                 // Comprovem si aquest any té com a mínim un examen o solució en alguna de les vies actives
-                const teDadesActives = llistaViesActives.some(clauVia => conv[clauVia] && (conv[clauVia].examen || conv[clauVia].solucio));
+                const teDadesActives = llistaViesActives.some(clauVia => {
+                    const llista = Array.isArray(conv[clauVia]) ? conv[clauVia] : (conv[clauVia] ? [conv[clauVia]] : []);
+                    return llista.some(item => item && (item.examen || item.solucio));
+                });
                 if (!teDadesActives) return;
 
                 anysRenderitzats++;
@@ -600,29 +800,42 @@
                 // Construïm les columnes dels tipus d'examen que estan activats als interruptors
                 const columnesHtml = llistaViesActives.map(clauVia => {
                     const cfg = configVies[clauVia];
-                    const dadesVia = conv[clauVia];
+                    const llistaItems = Array.isArray(conv[clauVia]) ? conv[clauVia] : (conv[clauVia] ? [conv[clauVia]] : []);
+                    const itemsValids = llistaItems.filter(it => it && (it.examen || it.solucio));
 
                     let botonsHtml = '';
-                    if (dadesVia && (dadesVia.examen || dadesVia.solucio)) {
-                        const btnExamen = dadesVia.examen
-                            ? `<a href="${dadesVia.examen}" data-xelu-url="${dadesVia.examen}" target="_blank" rel="noopener noreferrer" title="Obrir PDF a xelu.net: ${dadesVia.examen}" class="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-sm font-bold border transition-all no-underline ${cfg.btnClass}">
-                                <i class="fa-regular fa-file-pdf"></i>
-                                <span>Examen</span>
-                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px] opacity-75"></i>
-                                <span class="estat-link-badge hidden"></span>
-                               </a>`
-                            : `<span class="flex-1 inline-flex items-center justify-center px-3 py-2.5 rounded-lg text-xs font-mono text-slate-600 bg-slate-950/50 border border-white/5 cursor-not-allowed">Sense examen</span>`;
+                    if (itemsValids.length > 0) {
+                        botonsHtml = `<div class="space-y-2.5 mt-3.5">` + itemsValids.map(dadesVia => {
+                            const btnExamen = dadesVia.examen
+                                ? `<a href="${dadesVia.examen}" data-xelu-url="${dadesVia.examen}" target="_blank" rel="noopener noreferrer" title="Obrir PDF: ${dadesVia.examen}" class="flex-1 inline-flex items-center justify-center gap-1.5 px-2.5 py-2 rounded-lg text-xs sm:text-sm font-bold border transition-all no-underline ${cfg.btnClass}">
+                                    <i class="fa-regular fa-file-pdf"></i>
+                                    <span>Examen</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] opacity-75"></i>
+                                    <span class="estat-link-badge hidden"></span>
+                                   </a>`
+                                : `<span class="flex-1 inline-flex items-center justify-center px-2.5 py-2 rounded-lg text-xs font-mono text-slate-600 bg-slate-950/50 border border-white/5 cursor-not-allowed">Sense examen</span>`;
 
-                        const btnSolucio = dadesVia.solucio
-                            ? `<a href="${dadesVia.solucio}" data-xelu-url="${dadesVia.solucio}" target="_blank" rel="noopener noreferrer" title="Obrir Solució a xelu.net: ${dadesVia.solucio}" class="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-sm font-bold bg-slate-800/90 text-slate-200 border border-white/15 hover:bg-white hover:text-slate-950 transition-all no-underline">
-                                <i class="fa-solid fa-check-double text-xs"></i>
-                                <span>Solució</span>
-                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px] opacity-75"></i>
-                                <span class="estat-link-badge hidden"></span>
-                               </a>`
-                            : `<span class="flex-1 inline-flex items-center justify-center px-3 py-2.5 rounded-lg text-xs font-mono text-slate-600 bg-slate-950/50 border border-white/5 cursor-not-allowed">Sense solució</span>`;
+                            const btnSolucio = dadesVia.solucio
+                                ? `<a href="${dadesVia.solucio}" data-xelu-url="${dadesVia.solucio}" target="_blank" rel="noopener noreferrer" title="Obrir Solució: ${dadesVia.solucio}" class="flex-1 inline-flex items-center justify-center gap-1.5 px-2.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-slate-800/90 text-slate-200 border border-white/15 hover:bg-white hover:text-slate-950 transition-all no-underline">
+                                    <i class="fa-solid fa-check-double text-xs"></i>
+                                    <span>Solució</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px] opacity-75"></i>
+                                    <span class="estat-link-badge hidden"></span>
+                                   </a>`
+                                : `<span class="flex-1 inline-flex items-center justify-center px-2.5 py-2 rounded-lg text-xs font-mono text-slate-600 bg-slate-950/50 border border-white/5 cursor-not-allowed">Sense solució</span>`;
 
-                        botonsHtml = `<div class="flex items-center gap-2 mt-3.5">${btnExamen}${btnSolucio}</div>`;
+                            return `
+                                <div class="p-2.5 rounded-lg bg-slate-900/90 border border-white/5">
+                                    <div class="text-[11px] font-mono text-slate-400 mb-1.5 flex items-center justify-between">
+                                        <span>${dadesVia.etiqueta || 'Convocatòria'}</span>
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                        ${btnExamen}
+                                        ${btnSolucio}
+                                    </div>
+                                </div>
+                            `;
+                        }).join('') + `</div>`;
                     } else {
                         botonsHtml = `
                             <div class="mt-3.5 py-2.5 px-3 rounded-lg bg-slate-950/40 border border-white/5 text-center">
@@ -648,7 +861,7 @@
                 const gridColsClass = llistaViesActives.length === 1 ? 'grid-cols-1'
                                     : llistaViesActives.length === 2 ? 'grid-cols-1 md:grid-cols-2'
                                     : llistaViesActives.length === 3 ? 'grid-cols-1 md:grid-cols-3'
-                                    : 'grid-cols-1 sm:grid-cols-2 xl:grid-cols-4';
+                                    : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5';
 
                 blocAny.innerHTML = `
                     <div class="flex items-center justify-between gap-3 mb-4">
